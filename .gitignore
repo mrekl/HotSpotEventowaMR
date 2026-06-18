@@ -1,2 +1,6 @@
 .DS_Store
 TheLightingController_Err.log
+
+*.mp3
+*.mp4
+*.wav
