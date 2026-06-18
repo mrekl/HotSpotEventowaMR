@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1728596304" name="ThunderWash600Rgbw(7ch Mode 2)" model="ThunderWash600Rgbw(7ch Mode 2)"/>
+    <Fixture id="1728596305" name="ThunderWash600Rgbw(7ch Mode 2) #2" model="ThunderWash600Rgbw(7ch Mode 2)"/>
+    <Fixture id="1728596306" name="ThunderWash600Rgbw(7ch Mode 2) #3" model="ThunderWash600Rgbw(7ch Mode 2)"/>
+  </Fixtures>
+  <Steps>
+    <Step length="500">
+      <Fixture id="1728596304">
+        <Channel index="0" name="dimmer" value="40"/>
+        <Channel index="3" name="red" value="150"/>
+      </Fixture>
+      <Fixture id="1728596305">
+        <Channel index="0" name="dimmer" value="40"/>
+        <Channel index="3" name="red" value="150"/>
+      </Fixture>
+      <Fixture id="1728596306">
+        <Channel index="0" name="dimmer" value="40"/>
+        <Channel index="3" name="red" value="150"/>
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>

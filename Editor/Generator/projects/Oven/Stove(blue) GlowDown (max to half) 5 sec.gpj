@@ -1,0 +1,53 @@
+﻿
+[Params]
+PanTiltShift = 0.0
+ExplodePanTilt = 0
+GroupRGB = 0
+FanPanOffset = 0
+FanTiltOffset = 0
+[Fixture_0]
+ID = 1727730786
+Name = Oven LED
+DMX = 495
+Channels = red,green,blue,white
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[red]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535
+[green]
+Selected = 0
+CurveName = Default Curve
+Transition = 2
+Duration = 200
+Shift = 0.0
+Point_0 = 0,12855
+Point_1 = 32916,30994
+Point_2 = 65535,12855
+[blue]
+Selected = 1
+CurveName = GlowDown 5 sec(max to half)
+Transition = 2
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 33089,32334
+Point_2 = 65535,65535
+[white]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535

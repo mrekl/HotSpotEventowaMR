@@ -1,0 +1,55 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LAMP1200W
+ViewAnglePan = 550
+ViewAngleTilt = 220
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = TRUE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+3DViewShape = 
+2DViewImage = VIEW_TYPE_HEAD.png
+
+Channel = dimmer
+ open,0,100 too bright for eyes,101,255 
+
+Channel = shutter
+ closed,0,4 strobe,5,251 closed,252,255 
+
+Channel = pan
+ pan,0,255 
+
+Channel = tilt
+ tilt,0,255 
+
+Channel = pantilt_speed
+ speed,0,255 
+
+Channel = prism_rotate
+ open,0,5 red,6,9 dark green,10,14 blue,15,19 yellow,20,24 pink,25,29 green,30,34 ice,35,39 white-red,40,44 red-dark green,45,49 dark green-blue,50,54 blue-yellow,55,59 yellow-pink,60,64 pink-green,65,69 green-ice,70,74 ice-white,75,79 Slow from right to left,80,255 
+
+Channel = gobo
+ Miscellaneous/open,0,9 metal_basic/RR1B14,10,19 metal_basic/Z03748-13,20,29 metal_basic/RR2B16,30,39 metal_complex/GM016,40,49 metal_basic/Z03748-11,50,59 metal_basic/GM076,60,69 metal_complex/GM044,70,79 Right change gobo(from fast to slow),80,129 Miscellaneous/open,130,134 Left change gobo(from slow to fast),135,220 metal_basic/RR1B14,221,225 metal_basic/Z03748-13,226,230 metal_basic/RR2B16,231,235 metal_complex/GM016,236,240 metal_basic/Z03748-11,241,245 metal_basic/GM076,246,250 metal_complex/GM044,251,255 
+
+Channel = gobo2
+ Miscellaneous/open,0,9 Dimension,10,19 Hipnotize,20,29 metal_complex/radialdashes,30,39 metal_complex/GM034,40,49 Plasma,50,59 Lighning,60,69 Right Change GOBO (from fast to slow),70,129 Miscellaneous/open,130,139 Left change GOBO(from slow to fast),140,225 Dimension shake,226,230 Hypnotize shake,231,235 metal_complex/radialdashes,236,240 metal_complex/GM034,241,245 Plasma shake,246,250 Lightning shake,251,255 
+
+Channel = gobo_rotate
+ ?,0,63 right_rotate,64,147 rght_rotate_gobo2,148,231 
+
+Channel = prism3D
+ open,0,14 prism Rotate right(from slow to fast),15,255 
+
+Channel = focus
+ Focus gobo 2,85,95 Focus Gobo MIX (Gobo2 Main),135,140 Focus Gobo Mix(Blurred MiX),170,170 Focus Gobo 1,210,220 
+
+Channel = pan fine
+ pan,0,255 
+
+Channel = fine tilt
+ ?,0,255 
+
+Channel = reset.png
+ reset,0,255 
+

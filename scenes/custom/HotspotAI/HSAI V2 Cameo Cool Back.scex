@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1728596304" name="Cameo[Back Box]" model="ThunderWash600Rgbw(7ch Mode 2)"/>
+    <Fixture id="1728596305" name="Cameo[Left box]" model="ThunderWash600Rgbw(7ch Mode 2)"/>
+    <Fixture id="1728596306" name="Cameo [Right Box]" model="ThunderWash600Rgbw(7ch Mode 2)"/>
+  </Fixtures>
+  <Steps>
+    <Step length="500">
+      <Fixture id="1728596304">
+        <Channel index="0" name="dimmer" value="32" fade="1"/>
+        <Channel index="1" name="shutter" value="0" fade="1"/>
+        <Channel index="2" name="effect / macro" value="0" fade="1"/>
+        <Channel index="3" name="red" value="0" fade="1"/>
+        <Channel index="4" name="green" value="110" fade="1"/>
+        <Channel index="5" name="blue" value="230" fade="1"/>
+        <Channel index="6" name="white" value="45" fade="1"/>
+      </Fixture>
+      <Fixture id="1728596305">
+        <Channel index="0" name="dimmer" value="18" fade="1"/>
+        <Channel index="1" name="shutter" value="0" fade="1"/>
+        <Channel index="2" name="effect / macro" value="0" fade="1"/>
+        <Channel index="3" name="red" value="0" fade="1"/>
+        <Channel index="4" name="green" value="60" fade="1"/>
+        <Channel index="5" name="blue" value="140" fade="1"/>
+        <Channel index="6" name="white" value="10" fade="1"/>
+      </Fixture>
+      <Fixture id="1728596306">
+        <Channel index="0" name="dimmer" value="18" fade="1"/>
+        <Channel index="1" name="shutter" value="0" fade="1"/>
+        <Channel index="2" name="effect / macro" value="0" fade="1"/>
+        <Channel index="3" name="red" value="0" fade="1"/>
+        <Channel index="4" name="green" value="60" fade="1"/>
+        <Channel index="5" name="blue" value="140" fade="1"/>
+        <Channel index="6" name="white" value="10" fade="1"/>
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>

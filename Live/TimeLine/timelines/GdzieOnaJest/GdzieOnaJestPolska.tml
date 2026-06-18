@@ -1,0 +1,500 @@
+﻿
+[Params]
+Version = 0.2
+CommentTimeLine = 0
+LightTimeLines = 15
+MediaTimeLines = 1
+ShowWaveForm = 1
+MaxTime = 0:30:00
+Zoom = 0
+TimeLine_1 = V I D E O   P I C T U R E   T I M E L I N E
+TimeLine_2 = A U D I O   T I M E L I N E
+TimeLine_3 = L I G H T   S C E N E   T I M E L I N E   #   1
+TimeLine_4 = L I G H T   S C E N E   T I M E L I N E   #   2
+TimeLine_5 = L I G H T   S C E N E   T I M E L I N E   #   3
+TimeLine_6 = L I G H T   S C E N E   T I M E L I N E   #   4
+TimeLine_7 = L I G H T   S C E N E   T I M E L I N E   #   5
+TimeLine_8 = L I G H T   S C E N E   T I M E L I N E   #   6
+TimeLine_9 = L I G H T   S C E N E   T I M E L I N E   #   7
+TimeLine_10 = L I G H T   S C E N E   T I M E L I N E   #   8
+TimeLine_11 = L I G H T   S C E N E   T I M E L I N E   #   9
+TimeLine_12 = L I G H T   S C E N E   T I M E L I N E   #   10
+TimeLine_13 = L I G H T   S C E N E   T I M E L I N E   #   11
+TimeLine_14 = L I G H T   S C E N E   T I M E L I N E   #   12
+TimeLine_15 = L I G H T   S C E N E   T I M E L I N E   #   13
+TimeLine_16 = L I G H T   S C E N E   T I M E L I N E   #   14
+TimeLine_17 = L I G H T   S C E N E   T I M E L I N E   #   15
+[Event_0]
+TimeLineIndex = 2
+StartTime = 0:00:00.0
+Path = Live/Music/GdzieOnaJest/4.1. Polska.mp3
+Length = 0:03:51.8
+[Event_1]
+TimeLineIndex = 13
+StartTime = 0:00:00.0
+Path = UV/UV[all](max power).scex
+Length = 0:00:05.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_2]
+TimeLineIndex = 3
+StartTime = 0:00:02.7
+Path = Oven/Oven(red) GlowUp 10 sec.gpj
+Length = 0:00:10.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_3]
+TimeLineIndex = 4
+StartTime = 0:00:09.7
+Path = Wall LED[all]/Walls[all] (rainbow) Glow 5(medium range).gpj
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_4]
+TimeLineIndex = 3
+StartTime = 0:00:09.7
+Path = OFF
+[Event_5]
+TimeLineIndex = 5
+StartTime = 0:00:09.7
+Path = Oven/Oven(red) GlowUp 10 sec.gpj
+Length = 0:00:10.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_6]
+TimeLineIndex = 6
+StartTime = 0:00:19.7
+Path = Overall/Overall(love).scex
+Length = 0:00:05.0
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_7]
+TimeLineIndex = 7
+StartTime = 0:00:19.7
+Path = Overall/Overall[front]/Overall[front](love).scex
+Length = 0:00:05.0
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_8]
+TimeLineIndex = 6
+StartTime = 0:00:19.9
+Path = OFF
+[Event_9]
+TimeLineIndex = 7
+StartTime = 0:00:19.9
+Path = OFF
+[Event_10]
+TimeLineIndex = 6
+StartTime = 0:00:30.3
+Path = Overall/Overall(love).scex
+Length = 0:00:05.0
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_11]
+TimeLineIndex = 7
+StartTime = 0:00:30.3
+Path = Overall/Overall[front]/Overall[front](love).scex
+Length = 0:00:05.0
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_12]
+TimeLineIndex = 6
+StartTime = 0:00:30.5
+Path = OFF
+[Event_13]
+TimeLineIndex = 7
+StartTime = 0:00:30.5
+Path = OFF
+[Event_14]
+TimeLineIndex = 6
+StartTime = 0:00:33.9
+Path = Overall/Overall[front]/Overall[front](white).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_15]
+TimeLineIndex = 6
+StartTime = 0:00:35.4
+Path = OFF
+[Event_16]
+TimeLineIndex = 6
+StartTime = 0:00:44.7
+Path = Overall/Overall[front]/Overall[front](white).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_17]
+TimeLineIndex = 6
+StartTime = 0:00:46.2
+Path = OFF
+[Event_18]
+TimeLineIndex = 6
+StartTime = 0:00:49.7
+Path = Overall/Overall[front]/Overall[front](white).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_19]
+TimeLineIndex = 6
+StartTime = 0:00:51.2
+Path = OFF
+[Event_20]
+TimeLineIndex = 4
+StartTime = 0:00:51.4
+Path = OFF
+[Event_21]
+TimeLineIndex = 5
+StartTime = 0:00:52.6
+Path = OFF
+[Event_22]
+TimeLineIndex = 6
+StartTime = 0:00:53.2
+Path = Wall LED[all]/Walls[all] (pink) Glow 5(medium range).gpj
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_23]
+TimeLineIndex = 6
+StartTime = 0:00:59.0
+Path = OFF
+[Event_24]
+TimeLineIndex = 7
+StartTime = 0:00:59.0
+Path = Overall/Overall[front]/Overall[front](blue).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_25]
+TimeLineIndex = 7
+StartTime = 0:01:04.6
+Path = OFF
+[Event_26]
+TimeLineIndex = 6
+StartTime = 0:01:05.2
+Path = Wall LED[all]/Walls[all] (pink) Glow 5(medium range).gpj
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_27]
+TimeLineIndex = 6
+StartTime = 0:01:13.2
+Path = OFF
+[Event_28]
+TimeLineIndex = 5
+StartTime = 0:01:13.2
+Path = custom/overall/overall[front]/overall[front]disco1s.gpj
+Length = 0:00:01.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_29]
+TimeLineIndex = 4
+StartTime = 0:01:13.2
+Path = custom/overall/overall[back]/overall[back]disco1s.gpj
+Length = 0:00:03.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_30]
+TimeLineIndex = 3
+StartTime = 0:01:13.2
+Path = Wall LED[all]/Walls[all] (rainbow) Glow 5(medium range).gpj
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_31]
+TimeLineIndex = 4
+StartTime = 0:01:24.3
+Path = OFF
+[Event_32]
+TimeLineIndex = 5
+StartTime = 0:01:24.3
+Path = OFF
+[Event_33]
+TimeLineIndex = 3
+StartTime = 0:01:35.4
+Path = OFF
+[Event_34]
+TimeLineIndex = 4
+StartTime = 0:01:35.4
+Path = Wall LED[all]/Walls[all] (pink) Glow 5(medium range).gpj
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_35]
+TimeLineIndex = 5
+StartTime = 0:01:38.3
+Path = Overall/Overall[front]/Overall[front](white).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_36]
+TimeLineIndex = 5
+StartTime = 0:01:39.8
+Path = OFF
+[Event_37]
+TimeLineIndex = 5
+StartTime = 0:01:43.3
+Path = Overall/Overall[front]/Overall[front](white).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_38]
+TimeLineIndex = 5
+StartTime = 0:01:44.8
+Path = OFF
+[Event_39]
+TimeLineIndex = 5
+StartTime = 0:01:49.1
+Path = Overall/Overall[front]/Overall[front](white).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_40]
+TimeLineIndex = 5
+StartTime = 0:01:50.6
+Path = OFF
+[Event_41]
+TimeLineIndex = 5
+StartTime = 0:01:53.9
+Path = Overall/Overall[front]/Overall[front](white).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_42]
+TimeLineIndex = 5
+StartTime = 0:01:55.4
+Path = OFF
+[Event_43]
+TimeLineIndex = 7
+StartTime = 0:01:55.9
+Path = UV/UV[all](max power).scex
+Length = 0:00:05.0
+FadeIn = 200
+FadeOut = 200
+Speed = 100
+SpeedType = 2
+[Event_44]
+TimeLineIndex = 4
+StartTime = 0:01:57.1
+Path = OFF
+[Event_45]
+TimeLineIndex = 6
+StartTime = 0:02:12.3
+Path = Overall/Overall(blue).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_46]
+TimeLineIndex = 5
+StartTime = 0:02:12.3
+Path = Overall/Overall[front]/Overall[front](blue).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_47]
+TimeLineIndex = 5
+StartTime = 0:02:17.2
+Path = OFF
+[Event_48]
+TimeLineIndex = 6
+StartTime = 0:02:17.2
+Path = OFF
+[Event_49]
+TimeLineIndex = 7
+StartTime = 0:02:17.5
+Path = Wall LED[all]/Walls[all] (rainbow) Glow 5(medium range).gpj
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_50]
+TimeLineIndex = 4
+StartTime = 0:02:17.5
+Path = custom/overall/overall[back]/overall[back]disco1s.gpj
+Length = 0:00:03.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_51]
+TimeLineIndex = 3
+StartTime = 0:02:17.5
+Path = custom/overall/overall[front]/overall[front]disco1s.gpj
+Length = 0:00:01.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_52]
+TimeLineIndex = 8
+StartTime = 0:02:20.1
+Path = Oven/Oven(pink).scex
+Length = 0:00:05.0
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_53]
+TimeLineIndex = 8
+StartTime = 0:02:20.6
+Path = OFF
+[Event_54]
+TimeLineIndex = 8
+StartTime = 0:02:31.7
+Path = Oven/Oven(pink).scex
+Length = 0:00:05.0
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_55]
+TimeLineIndex = 8
+StartTime = 0:02:32.2
+Path = OFF
+[Event_56]
+TimeLineIndex = 8
+StartTime = 0:02:36.9
+Path = Oven/Oven(pink).scex
+Length = 0:00:05.0
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_57]
+TimeLineIndex = 8
+StartTime = 0:02:37.4
+Path = OFF
+[Event_58]
+TimeLineIndex = 8
+StartTime = 0:02:42.7
+Path = Oven/Oven(pink).scex
+Length = 0:00:05.0
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_59]
+TimeLineIndex = 8
+StartTime = 0:02:43.2
+Path = OFF
+[Event_60]
+TimeLineIndex = 8
+StartTime = 0:02:53.6
+Path = Oven/Oven(pink).scex
+Length = 0:00:05.0
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_61]
+TimeLineIndex = 8
+StartTime = 0:02:54.1
+Path = OFF
+[Event_62]
+TimeLineIndex = 8
+StartTime = 0:03:02.2
+Path = Oven/Oven(pink).scex
+Length = 0:00:05.0
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_63]
+TimeLineIndex = 8
+StartTime = 0:03:02.7
+Path = OFF
+[Event_64]
+TimeLineIndex = 8
+StartTime = 0:03:25.5
+Path = Oven/Oven(pink).scex
+Length = 0:00:05.0
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_65]
+TimeLineIndex = 8
+StartTime = 0:03:26.0
+Path = OFF
+[Event_66]
+TimeLineIndex = 8
+StartTime = 0:03:33.6
+Path = Oven/Oven(pink).scex
+Length = 0:00:05.0
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_67]
+TimeLineIndex = 8
+StartTime = 0:03:34.1
+Path = OFF
+[Event_68]
+TimeLineIndex = 8
+StartTime = 0:03:36.5
+Path = Oven/Oven(pink).scex
+Length = 0:00:05.0
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_69]
+TimeLineIndex = 8
+StartTime = 0:03:37.0
+Path = OFF
+[Event_70]
+TimeLineIndex = 8
+StartTime = 0:03:45.5
+Path = Oven/Oven(pink).scex
+Length = 0:00:05.0
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_71]
+TimeLineIndex = 8
+StartTime = 0:03:46.0
+Path = OFF
+[Event_72]
+TimeLineIndex = 2
+StartTime = 0:03:51.8
+Path = Live/Music/GdzieOnaJest/4.2 Polska(outro).mp3
+Length = 0:03:44.7
+[Event_73]
+TimeLineIndex = 2
+StartTime = 0:07:37.7
+Path = PAUSE

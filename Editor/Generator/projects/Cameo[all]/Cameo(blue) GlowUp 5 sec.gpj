@@ -1,0 +1,102 @@
+﻿
+[Params]
+PanTiltShift = 0.0
+ExplodePanTilt = 0
+GroupRGB = 0
+FanPanOffset = 0
+FanTiltOffset = 0
+[Fixture_0]
+ID = 1728596304
+Name = Cameo[Back Box]
+DMX = 110
+Channels = dimmer,shutter,strobe_speed,red,green,blue,white
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[Fixture_1]
+ID = 1728596305
+Name = Cameo[Left box]
+DMX = 361
+Channels = dimmer,shutter,strobe_speed,red,green,blue,white
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[Fixture_2]
+ID = 1728596306
+Name = Cameo [Right Box]
+DMX = 406
+Channels = dimmer,shutter,strobe_speed,red,green,blue,white
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[dimmer]
+Selected = 1
+CurveName = Glow 15(medium range)
+Transition = 2
+Duration = 50
+Shift = 0.0
+Point_0 = 0,20584
+Point_1 = 33591,43848
+Point_2 = 65535,20584
+[shutter]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535
+[strobe_speed]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535
+[red]
+Selected = 0
+CurveName = Glow 15(medium range)
+Transition = 2
+Duration = 150
+Shift = 0.0
+Point_0 = 0,20584
+Point_1 = 33591,43848
+Point_2 = 65535,20584
+[green]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535
+[blue]
+Selected = 1
+CurveName = Glow 15(medium range)
+Transition = 2
+Duration = 50
+Shift = 0.0
+Point_0 = 0,20584
+Point_1 = 33591,43848
+Point_2 = 65535,20584
+[white]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535

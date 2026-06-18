@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1727730786" name="Oven LED" model="AMBIENCE"/>
+    <Fixture id="1727734431" name="Overall [Back]" model="BLACK PAR 7X10W RGBWA"/>
+    <Fixture id="1769516470" name="Overall [left]" model="Overall [left]"/>
+    <Fixture id="1769516510" name="Overall [right]" model="Overall [right]"/>
+    <Fixture id="1728596304" name="Cameo[Back Box]" model="ThunderWash600Rgbw(7ch Mode 2)"/>
+    <Fixture id="1728596305" name="Cameo[Left box]" model="ThunderWash600Rgbw(7ch Mode 2)"/>
+    <Fixture id="1728596306" name="Cameo [Right Box]" model="ThunderWash600Rgbw(7ch Mode 2)"/>
+  </Fixtures>
+  <Steps>
+    <Step length="500">
+      <Fixture id="1727730786">
+        <Channel index="0" name="red" value="255" fade="1"/>
+        <Channel index="1" name="green" value="165" fade="1"/>
+        <Channel index="2" name="blue" value="0" fade="1"/>
+        <Channel index="3" name="white" value="80" fade="1"/>
+      </Fixture>
+      <Fixture id="1727734431">
+        <Channel index="0" name="dimmer" value="120" fade="1"/>
+        <Channel index="1" name="red" value="230" fade="1"/>
+        <Channel index="2" name="green" value="95" fade="1"/>
+        <Channel index="3" name="blue" value="0" fade="1"/>
+        <Channel index="4" name="white" value="70" fade="1"/>
+        <Channel index="5" name="amber" value="220" fade="1"/>
+      </Fixture>
+      <Fixture id="1769516470">
+        <Channel index="0" name="dimmer" value="110" fade="1"/>
+        <Channel index="1" name="red" value="235" fade="1"/>
+        <Channel index="2" name="green" value="115" fade="1"/>
+        <Channel index="3" name="blue" value="0" fade="1"/>
+        <Channel index="4" name="white" value="75" fade="1"/>
+        <Channel index="5" name="color_strobe" value="0" fade="1"/>
+        <Channel index="6" name="control" value="0" fade="1"/>
+        <Channel index="7" name="speed_control" value="0" fade="1"/>
+      </Fixture>
+      <Fixture id="1769516510">
+        <Channel index="0" name="dimmer" value="110" fade="1"/>
+        <Channel index="1" name="red" value="235" fade="1"/>
+        <Channel index="2" name="green" value="115" fade="1"/>
+        <Channel index="3" name="blue" value="0" fade="1"/>
+        <Channel index="4" name="white" value="75" fade="1"/>
+        <Channel index="5" name="color_strobe" value="0" fade="1"/>
+        <Channel index="6" name="control" value="0" fade="1"/>
+        <Channel index="7" name="speed_control" value="0" fade="1"/>
+      </Fixture>
+      <Fixture id="1728596304">
+        <Channel index="0" name="dimmer" value="70" fade="1"/>
+        <Channel index="1" name="shutter" value="0" fade="1"/>
+        <Channel index="2" name="effect / macro" value="0" fade="1"/>
+        <Channel index="3" name="red" value="220" fade="1"/>
+        <Channel index="4" name="green" value="95" fade="1"/>
+        <Channel index="5" name="blue" value="0" fade="1"/>
+        <Channel index="6" name="white" value="130" fade="1"/>
+      </Fixture>
+      <Fixture id="1728596305">
+        <Channel index="0" name="dimmer" value="55" fade="1"/>
+        <Channel index="1" name="shutter" value="0" fade="1"/>
+        <Channel index="2" name="effect / macro" value="0" fade="1"/>
+        <Channel index="3" name="red" value="210" fade="1"/>
+        <Channel index="4" name="green" value="85" fade="1"/>
+        <Channel index="5" name="blue" value="0" fade="1"/>
+        <Channel index="6" name="white" value="100" fade="1"/>
+      </Fixture>
+      <Fixture id="1728596306">
+        <Channel index="0" name="dimmer" value="55" fade="1"/>
+        <Channel index="1" name="shutter" value="0" fade="1"/>
+        <Channel index="2" name="effect / macro" value="0" fade="1"/>
+        <Channel index="3" name="red" value="210" fade="1"/>
+        <Channel index="4" name="green" value="85" fade="1"/>
+        <Channel index="5" name="blue" value="0" fade="1"/>
+        <Channel index="6" name="white" value="100" fade="1"/>
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>

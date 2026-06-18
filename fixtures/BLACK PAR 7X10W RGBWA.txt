@@ -1,0 +1,40 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LAMP250W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 50
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+3DViewShape = led_round(4u)
+2DViewImage = Chauvet/Iluminarc/ColoristPod7Qa-2D.png
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = red
+ red,0,255 
+
+Channel = green
+ green,0,255 
+
+Channel = blue
+ blue,0,255 
+
+Channel = white
+ white,0,255 
+
+Channel = amber
+ amber,0,255 
+
+Channel = shutter
+ stop,0,9 strobe,10,255 
+
+Channel = color
+ closed,0,50 macro_1,51,100 macro_2,101,150 macro_3,151,200 macro_4,201,250 macro_5,251,255 
+
+Channel = effect_macro
+ fade_speed,0,255 
+

@@ -1,0 +1,622 @@
+﻿
+[Params]
+Version = 0.2
+CommentTimeLine = 0
+LightTimeLines = 15
+MediaTimeLines = 1
+ShowWaveForm = 1
+MaxTime = 0:30:00
+Zoom = 0
+TimeLine_1 = V I D E O   P I C T U R E   T I M E L I N E
+TimeLine_2 = A U D I O   T I M E L I N E
+TimeLine_3 = L I G H T   S C E N E   T I M E L I N E   #   1
+TimeLine_4 = L I G H T   S C E N E   T I M E L I N E   #   2
+TimeLine_5 = L I G H T   S C E N E   T I M E L I N E   #   3
+TimeLine_6 = L I G H T   S C E N E   T I M E L I N E   #   4
+TimeLine_7 = L I G H T   S C E N E   T I M E L I N E   #   5
+TimeLine_8 = L I G H T   S C E N E   T I M E L I N E   #   6
+TimeLine_9 = L I G H T   S C E N E   T I M E L I N E   #   7
+TimeLine_10 = L I G H T   S C E N E   T I M E L I N E   #   8
+TimeLine_11 = L I G H T   S C E N E   T I M E L I N E   #   9
+TimeLine_12 = L I G H T   S C E N E   T I M E L I N E   #   10
+TimeLine_13 = L I G H T   S C E N E   T I M E L I N E   #   11
+TimeLine_14 = L I G H T   S C E N E   T I M E L I N E   #   12
+TimeLine_15 = L I G H T   S C E N E   T I M E L I N E   #   13
+TimeLine_16 = L I G H T   S C E N E   T I M E L I N E   #   14
+TimeLine_17 = L I G H T   S C E N E   T I M E L I N E   #   15
+[Event_0]
+TimeLineIndex = 2
+StartTime = 0:00:00.0
+Path = Live/Music/fadeAndDestiny/roksana_ala_awm2026.mp3
+Length = 0:14:55.8
+[Event_1]
+TimeLineIndex = 3
+StartTime = 0:00:00.0
+Path = Overall/Overall(blue).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_2]
+TimeLineIndex = 3
+StartTime = 0:00:19.1
+Path = OFF
+[Event_3]
+TimeLineIndex = 5
+StartTime = 0:00:19.3
+Path = Manuals [MH]/Colors/[MH] (green) colour .scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_4]
+TimeLineIndex = 6
+StartTime = 0:00:19.3
+Path = Manuals [MH]/Pan Tilt/[MH] Left Door .scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_5]
+TimeLineIndex = 4
+StartTime = 0:00:22.4
+Path = Manuals [MH]/Dimmer/[MH] Dimmer .scex
+Length = 0:00:10.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_6]
+TimeLineIndex = 4
+StartTime = 0:00:35.8
+Path = OFF
+[Event_7]
+TimeLineIndex = 7
+StartTime = 0:00:35.8
+Path = Overall/Overall[front]/Overall[front](green).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_8]
+TimeLineIndex = 5
+StartTime = 0:00:41.3
+Path = OFF
+[Event_9]
+TimeLineIndex = 6
+StartTime = 0:00:41.3
+Path = OFF
+[Event_10]
+TimeLineIndex = 5
+StartTime = 0:01:37.6
+Path = Manuals [MH]/Colors/[MH] (green) colour .scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_11]
+TimeLineIndex = 6
+StartTime = 0:01:37.6
+Path = Manuals [MH]/Pan Tilt/[MH] Stove .scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_12]
+TimeLineIndex = 7
+StartTime = 0:01:41.6
+Path = OFF
+[Event_13]
+TimeLineIndex = 4
+StartTime = 0:01:41.6
+Path = Manuals [MH]/Dimmer/[MH] Dimmer .scex
+Length = 0:00:10.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_14]
+TimeLineIndex = 3
+StartTime = 0:01:41.6
+Path = Oven/Oven(dark green).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_15]
+TimeLineIndex = 4
+StartTime = 0:02:08.2
+Path = OFF
+[Event_16]
+TimeLineIndex = 7
+StartTime = 0:02:08.3
+Path = Wall LED/Wall LED[all]/Walls[all](green).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_17]
+TimeLineIndex = 5
+StartTime = 0:02:13.6
+Path = OFF
+[Event_18]
+TimeLineIndex = 6
+StartTime = 0:02:13.6
+Path = OFF
+[Event_19]
+TimeLineIndex = 7
+StartTime = 0:02:49.0
+Path = OFF
+[Event_20]
+TimeLineIndex = 6
+StartTime = 0:02:49.0
+Path = Overall/Overall[front]/Overall[front](green).scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_21]
+TimeLineIndex = 5
+StartTime = 0:02:49.0
+Path = Overall/Overall(green).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_22]
+TimeLineIndex = 4
+StartTime = 0:03:01.2
+Path = Oven/Oven(yellow).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_23]
+TimeLineIndex = 3
+StartTime = 0:03:01.2
+Path = OFF
+[Event_24]
+TimeLineIndex = 5
+StartTime = 0:03:01.2
+Path = OFF
+[Event_25]
+TimeLineIndex = 6
+StartTime = 0:03:01.2
+Path = OFF
+[Event_26]
+TimeLineIndex = 7
+StartTime = 0:03:01.2
+Path = Wall LED/Wall LED[all]/Wall[all](yellow).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_27]
+TimeLineIndex = 7
+StartTime = 0:03:14.2
+Path = OFF
+[Event_28]
+TimeLineIndex = 4
+StartTime = 0:03:14.2
+Path = OFF
+[Event_29]
+TimeLineIndex = 5
+StartTime = 0:03:14.2
+Path = Wall LED/Wall LED[all]/Walls[all](green).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_30]
+TimeLineIndex = 6
+StartTime = 0:03:14.2
+Path = Oven/Oven(green).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_31]
+TimeLineIndex = 5
+StartTime = 0:03:32.1
+Path = OFF
+[Event_32]
+TimeLineIndex = 6
+StartTime = 0:03:32.1
+Path = OFF
+[Event_33]
+TimeLineIndex = 4
+StartTime = 0:03:32.1
+Path = Oven/Oven(yellow).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_34]
+TimeLineIndex = 3
+StartTime = 0:03:32.1
+Path = Wall LED/Wall LED[all]/Wall[all](yellow).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_35]
+TimeLineIndex = 8
+StartTime = 0:03:37.0
+Path = UV/UV[all](max power).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_36]
+TimeLineIndex = 8
+StartTime = 0:03:49.8
+Path = OFF
+[Event_37]
+TimeLineIndex = 3
+StartTime = 0:03:49.8
+Path = OFF
+[Event_38]
+TimeLineIndex = 4
+StartTime = 0:03:49.8
+Path = OFF
+[Event_39]
+TimeLineIndex = 5
+StartTime = 0:03:53.9
+Path = Overall/Overall(blue).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_40]
+TimeLineIndex = 5
+StartTime = 0:04:00.5
+Path = OFF
+[Event_41]
+TimeLineIndex = 4
+StartTime = 0:04:00.6
+Path = Overall/Overall(yellow).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_42]
+TimeLineIndex = 3
+StartTime = 0:04:00.6
+Path = Overall/Overall[front]/Overall[front](yellow).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_43]
+TimeLineIndex = 3
+StartTime = 0:05:15.6
+Path = OFF
+[Event_44]
+TimeLineIndex = 4
+StartTime = 0:05:15.6
+Path = OFF
+[Event_45]
+TimeLineIndex = 6
+StartTime = 0:05:16.7
+Path = Manuals [MH]/Colors/[MH] (yellow) colour .scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_46]
+TimeLineIndex = 7
+StartTime = 0:05:16.7
+Path = Manuals [MH]/Pan Tilt/[MH] Stove .scex
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_47]
+TimeLineIndex = 5
+StartTime = 0:05:18.6
+Path = Manuals [MH]/Dimmer/[MH] Dimmer .scex
+Length = 0:00:10.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_48]
+TimeLineIndex = 5
+StartTime = 0:05:43.4
+Path = OFF
+[Event_49]
+TimeLineIndex = 3
+StartTime = 0:05:44.1
+Path = Wall LED/Wall LED[all]/Wall[all](yellow).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_50]
+TimeLineIndex = 4
+StartTime = 0:05:44.1
+Path = Oven/Oven(green).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_51]
+TimeLineIndex = 8
+StartTime = 0:05:44.2
+Path = UV/UV[all](max power).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_52]
+TimeLineIndex = 6
+StartTime = 0:05:49.7
+Path = OFF
+[Event_53]
+TimeLineIndex = 7
+StartTime = 0:05:49.7
+Path = OFF
+[Event_54]
+TimeLineIndex = 5
+StartTime = 0:06:21.7
+Path = Overall/Overall[front]/Overall[front](red).scex
+Length = 0:00:05.0
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_55]
+TimeLineIndex = 5
+StartTime = 0:06:22.1
+Path = OFF
+[Event_56]
+TimeLineIndex = 3
+StartTime = 0:07:13.4
+Path = OFF
+[Event_57]
+TimeLineIndex = 4
+StartTime = 0:07:13.4
+Path = OFF
+[Event_58]
+TimeLineIndex = 8
+StartTime = 0:07:13.5
+Path = OFF
+[Event_59]
+TimeLineIndex = 5
+StartTime = 0:07:20.0
+Path = Overall/Overall(blue).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_60]
+TimeLineIndex = 4
+StartTime = 0:07:28.2
+Path = Overall/Overall[front]/Overall[front](red).scex
+Length = 0:00:05.0
+FadeIn = 1
+FadeOut = 1
+Speed = 100
+SpeedType = 2
+[Event_61]
+TimeLineIndex = 5
+StartTime = 0:07:28.3
+Path = OFF
+[Event_62]
+TimeLineIndex = 3
+StartTime = 0:07:54.6
+Path = Overall/Overall(red).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_63]
+TimeLineIndex = 4
+StartTime = 0:08:18.1
+Path = OFF
+[Event_64]
+TimeLineIndex = 3
+StartTime = 0:08:18.1
+Path = OFF
+[Event_65]
+TimeLineIndex = 5
+StartTime = 0:08:18.2
+Path = UV/UV[all](max power).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_66]
+TimeLineIndex = 6
+StartTime = 0:08:18.2
+Path = Wall LED/Wall LED[all]/Walls[all](blue).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_67]
+TimeLineIndex = 7
+StartTime = 0:08:18.2
+Path = Oven/Oven(blue).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_68]
+TimeLineIndex = 3
+StartTime = 0:09:07.6
+Path = Overall/Overall[front]/Overall[front](red).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_69]
+TimeLineIndex = 6
+StartTime = 0:09:10.0
+Path = OFF
+[Event_70]
+TimeLineIndex = 5
+StartTime = 0:09:53.4
+Path = OFF
+[Event_71]
+TimeLineIndex = 6
+StartTime = 0:09:53.4
+Path = Wall LED/Wall LED[all]/Walls[all](red).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_72]
+TimeLineIndex = 4
+StartTime = 0:10:10.0
+Path = Overall/Overall(red).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_73]
+TimeLineIndex = 3
+StartTime = 0:10:22.6
+Path = OFF
+[Event_74]
+TimeLineIndex = 6
+StartTime = 0:10:22.6
+Path = OFF
+[Event_75]
+TimeLineIndex = 7
+StartTime = 0:10:22.6
+Path = OFF
+[Event_76]
+TimeLineIndex = 4
+StartTime = 0:11:16.1
+Path = OFF
+[Event_77]
+TimeLineIndex = 4
+StartTime = 0:11:18.7
+Path = Overall/Overall[front]/Overall[front](red).scex
+Length = 0:00:05.0
+FadeOut = 200
+Speed = 100
+SpeedType = 2
+[Event_78]
+TimeLineIndex = 4
+StartTime = 0:11:20.1
+Path = OFF
+[Event_79]
+TimeLineIndex = 5
+StartTime = 0:11:20.3
+Path = Overall/Overall(blue).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_80]
+TimeLineIndex = 6
+StartTime = 0:11:24.9
+Path = Overall/Overall[front]/Overall[front](blue).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_81]
+TimeLineIndex = 5
+StartTime = 0:12:17.8
+Path = OFF
+[Event_82]
+TimeLineIndex = 6
+StartTime = 0:12:17.8
+Path = OFF
+[Event_83]
+TimeLineIndex = 4
+StartTime = 0:12:17.9
+Path = Overall/Overall(yellow).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_84]
+TimeLineIndex = 3
+StartTime = 0:12:17.9
+Path = Oven/Oven(red).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_85]
+TimeLineIndex = 7
+StartTime = 0:12:17.9
+Path = UV/UV[all](max power).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_86]
+TimeLineIndex = 5
+StartTime = 0:13:02.8
+Path = Wall LED/Wall LED[all]/Walls[all](red).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_87]
+TimeLineIndex = 3
+StartTime = 0:14:37.9
+Path = OFF
+[Event_88]
+TimeLineIndex = 4
+StartTime = 0:14:37.9
+Path = OFF
+[Event_89]
+TimeLineIndex = 5
+StartTime = 0:14:37.9
+Path = OFF
+[Event_90]
+TimeLineIndex = 7
+StartTime = 0:14:37.9
+Path = OFF
+[Event_91]
+TimeLineIndex = 4
+StartTime = 0:14:39.3
+Path = Overall/Overall[front]/Overall[front](love).scex
+Length = 0:00:05.0
+FadeIn = 300
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_92]
+TimeLineIndex = 3
+StartTime = 0:14:39.3
+Path = Overall/Overall(love).scex
+Length = 0:00:05.0
+FadeIn = 300
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_93]
+TimeLineIndex = 3
+StartTime = 0:14:58.5
+Path = PAUSE

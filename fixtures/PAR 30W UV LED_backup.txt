@@ -1,0 +1,34 @@
+﻿ViewType = VIEW_TYPE_PAR_CAN
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 100
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 8388672
+3DViewShape = 
+2DViewImage = Showtec/Moving Heads/Phantom70Beam_44051.png
+
+Channel = dimmer
+ dimmer,0,255 
+
+Channel = dimmer 1
+ dimmer,0,255 
+
+Channel = dimmer 2
+ dimmer,0,255 
+
+Channel = dimmer 3
+ dimmer,0,255 
+
+Channel = shutter
+ open,0,0 closed,100,100 strobe,200,200 
+
+Channel = color
+ macro_1,0,10 macro_2,11,60 macro_3,61,110 macro_4,111,160 macro_5,161,210 macro_6,211,255 
+
+Channel = speed_control
+ fade_speed,0,255 
+

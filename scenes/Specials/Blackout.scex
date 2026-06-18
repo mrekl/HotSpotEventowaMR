@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1757729490" name="Wall LED[Left]" model="AMBIENCE"/>
+    <Fixture id="1727735062" name="UV [Left]" model="PAR 30W UV LED"/>
+    <Fixture id="1727735063" name="UV [Back]" model="PAR 30W UV LED"/>
+    <Fixture id="1727734810" name="UV [Right]" model="PAR 30W UV LED"/>
+    <Fixture id="1727734431" name="Overall [Back]" model="BLACK PAR 7X10W RGBWA"/>
+    <Fixture id="1727730786" name="Oven LED" model="AMBIENCE"/>
+    <Fixture id="1727730788" name="Wall LED[Back Left]" model="AMBIENCE"/>
+    <Fixture id="1727730789" name="Wall LED[Back Right]" model="AMBIENCE"/>
+    <Fixture id="1757727854" name="MH [Back Box]" model="FOCUS 100"/>
+    <Fixture id="1727730790" name="Wall LED[Right]" model="AMBIENCE"/>
+  </Fixtures>
+  <Steps>
+    <Step length="500">
+      <Fixture id="1757729490">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1727735062">
+        <Channel index="0" name="dimmer" value="0"/>
+        <Channel index="1" name="dimmer 1" value="0"/>
+        <Channel index="2" name="dimmer 2" value="0"/>
+        <Channel index="3" name="dimmer 3" value="0"/>
+        <Channel index="4" name="shutter" value="0"/>
+        <Channel index="5" name="color" value="0"/>
+        <Channel index="6" name="speed_control" value="0"/>
+      </Fixture>
+      <Fixture id="1727735063">
+        <Channel index="0" name="dimmer" value="0"/>
+        <Channel index="1" name="dimmer 1" value="0"/>
+        <Channel index="2" name="dimmer 2" value="0"/>
+        <Channel index="3" name="dimmer 3" value="0"/>
+        <Channel index="4" name="shutter" value="0"/>
+        <Channel index="5" name="color" value="0"/>
+        <Channel index="6" name="speed_control" value="0"/>
+      </Fixture>
+      <Fixture id="1727734810">
+        <Channel index="0" name="dimmer" value="0"/>
+        <Channel index="1" name="dimmer 1" value="0"/>
+        <Channel index="2" name="dimmer 2" value="0"/>
+        <Channel index="3" name="dimmer 3" value="0"/>
+        <Channel index="4" name="shutter" value="0"/>
+        <Channel index="5" name="color" value="0"/>
+        <Channel index="6" name="speed_control" value="0"/>
+      </Fixture>
+      <Fixture id="1727734431">
+        <Channel index="0" name="dimmer" value="0"/>
+        <Channel index="1" name="red" value="0"/>
+        <Channel index="2" name="green" value="0"/>
+        <Channel index="3" name="blue" value="0"/>
+        <Channel index="4" name="white" value="0"/>
+        <Channel index="5" name="amber" value="0"/>
+        <Channel index="6" name="shutter" value="0"/>
+        <Channel index="7" name="color" value="0"/>
+        <Channel index="8" name="effect_macro" value="0"/>
+      </Fixture>
+      <Fixture id="1727730786">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1727730788">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1727730789">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+      <Fixture id="1757727854">
+        <Channel index="0" name="dimmer" value="0"/>
+        <Channel index="1" name="shutter" value="0"/>
+        <Channel index="2" name="pan" value="0"/>
+        <Channel index="3" name="tilt" value="0"/>
+        <Channel index="4" name="pantilt_speed" value="0"/>
+        <Channel index="5" name="prism_rotate" value="0"/>
+        <Channel index="6" name="gobo" value="0"/>
+        <Channel index="7" name="gobo2" value="0"/>
+        <Channel index="8" name="gobo_rotate" value="0"/>
+        <Channel index="9" name="prism3D" value="0"/>
+        <Channel index="10" name="focus" value="0"/>
+        <Channel index="11" name="pan fine" value="0"/>
+        <Channel index="12" name="fine tilt" value="0"/>
+        <Channel index="13" name="reset.png" value="0"/>
+      </Fixture>
+      <Fixture id="1727730790">
+        <Channel index="0" name="red" value="0"/>
+        <Channel index="1" name="green" value="0"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="3" name="white" value="0"/>
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>

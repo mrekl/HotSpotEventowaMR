@@ -1,0 +1,88 @@
+[Params]
+PanTiltShift = 0.0
+ExplodePanTilt = 0
+GroupRGB = 0
+FanPanOffset = 0
+FanTiltOffset = 0
+[Fixture_0]
+ID = 1727730787
+Name = Wall LED[Left]
+DMX = 0
+Channels = red,green,blue,white
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[Fixture_1]
+ID = 1727730789
+Name = Wall LED[Back Right]
+DMX = 0
+Channels = red,green,blue,white
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 1
+[Fixture_2]
+ID = 1727730788
+Name = Wall LED[Back Left]
+DMX = 0
+Channels = red,green,blue,white
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 2
+[Fixture_3]
+ID = 1727730790
+Name = Wall LED[Right]
+DMX = 0
+Channels = red,green,blue,white
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 3
+[red]
+Selected = 1
+CurveName = FlowDown 5 sec(max to 0%)
+Transition = 2
+Duration = 50
+Shift = 25.0
+Point_0 = 0,20560
+Point_1 = 33089,0
+Point_2 = 65535,20560
+[green]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+[blue]
+Selected = 1
+CurveName = FlowDown 5 sec(max to 0%)
+Transition = 2
+Duration = 50
+Shift = 25.0
+Point_0 = 0,51400
+Point_1 = 33089,0
+Point_2 = 65535,51400
+[white]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0

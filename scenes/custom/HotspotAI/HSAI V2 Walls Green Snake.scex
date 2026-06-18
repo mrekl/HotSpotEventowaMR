@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1757729490" name="Wall LED[Left]" model="AMBIENCE"/>
+    <Fixture id="1727730788" name="Wall LED[Back Left]" model="AMBIENCE"/>
+    <Fixture id="1727730789" name="Wall LED[Back Right]" model="AMBIENCE"/>
+    <Fixture id="1727730790" name="Wall LED[Right]" model="AMBIENCE"/>
+  </Fixtures>
+  <Steps>
+    <Step name="L" length="400">
+      <Fixture id="1757729490">
+        <Channel index="0" name="red" value="20" fade="1"/>
+        <Channel index="1" name="green" value="210" fade="1"/>
+        <Channel index="2" name="blue" value="20" fade="1"/>
+        <Channel index="3" name="white" value="0" fade="1"/>
+      </Fixture>
+      <Fixture id="1727730788">
+        <Channel index="0" name="red" value="10" fade="1"/>
+        <Channel index="1" name="green" value="90" fade="1"/>
+        <Channel index="2" name="blue" value="15" fade="1"/>
+        <Channel index="3" name="white" value="0" fade="1"/>
+      </Fixture>
+      <Fixture id="1727730789">
+        <Channel index="0" name="red" value="5" fade="1"/>
+        <Channel index="1" name="green" value="50" fade="1"/>
+        <Channel index="2" name="blue" value="10" fade="1"/>
+        <Channel index="3" name="white" value="0" fade="1"/>
+      </Fixture>
+      <Fixture id="1727730790">
+        <Channel index="0" name="red" value="0" fade="1"/>
+        <Channel index="1" name="green" value="30" fade="1"/>
+        <Channel index="2" name="blue" value="5" fade="1"/>
+        <Channel index="3" name="white" value="0" fade="1"/>
+      </Fixture>
+    </Step>
+    <Step name="BL" length="400">
+      <Fixture id="1757729490">
+        <Channel index="0" name="red" value="5" fade="1"/>
+        <Channel index="1" name="green" value="60" fade="1"/>
+        <Channel index="2" name="blue" value="10" fade="1"/>
+        <Channel index="3" name="white" value="0" fade="1"/>
+      </Fixture>
+      <Fixture id="1727730788">
+        <Channel index="0" name="red" value="50" fade="1"/>
+        <Channel index="1" name="green" value="240" fade="1"/>
+        <Channel index="2" name="blue" value="35" fade="1"/>
+        <Channel index="3" name="white" value="0" fade="1"/>
+      </Fixture>
+      <Fixture id="1727730789">
+        <Channel index="0" name="red" value="10" fade="1"/>
+        <Channel index="1" name="green" value="100" fade="1"/>
+        <Channel index="2" name="blue" value="15" fade="1"/>
+        <Channel index="3" name="white" value="0" fade="1"/>
+      </Fixture>
+      <Fixture id="1727730790">
+        <Channel index="0" name="red" value="5" fade="1"/>
+        <Channel index="1" name="green" value="50" fade="1"/>
+        <Channel index="2" name="blue" value="10" fade="1"/>
+        <Channel index="3" name="white" value="0" fade="1"/>
+      </Fixture>
+    </Step>
+    <Step name="BR" length="400">
+      <Fixture id="1757729490">
+        <Channel index="0" name="red" value="5" fade="1"/>
+        <Channel index="1" name="green" value="50" fade="1"/>
+        <Channel index="2" name="blue" value="10" fade="1"/>
+        <Channel index="3" name="white" value="0" fade="1"/>
+      </Fixture>
+      <Fixture id="1727730788">
+        <Channel index="0" name="red" value="10" fade="1"/>
+        <Channel index="1" name="green" value="100" fade="1"/>
+        <Channel index="2" name="blue" value="15" fade="1"/>
+        <Channel index="3" name="white" value="0" fade="1"/>
+      </Fixture>
+      <Fixture id="1727730789">
+        <Channel index="0" name="red" value="50" fade="1"/>
+        <Channel index="1" name="green" value="240" fade="1"/>
+        <Channel index="2" name="blue" value="35" fade="1"/>
+        <Channel index="3" name="white" value="0" fade="1"/>
+      </Fixture>
+      <Fixture id="1727730790">
+        <Channel index="0" name="red" value="5" fade="1"/>
+        <Channel index="1" name="green" value="60" fade="1"/>
+        <Channel index="2" name="blue" value="10" fade="1"/>
+        <Channel index="3" name="white" value="0" fade="1"/>
+      </Fixture>
+    </Step>
+    <Step name="R" length="400">
+      <Fixture id="1757729490">
+        <Channel index="0" name="red" value="0" fade="1"/>
+        <Channel index="1" name="green" value="30" fade="1"/>
+        <Channel index="2" name="blue" value="5" fade="1"/>
+        <Channel index="3" name="white" value="0" fade="1"/>
+      </Fixture>
+      <Fixture id="1727730788">
+        <Channel index="0" name="red" value="5" fade="1"/>
+        <Channel index="1" name="green" value="50" fade="1"/>
+        <Channel index="2" name="blue" value="10" fade="1"/>
+        <Channel index="3" name="white" value="0" fade="1"/>
+      </Fixture>
+      <Fixture id="1727730789">
+        <Channel index="0" name="red" value="10" fade="1"/>
+        <Channel index="1" name="green" value="90" fade="1"/>
+        <Channel index="2" name="blue" value="15" fade="1"/>
+        <Channel index="3" name="white" value="0" fade="1"/>
+      </Fixture>
+      <Fixture id="1727730790">
+        <Channel index="0" name="red" value="20" fade="1"/>
+        <Channel index="1" name="green" value="210" fade="1"/>
+        <Channel index="2" name="blue" value="20" fade="1"/>
+        <Channel index="3" name="white" value="0" fade="1"/>
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>

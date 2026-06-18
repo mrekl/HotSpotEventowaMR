@@ -1,0 +1,34 @@
+﻿ViewType = VIEW_TYPE_COLOR_CHANGER
+ViewPower = VIEW_POWER_LAMP1200W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 80
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+3DViewShape = archi_1(8u)
+2DViewImage = Showtec/Spots/HelixS5000_43725.png
+
+Channel = dimmer
+ ?,0,255 
+
+Channel = shutter
+ open,0,10 strobe,11,255 
+
+Channel = effect / macro
+ Manual,0,9 Program,10,255 
+
+Channel = red
+ ?,0,255 
+
+Channel = green
+ ?,0,255 
+
+Channel = blue
+ ?,0,255 
+
+Channel = white
+ ?,0,255 
+

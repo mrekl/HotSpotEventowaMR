@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1727734431" name="Overall [Back]" model="BLACK PAR 7X10W RGBWA"/>
+    <Fixture id="1769516470" name="Overall [left]" model="Overall [left]"/>
+    <Fixture id="1769516510" name="Overall [right]" model="Overall [right]"/>
+  </Fixtures>
+  <Steps>
+    <Step length="500">
+      <Fixture id="1727734431">
+        <Channel index="0" name="dimmer" value="50" fade="1"/>
+        <Channel index="1" name="red" value="20" fade="1"/>
+        <Channel index="2" name="green" value="150" fade="1"/>
+        <Channel index="3" name="blue" value="0" fade="1"/>
+        <Channel index="4" name="white" value="0" fade="1"/>
+        <Channel index="5" name="amber" value="40" fade="1"/>
+      </Fixture>
+      <Fixture id="1769516470">
+        <Channel index="0" name="dimmer" value="42" fade="1"/>
+        <Channel index="1" name="red" value="20" fade="1"/>
+        <Channel index="2" name="green" value="160" fade="1"/>
+        <Channel index="3" name="blue" value="0" fade="1"/>
+        <Channel index="4" name="white" value="0" fade="1"/>
+        <Channel index="5" name="color_strobe" value="0" fade="1"/>
+        <Channel index="6" name="control" value="0" fade="1"/>
+        <Channel index="7" name="speed_control" value="0" fade="1"/>
+      </Fixture>
+      <Fixture id="1769516510">
+        <Channel index="0" name="dimmer" value="42" fade="1"/>
+        <Channel index="1" name="red" value="20" fade="1"/>
+        <Channel index="2" name="green" value="160" fade="1"/>
+        <Channel index="3" name="blue" value="0" fade="1"/>
+        <Channel index="4" name="white" value="0" fade="1"/>
+        <Channel index="5" name="color_strobe" value="0" fade="1"/>
+        <Channel index="6" name="control" value="0" fade="1"/>
+        <Channel index="7" name="speed_control" value="0" fade="1"/>
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>

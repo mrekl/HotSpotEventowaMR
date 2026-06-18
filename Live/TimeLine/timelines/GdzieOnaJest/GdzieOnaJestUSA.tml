@@ -1,0 +1,487 @@
+﻿
+[Params]
+Version = 0.2
+CommentTimeLine = 0
+LightTimeLines = 15
+MediaTimeLines = 1
+ShowWaveForm = 1
+MaxTime = 0:30:00
+Zoom = 0
+TimeLine_1 = V I D E O   P I C T U R E   T I M E L I N E
+TimeLine_2 = A U D I O   T I M E L I N E
+TimeLine_3 = L I G H T   S C E N E   T I M E L I N E   #   1
+TimeLine_4 = L I G H T   S C E N E   T I M E L I N E   #   2
+TimeLine_5 = L I G H T   S C E N E   T I M E L I N E   #   3
+TimeLine_6 = L I G H T   S C E N E   T I M E L I N E   #   4
+TimeLine_7 = L I G H T   S C E N E   T I M E L I N E   #   5
+TimeLine_8 = L I G H T   S C E N E   T I M E L I N E   #   6
+TimeLine_9 = L I G H T   S C E N E   T I M E L I N E   #   7
+TimeLine_10 = L I G H T   S C E N E   T I M E L I N E   #   8
+TimeLine_11 = L I G H T   S C E N E   T I M E L I N E   #   9
+TimeLine_12 = L I G H T   S C E N E   T I M E L I N E   #   10
+TimeLine_13 = L I G H T   S C E N E   T I M E L I N E   #   11
+TimeLine_14 = L I G H T   S C E N E   T I M E L I N E   #   12
+TimeLine_15 = L I G H T   S C E N E   T I M E L I N E   #   13
+TimeLine_16 = L I G H T   S C E N E   T I M E L I N E   #   14
+TimeLine_17 = L I G H T   S C E N E   T I M E L I N E   #   15
+[Event_0]
+TimeLineIndex = 2
+StartTime = 0:00:00.0
+Path = Live/Music/GdzieOnaJest/1. USA.wav
+Length = 0:04:52.5
+[Event_1]
+TimeLineIndex = 3
+StartTime = 0:00:00.0
+Path = custom/oven/oven(blue-love)glow10s.gpj
+Length = 0:00:10.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_2]
+TimeLineIndex = 4
+StartTime = 0:00:06.0
+Path = Overall/Overall[front]/Overall[front](white).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_3]
+TimeLineIndex = 3
+StartTime = 0:00:06.0
+Path = OFF
+[Event_4]
+TimeLineIndex = 3
+StartTime = 0:00:10.0
+Path = Wall LED[all]/Walls[all] (red) Glow 5(medium range).gpj
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_5]
+TimeLineIndex = 4
+StartTime = 0:00:10.0
+Path = OFF
+[Event_6]
+TimeLineIndex = 3
+StartTime = 0:00:22.5
+Path = OFF
+[Event_7]
+TimeLineIndex = 5
+StartTime = 0:00:23.9
+Path = custom/MH/MH(right-door)[white-open].gpj
+Length = 0:00:05.0
+Speed = 100
+SpeedType = 2
+[Event_8]
+TimeLineIndex = 4
+StartTime = 0:00:26.4
+Path = custom/MH/MH(left-door-to-right-door)[white-open].gpj
+Length = 0:00:04.0
+Speed = 100
+SpeedType = 2
+[Event_9]
+TimeLineIndex = 5
+StartTime = 0:00:26.6
+Path = OFF
+[Event_10]
+TimeLineIndex = 4
+StartTime = 0:00:34.8
+Path = OFF
+[Event_11]
+TimeLineIndex = 11
+StartTime = 0:00:34.9
+Path = UV/UV[all](max power).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_12]
+TimeLineIndex = 5
+StartTime = 0:00:35.0
+Path = custom/wall/wall[all](green)glow2s-shift.gpj
+Length = 0:00:02.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_13]
+TimeLineIndex = 6
+StartTime = 0:00:35.0
+Path = Oven/Oven(blue).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_14]
+TimeLineIndex = 5
+StartTime = 0:00:42.4
+Path = OFF
+[Event_15]
+TimeLineIndex = 4
+StartTime = 0:00:42.4
+Path = Wall LED/Wall LED[all]/Wall[all](mint).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_16]
+TimeLineIndex = 6
+StartTime = 0:00:42.4
+Path = OFF
+[Event_17]
+TimeLineIndex = 7
+StartTime = 0:00:42.4
+Path = Oven/Oven(green).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_18]
+TimeLineIndex = 4
+StartTime = 0:00:49.8
+Path = OFF
+[Event_19]
+TimeLineIndex = 3
+StartTime = 0:00:49.8
+Path = Wall LED/Wall LED[all]/Wall[all](love).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_20]
+TimeLineIndex = 7
+StartTime = 0:00:49.8
+Path = OFF
+[Event_21]
+TimeLineIndex = 6
+StartTime = 0:00:49.8
+Path = Oven/Oven(love).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_22]
+TimeLineIndex = 4
+StartTime = 0:00:57.8
+Path = Overall/Overall[front]/Overall[front](white).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_23]
+TimeLineIndex = 4
+StartTime = 0:00:58.7
+Path = OFF
+[Event_24]
+TimeLineIndex = 3
+StartTime = 0:00:58.7
+Path = OFF
+[Event_25]
+TimeLineIndex = 5
+StartTime = 0:00:58.7
+Path = Wall LED[all]/Walls[all] (blue) Glow 5(medium range).gpj
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_26]
+TimeLineIndex = 6
+StartTime = 0:00:58.7
+Path = OFF
+[Event_27]
+TimeLineIndex = 7
+StartTime = 0:00:58.7
+Path = Oven/Oven(ocean).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_28]
+TimeLineIndex = 9
+StartTime = 0:01:04.4
+Path = Oven/Oven(blue).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_29]
+TimeLineIndex = 5
+StartTime = 0:01:04.4
+Path = OFF
+[Event_30]
+TimeLineIndex = 4
+StartTime = 0:01:04.4
+Path = Wall LED[all]/Walls[all] (green) Glow 5(medium range).gpj
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_31]
+TimeLineIndex = 7
+StartTime = 0:01:04.4
+Path = OFF
+[Event_32]
+TimeLineIndex = 5
+StartTime = 0:01:07.3
+Path = Overall/Overall[front]/Overall[front](blue).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_33]
+TimeLineIndex = 6
+StartTime = 0:01:07.3
+Path = Overall/Overall(blue).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_34]
+TimeLineIndex = 4
+StartTime = 0:01:20.6
+Path = OFF
+[Event_35]
+TimeLineIndex = 5
+StartTime = 0:01:20.6
+Path = OFF
+[Event_36]
+TimeLineIndex = 6
+StartTime = 0:01:20.6
+Path = OFF
+[Event_37]
+TimeLineIndex = 7
+StartTime = 0:01:20.6
+Path = Overall/Overall[front]/Overall[front](love).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_38]
+TimeLineIndex = 8
+StartTime = 0:01:20.6
+Path = Overall/Overall(love).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_39]
+TimeLineIndex = 9
+StartTime = 0:01:20.6
+Path = OFF
+[Event_40]
+TimeLineIndex = 10
+StartTime = 0:01:20.6
+Path = Oven/Oven(love).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_41]
+TimeLineIndex = 4
+StartTime = 0:01:36.4
+Path = Oven/Oven(red).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_42]
+TimeLineIndex = 7
+StartTime = 0:01:36.4
+Path = OFF
+[Event_43]
+TimeLineIndex = 8
+StartTime = 0:01:36.4
+Path = OFF
+[Event_44]
+TimeLineIndex = 6
+StartTime = 0:01:36.4
+Path = Wall LED[all]/Walls[all] (blue) Glow 5(medium range).gpj
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_45]
+TimeLineIndex = 10
+StartTime = 0:01:36.4
+Path = OFF
+[Event_46]
+TimeLineIndex = 5
+StartTime = 0:02:09.1
+Path = Overall/Overall(red).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_47]
+TimeLineIndex = 4
+StartTime = 0:02:09.1
+Path = OFF
+[Event_48]
+TimeLineIndex = 6
+StartTime = 0:02:22.5
+Path = OFF
+[Event_49]
+TimeLineIndex = 5
+StartTime = 0:02:22.5
+Path = OFF
+[Event_50]
+TimeLineIndex = 4
+StartTime = 0:02:23.0
+Path = custom/wall/wall[all](love)snake3s.gpj
+Length = 0:00:03.0
+FadeIn = 100
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_51]
+TimeLineIndex = 7
+StartTime = 0:02:23.0
+Path = Oven/Oven(love).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_52]
+TimeLineIndex = 5
+StartTime = 0:02:38.1
+Path = Wall LED[all]/Walls[all] (blue) Glow 5(medium range).gpj
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_53]
+TimeLineIndex = 6
+StartTime = 0:02:38.1
+Path = Oven/Oven(dark green).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_54]
+TimeLineIndex = 7
+StartTime = 0:02:38.2
+Path = OFF
+[Event_55]
+TimeLineIndex = 4
+StartTime = 0:02:38.2
+Path = OFF
+[Event_56]
+TimeLineIndex = 3
+StartTime = 0:03:01.5
+Path = Overall/Overall[front]/Overall[front](love).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_57]
+TimeLineIndex = 4
+StartTime = 0:03:01.5
+Path = Overall/Overall(love).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_58]
+TimeLineIndex = 3
+StartTime = 0:03:03.2
+Path = OFF
+[Event_59]
+TimeLineIndex = 4
+StartTime = 0:03:03.2
+Path = OFF
+[Event_60]
+TimeLineIndex = 3
+StartTime = 0:03:09.3
+Path = Overall/Overall[front]/Overall[front](love).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_61]
+TimeLineIndex = 4
+StartTime = 0:03:09.3
+Path = Overall/Overall(love).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 300
+Speed = 100
+SpeedType = 2
+[Event_62]
+TimeLineIndex = 5
+StartTime = 0:03:09.3
+Path = OFF
+[Event_63]
+TimeLineIndex = 6
+StartTime = 0:03:09.3
+Path = OFF
+[Event_64]
+TimeLineIndex = 8
+StartTime = 0:03:09.3
+Path = Oven/Oven(love).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_65]
+TimeLineIndex = 4
+StartTime = 0:03:15.9
+Path = OFF
+[Event_66]
+TimeLineIndex = 3
+StartTime = 0:03:15.9
+Path = OFF
+[Event_67]
+TimeLineIndex = 8
+StartTime = 0:03:15.9
+Path = OFF
+[Event_68]
+TimeLineIndex = 11
+StartTime = 0:03:16.4
+Path = OFF
+[Event_69]
+TimeLineIndex = 6
+StartTime = 0:03:16.5
+Path = Oven/Oven(ice).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_70]
+TimeLineIndex = 7
+StartTime = 0:03:16.5
+Path = Overall/Overall[front]/Overall[front](ice).scex
+Length = 0:00:05.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2

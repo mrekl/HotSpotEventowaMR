@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1727732027" name="MH [Back Box]" model="FOCUS 100"/>
+  </Fixtures>
+  <Steps>
+    <Step length="500">
+      <Fixture id="1727732027">
+        <Channel index="2" name="pan" value="84"/>
+        <Channel index="3" name="tilt" value="9"/>
+        <Channel index="11" name="pan fine" value="211"/>
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>

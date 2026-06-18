@@ -1,0 +1,8 @@
+﻿
+[Curve]
+Transition = 2
+Duration = 200
+Shift = 0.0
+Point_0 = 0,12934
+Point_1 = 32841,30915
+Point_2 = 65535,12934

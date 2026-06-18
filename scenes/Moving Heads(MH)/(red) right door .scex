@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1757727854" name="MH [Back Box]" model="FOCUS 100"/>
+  </Fixtures>
+  <Steps>
+    <Step length="500">
+      <Fixture id="1757727854">
+        <Channel index="0" name="dimmer" value="90"/>
+        <Channel index="2" name="pan" value="81"/>
+        <Channel index="3" name="tilt" value="9"/>
+        <Channel index="5" name="prism_rotate" value="7"/>
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>

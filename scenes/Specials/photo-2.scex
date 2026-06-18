@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1728596304" name="Cameo[Back Box]" model="ThunderWash600Rgbw(7ch Mode 2)"/>
+    <Fixture id="1728596305" name="Cameo[Left box]" model="ThunderWash600Rgbw(7ch Mode 2)"/>
+    <Fixture id="1728596306" name="Cameo [Right Box]" model="ThunderWash600Rgbw(7ch Mode 2)"/>
+    <Fixture id="1757729490" name="Wall LED[Left]" model="AMBIENCE"/>
+    <Fixture id="1727730786" name="Oven LED" model="AMBIENCE"/>
+    <Fixture id="1727730788" name="Wall LED[Back Left]" model="AMBIENCE"/>
+    <Fixture id="1727730789" name="Wall LED[Back Right]" model="AMBIENCE"/>
+    <Fixture id="1757727854" name="MH [Back Box]" model="FOCUS 100"/>
+    <Fixture id="1727730790" name="Wall LED[Right]" model="AMBIENCE"/>
+  </Fixtures>
+  <Steps>
+    <Step length="500">
+      <Fixture id="1728596304">
+        <Channel index="0" name="dimmer" value="80" fade="1"/>
+        <Channel index="6" name="white" value="255" fade="1"/>
+      </Fixture>
+      <Fixture id="1728596305">
+        <Channel index="0" name="dimmer" value="80" fade="1"/>
+        <Channel index="6" name="white" value="255" fade="1"/>
+      </Fixture>
+      <Fixture id="1728596306">
+        <Channel index="0" name="dimmer" value="80" fade="1"/>
+        <Channel index="6" name="white" value="255" fade="1"/>
+      </Fixture>
+      <Fixture id="1757729490">
+        <Channel index="1" name="green" value="200" fade="1"/>
+      </Fixture>
+      <Fixture id="1727730786">
+        <Channel index="0" name="red" value="200"/>
+        <Channel index="2" name="blue" value="200"/>
+      </Fixture>
+      <Fixture id="1727730788">
+        <Channel index="1" name="green" value="200" fade="1"/>
+      </Fixture>
+      <Fixture id="1727730789">
+        <Channel index="1" name="green" value="200" fade="1"/>
+      </Fixture>
+      <Fixture id="1757727854">
+        <Channel index="0" name="dimmer" value="90" fade="1"/>
+        <Channel index="2" name="pan" value="85" fade="1"/>
+        <Channel index="3" name="tilt" value="5" fade="1"/>
+      </Fixture>
+      <Fixture id="1727730790">
+        <Channel index="1" name="green" value="200" fade="1"/>
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>

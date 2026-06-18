@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1727734431" name="Overall [Back]" model="BLACK PAR 7X10W RGBWA"/>
+    <Fixture id="1727730787" name="Wall LED[Left]" model="AMBIENCE"/>
+    <Fixture id="1727730788" name="Wall LED[Back Left]" model="AMBIENCE"/>
+    <Fixture id="1727730789" name="Wall LED[Back Right]" model="AMBIENCE"/>
+    <Fixture id="1727730790" name="Wall LED[Right]" model="AMBIENCE"/>
+  </Fixtures>
+  <Steps>
+    <Step length="500">
+      <Fixture id="1727734431">
+        <Channel index="0" name="dimmer" value="200" fade="1"/>
+        <Channel index="2" name="green" value="200" fade="1"/>
+        <Channel index="3" name="blue" value="200" fade="1"/>
+      </Fixture>
+      <Fixture id="1727730787">
+        <Channel index="2" name="blue" value="255" fade="1"/>
+      </Fixture>
+      <Fixture id="1727730788">
+        <Channel index="1" name="green" value="240" fade="1"/>
+        <Channel index="2" name="blue" value="240" fade="1"/>
+      </Fixture>
+      <Fixture id="1727730789">
+        <Channel index="1" name="green" value="240" fade="1"/>
+        <Channel index="2" name="blue" value="240" fade="1"/>
+      </Fixture>
+      <Fixture id="1727730790">
+        <Channel index="2" name="blue" value="255" fade="1"/>
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1727735062" name="UV [Left]" model="PAR 30W UV LED"/>
+    <Fixture id="1727735063" name="UV [Back]" model="PAR 30W UV LED"/>
+    <Fixture id="1727734810" name="UV [Right]" model="PAR 30W UV LED"/>
+  </Fixtures>
+  <Steps>
+    <Step length="500">
+      <Fixture id="1727735062">
+        <Channel index="0" name="dimmer" value="255"/>
+        <Channel index="1" name="dimmer 1" value="0"/>
+        <Channel index="2" name="dimmer 2" value="0"/>
+        <Channel index="3" name="dimmer 3" value="255"/>
+      </Fixture>
+      <Fixture id="1727735063">
+        <Channel index="0" name="dimmer" value="255"/>
+        <Channel index="1" name="dimmer 1" value="0"/>
+        <Channel index="2" name="dimmer 2" value="0"/>
+        <Channel index="3" name="dimmer 3" value="0"/>
+      </Fixture>
+      <Fixture id="1727734810">
+        <Channel index="0" name="dimmer" value="255"/>
+        <Channel index="1" name="dimmer 1" value="0"/>
+        <Channel index="2" name="dimmer 2" value="0"/>
+        <Channel index="3" name="dimmer 3" value="255"/>
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>

@@ -1,0 +1,1903 @@
+﻿
+[Params]
+Version = 0.2
+CommentTimeLine = 0
+LightTimeLines = 15
+MediaTimeLines = 1
+ShowWaveForm = 1
+MaxTime = 0:13:10
+Zoom = 0
+TimeLine_1 = V I D E O   P I C T U R E   T I M E L I N E
+TimeLine_2 = A U D I O   T I M E L I N E
+TimeLine_3 = L I G H T   S C E N E   T I M E L I N E   #   1
+TimeLine_4 = L I G H T   S C E N E   T I M E L I N E   #   2
+TimeLine_5 = L I G H T   S C E N E   T I M E L I N E   #   3
+TimeLine_6 = L I G H T   S C E N E   T I M E L I N E   #   4
+TimeLine_7 = L I G H T   S C E N E   T I M E L I N E   #   5
+TimeLine_8 = L I G H T   S C E N E   T I M E L I N E   #   6
+TimeLine_9 = L I G H T   S C E N E   T I M E L I N E   #   7
+TimeLine_10 = L I G H T   S C E N E   T I M E L I N E   #   8
+TimeLine_11 = L I G H T   S C E N E   T I M E L I N E   #   9
+TimeLine_12 = L I G H T   S C E N E   T I M E L I N E   #   10
+TimeLine_13 = L I G H T   S C E N E   T I M E L I N E   #   11
+TimeLine_14 = L I G H T   S C E N E   T I M E L I N E   #   12
+TimeLine_15 = L I G H T   S C E N E   T I M E L I N E   #   13
+TimeLine_16 = L I G H T   S C E N E   T I M E L I N E   #   14
+TimeLine_17 = L I G H T   S C E N E   T I M E L I N E   #   15
+[Event_0]
+TimeLineIndex = 2
+StartTime = 0:00:00.0
+Path = Live/Music/HotspotAI/Hotspot AI.mp3
+Length = 0:13:06.0
+[Event_1]
+TimeLineIndex = 3
+StartTime = 0:00:00.0
+Path = custom/HotspotAI/HSAI V2 Walls Dark Blue.scex
+Length = 0:00:18.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_2]
+TimeLineIndex = 4
+StartTime = 0:00:00.0
+Path = custom/HotspotAI/HSAI V2 Oven Blue Ember.scex
+Length = 0:00:21.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_3]
+TimeLineIndex = 5
+StartTime = 0:00:00.0
+Path = custom/HotspotAI/HSAI V2 Overall Cold Low.scex
+Length = 0:00:37.0
+FadeIn = 220
+FadeOut = 220
+Speed = 100
+SpeedType = 2
+[Event_4]
+TimeLineIndex = 6
+StartTime = 0:00:00.0
+Path = custom/HotspotAI/HSAI V2 Cameo Cool Back.scex
+Length = 0:00:36.0
+FadeIn = 120
+FadeOut = 120
+Speed = 100
+SpeedType = 2
+[Event_5]
+TimeLineIndex = 7
+StartTime = 0:00:00.0
+Path = custom/HotspotAI/HSAI V2 UV Soft.scex
+Length = 0:00:37.0
+FadeIn = 200
+FadeOut = 200
+Speed = 100
+SpeedType = 2
+[Event_6]
+TimeLineIndex = 10
+StartTime = 0:00:00.0
+Path = Moving Heads(MH)/(white) on stove .scex
+Length = 0:00:45.0
+FadeIn = 500
+FadeOut = 700
+Speed = 100
+SpeedType = 2
+[Event_7]
+TimeLineIndex = 8
+StartTime = 0:00:09.5
+Path = custom/HotspotAI/HSAI V2 White Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_8]
+TimeLineIndex = 8
+StartTime = 0:00:10.1
+Path = OFF
+[Event_9]
+TimeLineIndex = 3
+StartTime = 0:00:18.0
+Path = custom/HotspotAI/HSAI V2 Walls Cold Breath.scex
+Length = 0:00:19.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_10]
+TimeLineIndex = 8
+StartTime = 0:00:18.5
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_11]
+TimeLineIndex = 8
+StartTime = 0:00:19.1
+Path = OFF
+[Event_12]
+TimeLineIndex = 4
+StartTime = 0:00:21.0
+Path = custom/HotspotAI/HSAI V2 Oven Flame Pulse.scex
+Length = 0:00:16.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_13]
+TimeLineIndex = 8
+StartTime = 0:00:28.5
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_14]
+TimeLineIndex = 8
+StartTime = 0:00:29.1
+Path = OFF
+[Event_15]
+TimeLineIndex = 6
+StartTime = 0:00:36.0
+Path = custom/HotspotAI/HSAI V2 Cameo Fire Doors.scex
+Length = 0:00:33.0
+FadeIn = 120
+FadeOut = 120
+Speed = 100
+SpeedType = 2
+[Event_16]
+TimeLineIndex = 8
+StartTime = 0:00:36.5
+Path = custom/HotspotAI/HSAI V2 White Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_17]
+TimeLineIndex = 9
+StartTime = 0:00:36.5
+Path = custom/HotspotAI/HSAI V2 Oven Spark.scex
+Length = 0:00:00.7
+FadeIn = 30
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_18]
+TimeLineIndex = 7
+StartTime = 0:00:37.0
+Path = custom/HotspotAI/HSAI V2 UV Off.scex
+Length = 0:01:59.0
+FadeIn = 200
+FadeOut = 200
+Speed = 100
+SpeedType = 2
+[Event_19]
+TimeLineIndex = 5
+StartTime = 0:00:37.0
+Path = custom/HotspotAI/HSAI V2 Overall Warm Low.scex
+Length = 0:00:32.0
+FadeIn = 220
+FadeOut = 220
+Speed = 100
+SpeedType = 2
+[Event_20]
+TimeLineIndex = 4
+StartTime = 0:00:37.0
+Path = custom/HotspotAI/HSAI V2 Oven Amber Core.scex
+Length = 0:00:16.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_21]
+TimeLineIndex = 3
+StartTime = 0:00:37.0
+Path = custom/HotspotAI/HSAI V2 Walls Warm Low.scex
+Length = 0:00:16.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_22]
+TimeLineIndex = 8
+StartTime = 0:00:37.1
+Path = OFF
+[Event_23]
+TimeLineIndex = 9
+StartTime = 0:00:37.3
+Path = OFF
+[Event_24]
+TimeLineIndex = 10
+StartTime = 0:00:45.0
+Path = custom/HotspotAI/HSAI V2 MH Off.scex
+Length = 0:00:01.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_25]
+TimeLineIndex = 10
+StartTime = 0:00:46.1
+Path = OFF
+[Event_26]
+TimeLineIndex = 8
+StartTime = 0:00:52.5
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_27]
+TimeLineIndex = 9
+StartTime = 0:00:53.0
+Path = custom/HotspotAI/HSAI V2 Oven Spark.scex
+Length = 0:00:00.7
+FadeIn = 30
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_28]
+TimeLineIndex = 4
+StartTime = 0:00:53.0
+Path = custom/HotspotAI/HSAI V2 Oven Flame Pulse.scex
+Length = 0:00:16.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_29]
+TimeLineIndex = 3
+StartTime = 0:00:53.0
+Path = custom/HotspotAI/HSAI V2 Walls Fire Chase.scex
+Length = 0:00:16.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_30]
+TimeLineIndex = 8
+StartTime = 0:00:53.1
+Path = OFF
+[Event_31]
+TimeLineIndex = 9
+StartTime = 0:00:53.8
+Path = OFF
+[Event_32]
+TimeLineIndex = 8
+StartTime = 0:01:08.0
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_33]
+TimeLineIndex = 8
+StartTime = 0:01:08.6
+Path = OFF
+[Event_34]
+TimeLineIndex = 9
+StartTime = 0:01:09.0
+Path = custom/HotspotAI/HSAI V2 Oven Spark.scex
+Length = 0:00:00.7
+FadeIn = 30
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_35]
+TimeLineIndex = 6
+StartTime = 0:01:09.0
+Path = custom/HotspotAI/HSAI V2 Cameo Fire Doors.scex
+Length = 0:00:38.0
+FadeIn = 120
+FadeOut = 120
+Speed = 100
+SpeedType = 2
+[Event_36]
+TimeLineIndex = 5
+StartTime = 0:01:09.0
+Path = custom/HotspotAI/HSAI V2 Overall Amber Pulse.scex
+Length = 0:00:38.0
+FadeIn = 220
+FadeOut = 220
+Speed = 100
+SpeedType = 2
+[Event_37]
+TimeLineIndex = 4
+StartTime = 0:01:09.0
+Path = custom/HotspotAI/HSAI V2 Oven Red Core.scex
+Length = 0:00:19.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_38]
+TimeLineIndex = 3
+StartTime = 0:01:09.0
+Path = custom/HotspotAI/HSAI V2 Walls Amber Blue Split.scex
+Length = 0:00:19.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_39]
+TimeLineIndex = 9
+StartTime = 0:01:09.8
+Path = OFF
+[Event_40]
+TimeLineIndex = 4
+StartTime = 0:01:28.0
+Path = custom/HotspotAI/HSAI V2 Oven Flame Pulse.scex
+Length = 0:00:19.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_41]
+TimeLineIndex = 3
+StartTime = 0:01:28.0
+Path = custom/HotspotAI/HSAI V2 Walls Fire Chase.scex
+Length = 0:00:19.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_42]
+TimeLineIndex = 8
+StartTime = 0:01:28.5
+Path = custom/HotspotAI/HSAI V2 White Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_43]
+TimeLineIndex = 8
+StartTime = 0:01:29.1
+Path = OFF
+[Event_44]
+TimeLineIndex = 9
+StartTime = 0:01:46.0
+Path = custom/HotspotAI/HSAI V2 Oven Spark.scex
+Length = 0:00:00.7
+FadeIn = 30
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_45]
+TimeLineIndex = 8
+StartTime = 0:01:46.0
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_46]
+TimeLineIndex = 8
+StartTime = 0:01:46.6
+Path = OFF
+[Event_47]
+TimeLineIndex = 9
+StartTime = 0:01:46.8
+Path = OFF
+[Event_48]
+TimeLineIndex = 6
+StartTime = 0:01:47.0
+Path = custom/HotspotAI/HSAI V2 Cameo Green Back.scex
+Length = 0:00:49.0
+FadeIn = 120
+FadeOut = 120
+Speed = 100
+SpeedType = 2
+[Event_49]
+TimeLineIndex = 5
+StartTime = 0:01:47.0
+Path = custom/HotspotAI/HSAI V2 Overall Green Low.scex
+Length = 0:00:49.0
+FadeIn = 220
+FadeOut = 220
+Speed = 100
+SpeedType = 2
+[Event_50]
+TimeLineIndex = 4
+StartTime = 0:01:47.0
+Path = custom/HotspotAI/HSAI V2 Oven Green Core.scex
+Length = 0:00:32.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_51]
+TimeLineIndex = 3
+StartTime = 0:01:47.0
+Path = custom/HotspotAI/HSAI V2 Walls Green Snake.scex
+Length = 0:00:19.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_52]
+TimeLineIndex = 3
+StartTime = 0:02:06.0
+Path = custom/HotspotAI/HSAI V2 Walls Green Snake.scex
+Length = 0:00:30.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_53]
+TimeLineIndex = 8
+StartTime = 0:02:19.0
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_54]
+TimeLineIndex = 4
+StartTime = 0:02:19.0
+Path = custom/HotspotAI/HSAI V2 Oven Amber Core.scex
+Length = 0:00:17.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_55]
+TimeLineIndex = 8
+StartTime = 0:02:19.6
+Path = OFF
+[Event_56]
+TimeLineIndex = 10
+StartTime = 0:02:35.0
+Path = Moving Heads(MH)/(red) on stove.scex
+Length = 0:00:38.0
+FadeIn = 500
+FadeOut = 700
+Speed = 100
+SpeedType = 2
+[Event_57]
+TimeLineIndex = 9
+StartTime = 0:02:35.0
+Path = custom/HotspotAI/HSAI V2 Oven Spark.scex
+Length = 0:00:00.7
+FadeIn = 30
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_58]
+TimeLineIndex = 8
+StartTime = 0:02:35.0
+Path = custom/HotspotAI/HSAI V2 White Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_59]
+TimeLineIndex = 8
+StartTime = 0:02:35.6
+Path = OFF
+[Event_60]
+TimeLineIndex = 9
+StartTime = 0:02:35.8
+Path = OFF
+[Event_61]
+TimeLineIndex = 7
+StartTime = 0:02:36.0
+Path = custom/HotspotAI/HSAI V2 UV High Pulse.scex
+Length = 0:00:58.0
+FadeIn = 200
+FadeOut = 200
+Speed = 100
+SpeedType = 2
+[Event_62]
+TimeLineIndex = 6
+StartTime = 0:02:36.0
+Path = custom/HotspotAI/HSAI V2 Cameo Violet Low.scex
+Length = 0:00:58.0
+FadeIn = 120
+FadeOut = 120
+Speed = 100
+SpeedType = 2
+[Event_63]
+TimeLineIndex = 5
+StartTime = 0:02:36.0
+Path = custom/HotspotAI/HSAI V2 Overall Violet Low.scex
+Length = 0:00:58.0
+FadeIn = 220
+FadeOut = 220
+Speed = 100
+SpeedType = 2
+[Event_64]
+TimeLineIndex = 4
+StartTime = 0:02:36.0
+Path = custom/HotspotAI/HSAI V2 Oven Low Smoke.scex
+Length = 0:00:22.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_65]
+TimeLineIndex = 3
+StartTime = 0:02:36.0
+Path = custom/HotspotAI/HSAI V2 Walls Violet Wash.scex
+Length = 0:00:22.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_66]
+TimeLineIndex = 8
+StartTime = 0:02:57.0
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_67]
+TimeLineIndex = 8
+StartTime = 0:02:57.6
+Path = OFF
+[Event_68]
+TimeLineIndex = 4
+StartTime = 0:02:58.0
+Path = custom/HotspotAI/HSAI V2 Oven Blue Ember.scex
+Length = 0:00:36.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_69]
+TimeLineIndex = 3
+StartTime = 0:02:58.0
+Path = custom/HotspotAI/HSAI V2 Walls Cold Breath.scex
+Length = 0:00:36.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_70]
+TimeLineIndex = 10
+StartTime = 0:03:13.0
+Path = custom/HotspotAI/HSAI V2 MH Off.scex
+Length = 0:00:01.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_71]
+TimeLineIndex = 10
+StartTime = 0:03:14.1
+Path = OFF
+[Event_72]
+TimeLineIndex = 8
+StartTime = 0:03:15.5
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_73]
+TimeLineIndex = 8
+StartTime = 0:03:16.1
+Path = OFF
+[Event_74]
+TimeLineIndex = 10
+StartTime = 0:03:34.0
+Path = Moving Heads(MH)/(ice) on stove.scex
+Length = 0:00:42.0
+FadeIn = 500
+FadeOut = 700
+Speed = 100
+SpeedType = 2
+[Event_75]
+TimeLineIndex = 9
+StartTime = 0:03:34.0
+Path = custom/HotspotAI/HSAI V2 Oven Spark.scex
+Length = 0:00:00.7
+FadeIn = 30
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_76]
+TimeLineIndex = 8
+StartTime = 0:03:34.0
+Path = custom/HotspotAI/HSAI V2 White Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_77]
+TimeLineIndex = 7
+StartTime = 0:03:34.0
+Path = custom/HotspotAI/HSAI V2 UV Off.scex
+Length = 0:04:17.0
+FadeIn = 200
+FadeOut = 200
+Speed = 100
+SpeedType = 2
+[Event_78]
+TimeLineIndex = 6
+StartTime = 0:03:34.0
+Path = custom/HotspotAI/HSAI V2 Cameo Cool Back.scex
+Length = 0:00:35.0
+FadeIn = 120
+FadeOut = 120
+Speed = 100
+SpeedType = 2
+[Event_79]
+TimeLineIndex = 5
+StartTime = 0:03:34.0
+Path = custom/HotspotAI/HSAI V2 Overall Cold Low.scex
+Length = 0:00:35.0
+FadeIn = 220
+FadeOut = 220
+Speed = 100
+SpeedType = 2
+[Event_80]
+TimeLineIndex = 4
+StartTime = 0:03:34.0
+Path = custom/HotspotAI/HSAI V2 Oven Blue Ember.scex
+Length = 0:00:18.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_81]
+TimeLineIndex = 3
+StartTime = 0:03:34.0
+Path = custom/HotspotAI/HSAI V2 Walls Dark Blue.scex
+Length = 0:00:18.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_82]
+TimeLineIndex = 8
+StartTime = 0:03:34.6
+Path = OFF
+[Event_83]
+TimeLineIndex = 9
+StartTime = 0:03:34.8
+Path = OFF
+[Event_84]
+TimeLineIndex = 8
+StartTime = 0:03:51.0
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_85]
+TimeLineIndex = 8
+StartTime = 0:03:51.6
+Path = OFF
+[Event_86]
+TimeLineIndex = 4
+StartTime = 0:03:52.0
+Path = custom/HotspotAI/HSAI V2 Oven Amber Core.scex
+Length = 0:00:17.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_87]
+TimeLineIndex = 3
+StartTime = 0:03:52.0
+Path = custom/HotspotAI/HSAI V2 Walls Amber Blue Split.scex
+Length = 0:00:17.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_88]
+TimeLineIndex = 8
+StartTime = 0:04:00.5
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_89]
+TimeLineIndex = 8
+StartTime = 0:04:01.1
+Path = OFF
+[Event_90]
+TimeLineIndex = 9
+StartTime = 0:04:09.0
+Path = custom/HotspotAI/HSAI V2 Oven Spark.scex
+Length = 0:00:00.7
+FadeIn = 30
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_91]
+TimeLineIndex = 8
+StartTime = 0:04:09.0
+Path = custom/HotspotAI/HSAI V2 White Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_92]
+TimeLineIndex = 6
+StartTime = 0:04:09.0
+Path = custom/HotspotAI/HSAI V2 Cameo Fire Doors.scex
+Length = 0:00:57.0
+FadeIn = 120
+FadeOut = 120
+Speed = 100
+SpeedType = 2
+[Event_93]
+TimeLineIndex = 5
+StartTime = 0:04:09.0
+Path = custom/HotspotAI/HSAI V2 Overall Door Alternate.scex
+Length = 0:00:34.0
+FadeIn = 220
+FadeOut = 220
+Speed = 100
+SpeedType = 2
+[Event_94]
+TimeLineIndex = 4
+StartTime = 0:04:09.0
+Path = custom/HotspotAI/HSAI V2 Oven Flame Pulse.scex
+Length = 0:00:14.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_95]
+TimeLineIndex = 3
+StartTime = 0:04:09.0
+Path = custom/HotspotAI/HSAI V2 Walls Fire Chase.scex
+Length = 0:00:14.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_96]
+TimeLineIndex = 8
+StartTime = 0:04:09.6
+Path = OFF
+[Event_97]
+TimeLineIndex = 9
+StartTime = 0:04:09.8
+Path = OFF
+[Event_98]
+TimeLineIndex = 10
+StartTime = 0:04:16.0
+Path = custom/HotspotAI/HSAI V2 MH Off.scex
+Length = 0:00:01.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_99]
+TimeLineIndex = 10
+StartTime = 0:04:17.1
+Path = OFF
+[Event_100]
+TimeLineIndex = 4
+StartTime = 0:04:23.0
+Path = custom/HotspotAI/HSAI V2 Oven Red Core.scex
+Length = 0:00:20.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_101]
+TimeLineIndex = 3
+StartTime = 0:04:23.0
+Path = custom/HotspotAI/HSAI V2 Walls Cold Breath.scex
+Length = 0:00:20.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_102]
+TimeLineIndex = 8
+StartTime = 0:04:23.5
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_103]
+TimeLineIndex = 8
+StartTime = 0:04:24.1
+Path = OFF
+[Event_104]
+TimeLineIndex = 9
+StartTime = 0:04:42.0
+Path = custom/HotspotAI/HSAI V2 Oven Spark.scex
+Length = 0:00:00.7
+FadeIn = 30
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_105]
+TimeLineIndex = 8
+StartTime = 0:04:42.0
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_106]
+TimeLineIndex = 8
+StartTime = 0:04:42.6
+Path = OFF
+[Event_107]
+TimeLineIndex = 9
+StartTime = 0:04:42.8
+Path = OFF
+[Event_108]
+TimeLineIndex = 5
+StartTime = 0:04:43.0
+Path = custom/HotspotAI/HSAI V2 Overall Amber Pulse.scex
+Length = 0:01:05.0
+FadeIn = 220
+FadeOut = 220
+Speed = 100
+SpeedType = 2
+[Event_109]
+TimeLineIndex = 4
+StartTime = 0:04:43.0
+Path = custom/HotspotAI/HSAI V2 Oven Amber Core.scex
+Length = 0:00:23.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_110]
+TimeLineIndex = 3
+StartTime = 0:04:43.0
+Path = custom/HotspotAI/HSAI V2 Walls Warm Low.scex
+Length = 0:00:13.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_111]
+TimeLineIndex = 8
+StartTime = 0:04:56.0
+Path = custom/HotspotAI/HSAI V2 White Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_112]
+TimeLineIndex = 3
+StartTime = 0:04:56.0
+Path = custom/HotspotAI/HSAI V2 Walls Fire Chase.scex
+Length = 0:00:31.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_113]
+TimeLineIndex = 8
+StartTime = 0:04:56.6
+Path = OFF
+[Event_114]
+TimeLineIndex = 9
+StartTime = 0:05:06.0
+Path = custom/HotspotAI/HSAI V2 Oven Spark.scex
+Length = 0:00:00.7
+FadeIn = 30
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_115]
+TimeLineIndex = 8
+StartTime = 0:05:06.0
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_116]
+TimeLineIndex = 6
+StartTime = 0:05:06.0
+Path = custom/HotspotAI/HSAI V2 Cameo Fire Doors.scex
+Length = 0:00:42.0
+FadeIn = 120
+FadeOut = 120
+Speed = 100
+SpeedType = 2
+[Event_117]
+TimeLineIndex = 4
+StartTime = 0:05:06.0
+Path = custom/HotspotAI/HSAI V2 Oven Flame Pulse.scex
+Length = 0:00:21.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_118]
+TimeLineIndex = 8
+StartTime = 0:05:06.6
+Path = OFF
+[Event_119]
+TimeLineIndex = 9
+StartTime = 0:05:06.8
+Path = OFF
+[Event_120]
+TimeLineIndex = 8
+StartTime = 0:05:26.5
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_121]
+TimeLineIndex = 4
+StartTime = 0:05:27.0
+Path = custom/HotspotAI/HSAI V2 Oven Red Core.scex
+Length = 0:00:21.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_122]
+TimeLineIndex = 3
+StartTime = 0:05:27.0
+Path = custom/HotspotAI/HSAI V2 Walls Amber Blue Split.scex
+Length = 0:00:21.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_123]
+TimeLineIndex = 8
+StartTime = 0:05:27.1
+Path = OFF
+[Event_124]
+TimeLineIndex = 9
+StartTime = 0:05:48.0
+Path = custom/HotspotAI/HSAI V2 Oven Spark.scex
+Length = 0:00:00.7
+FadeIn = 30
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_125]
+TimeLineIndex = 8
+StartTime = 0:05:48.0
+Path = custom/HotspotAI/HSAI V2 White Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_126]
+TimeLineIndex = 6
+StartTime = 0:05:48.0
+Path = custom/HotspotAI/HSAI V2 Cameo Fire Doors.scex
+Length = 0:01:09.0
+FadeIn = 120
+FadeOut = 120
+Speed = 100
+SpeedType = 2
+[Event_127]
+TimeLineIndex = 5
+StartTime = 0:05:48.0
+Path = custom/HotspotAI/HSAI V2 Overall Warm Low.scex
+Length = 0:01:09.0
+FadeIn = 220
+FadeOut = 220
+Speed = 100
+SpeedType = 2
+[Event_128]
+TimeLineIndex = 4
+StartTime = 0:05:48.0
+Path = custom/HotspotAI/HSAI V2 Oven Flame Pulse.scex
+Length = 0:00:46.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_129]
+TimeLineIndex = 3
+StartTime = 0:05:48.0
+Path = custom/HotspotAI/HSAI V2 Walls Fire Chase.scex
+Length = 0:00:26.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_130]
+TimeLineIndex = 8
+StartTime = 0:05:48.6
+Path = OFF
+[Event_131]
+TimeLineIndex = 9
+StartTime = 0:05:48.8
+Path = OFF
+[Event_132]
+TimeLineIndex = 8
+StartTime = 0:06:14.0
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_133]
+TimeLineIndex = 3
+StartTime = 0:06:14.0
+Path = custom/HotspotAI/HSAI V2 Walls Warm Low.scex
+Length = 0:00:20.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_134]
+TimeLineIndex = 8
+StartTime = 0:06:14.6
+Path = OFF
+[Event_135]
+TimeLineIndex = 8
+StartTime = 0:06:33.0
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_136]
+TimeLineIndex = 8
+StartTime = 0:06:33.6
+Path = OFF
+[Event_137]
+TimeLineIndex = 4
+StartTime = 0:06:34.0
+Path = custom/HotspotAI/HSAI V2 Oven Amber Core.scex
+Length = 0:00:23.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_138]
+TimeLineIndex = 3
+StartTime = 0:06:34.0
+Path = custom/HotspotAI/HSAI V2 Walls Fire Chase.scex
+Length = 0:00:23.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_139]
+TimeLineIndex = 8
+StartTime = 0:06:56.5
+Path = custom/HotspotAI/HSAI V2 White Hit.scex
+Length = 0:00:00.8
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_140]
+TimeLineIndex = 9
+StartTime = 0:06:57.0
+Path = custom/HotspotAI/HSAI V2 Oven Spark.scex
+Length = 0:00:00.7
+FadeIn = 30
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_141]
+TimeLineIndex = 6
+StartTime = 0:06:57.0
+Path = custom/HotspotAI/HSAI V2 Cameo White Hit.scex
+Length = 0:00:54.0
+FadeIn = 120
+FadeOut = 120
+Speed = 100
+SpeedType = 2
+[Event_142]
+TimeLineIndex = 5
+StartTime = 0:06:57.0
+Path = custom/HotspotAI/HSAI V2 Overall Door Alternate.scex
+Length = 0:00:54.0
+FadeIn = 220
+FadeOut = 220
+Speed = 100
+SpeedType = 2
+[Event_143]
+TimeLineIndex = 4
+StartTime = 0:06:57.0
+Path = custom/HotspotAI/HSAI V2 Oven Blue Ember.scex
+Length = 0:00:10.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_144]
+TimeLineIndex = 3
+StartTime = 0:06:57.0
+Path = custom/HotspotAI/HSAI V2 Walls Dark Blue.scex
+Length = 0:00:10.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_145]
+TimeLineIndex = 8
+StartTime = 0:06:57.4
+Path = OFF
+[Event_146]
+TimeLineIndex = 9
+StartTime = 0:06:57.8
+Path = OFF
+[Event_147]
+TimeLineIndex = 10
+StartTime = 0:07:07.0
+Path = Moving Heads(MH)/(white) on stove .scex
+Length = 0:00:35.0
+FadeIn = 500
+FadeOut = 700
+Speed = 100
+SpeedType = 2
+[Event_148]
+TimeLineIndex = 9
+StartTime = 0:07:07.0
+Path = custom/HotspotAI/HSAI V2 Oven Spark.scex
+Length = 0:00:00.7
+FadeIn = 30
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_149]
+TimeLineIndex = 8
+StartTime = 0:07:07.0
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.8
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_150]
+TimeLineIndex = 4
+StartTime = 0:07:07.0
+Path = custom/HotspotAI/HSAI V2 Oven Amber Core.scex
+Length = 0:00:22.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_151]
+TimeLineIndex = 3
+StartTime = 0:07:07.0
+Path = custom/HotspotAI/HSAI V2 Walls Amber Blue Split.scex
+Length = 0:00:22.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_152]
+TimeLineIndex = 9
+StartTime = 0:07:07.8
+Path = OFF
+[Event_153]
+TimeLineIndex = 8
+StartTime = 0:07:07.9
+Path = OFF
+[Event_154]
+TimeLineIndex = 8
+StartTime = 0:07:29.0
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_155]
+TimeLineIndex = 4
+StartTime = 0:07:29.0
+Path = custom/HotspotAI/HSAI V2 Oven Flame Pulse.scex
+Length = 0:00:22.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_156]
+TimeLineIndex = 3
+StartTime = 0:07:29.0
+Path = custom/HotspotAI/HSAI V2 Walls Fire Chase.scex
+Length = 0:00:22.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_157]
+TimeLineIndex = 8
+StartTime = 0:07:29.6
+Path = OFF
+[Event_158]
+TimeLineIndex = 10
+StartTime = 0:07:42.0
+Path = custom/HotspotAI/HSAI V2 MH Off.scex
+Length = 0:00:01.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_159]
+TimeLineIndex = 10
+StartTime = 0:07:43.1
+Path = OFF
+[Event_160]
+TimeLineIndex = 10
+StartTime = 0:07:51.0
+Path = Moving Heads(MH)/(ice) on stove.scex
+Length = 0:00:32.0
+FadeIn = 500
+FadeOut = 700
+Speed = 100
+SpeedType = 2
+[Event_161]
+TimeLineIndex = 9
+StartTime = 0:07:51.0
+Path = custom/HotspotAI/HSAI V2 Oven Spark.scex
+Length = 0:00:00.7
+FadeIn = 30
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_162]
+TimeLineIndex = 8
+StartTime = 0:07:51.0
+Path = custom/HotspotAI/HSAI V2 White Hit.scex
+Length = 0:00:00.8
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_163]
+TimeLineIndex = 7
+StartTime = 0:07:51.0
+Path = custom/HotspotAI/HSAI V2 UV High Pulse.scex
+Length = 0:01:09.0
+FadeIn = 200
+FadeOut = 200
+Speed = 100
+SpeedType = 2
+[Event_164]
+TimeLineIndex = 6
+StartTime = 0:07:51.0
+Path = custom/HotspotAI/HSAI V2 Cameo Violet Low.scex
+Length = 0:01:09.0
+FadeIn = 120
+FadeOut = 120
+Speed = 100
+SpeedType = 2
+[Event_165]
+TimeLineIndex = 5
+StartTime = 0:07:51.0
+Path = custom/HotspotAI/HSAI V2 Overall Violet Low.scex
+Length = 0:01:09.0
+FadeIn = 220
+FadeOut = 220
+Speed = 100
+SpeedType = 2
+[Event_166]
+TimeLineIndex = 4
+StartTime = 0:07:51.0
+Path = custom/HotspotAI/HSAI V2 Oven Low Smoke.scex
+Length = 0:00:29.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_167]
+TimeLineIndex = 3
+StartTime = 0:07:51.0
+Path = custom/HotspotAI/HSAI V2 Walls Violet Wash.scex
+Length = 0:00:29.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_168]
+TimeLineIndex = 9
+StartTime = 0:07:51.8
+Path = OFF
+[Event_169]
+TimeLineIndex = 8
+StartTime = 0:07:51.9
+Path = OFF
+[Event_170]
+TimeLineIndex = 8
+StartTime = 0:08:11.0
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_171]
+TimeLineIndex = 8
+StartTime = 0:08:11.6
+Path = OFF
+[Event_172]
+TimeLineIndex = 4
+StartTime = 0:08:20.0
+Path = custom/HotspotAI/HSAI V2 Oven Blue Ember.scex
+Length = 0:00:40.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_173]
+TimeLineIndex = 3
+StartTime = 0:08:20.0
+Path = custom/HotspotAI/HSAI V2 Walls Cold Breath.scex
+Length = 0:00:40.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_174]
+TimeLineIndex = 8
+StartTime = 0:08:20.5
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_175]
+TimeLineIndex = 8
+StartTime = 0:08:21.1
+Path = OFF
+[Event_176]
+TimeLineIndex = 10
+StartTime = 0:08:23.0
+Path = custom/HotspotAI/HSAI V2 MH Off.scex
+Length = 0:00:01.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_177]
+TimeLineIndex = 10
+StartTime = 0:08:24.1
+Path = OFF
+[Event_178]
+TimeLineIndex = 8
+StartTime = 0:08:36.5
+Path = custom/HotspotAI/HSAI V2 White Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_179]
+TimeLineIndex = 8
+StartTime = 0:08:37.1
+Path = OFF
+[Event_180]
+TimeLineIndex = 8
+StartTime = 0:08:58.0
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_181]
+TimeLineIndex = 8
+StartTime = 0:08:58.6
+Path = OFF
+[Event_182]
+TimeLineIndex = 7
+StartTime = 0:09:00.0
+Path = custom/HotspotAI/HSAI V2 UV Off.scex
+Length = 0:03:09.0
+FadeIn = 200
+FadeOut = 200
+Speed = 100
+SpeedType = 2
+[Event_183]
+TimeLineIndex = 6
+StartTime = 0:09:00.0
+Path = custom/HotspotAI/HSAI V2 Cameo Cool Back.scex
+Length = 0:00:56.0
+FadeIn = 120
+FadeOut = 120
+Speed = 100
+SpeedType = 2
+[Event_184]
+TimeLineIndex = 5
+StartTime = 0:09:00.0
+Path = custom/HotspotAI/HSAI V2 Overall Cold Low.scex
+Length = 0:00:56.0
+FadeIn = 220
+FadeOut = 220
+Speed = 100
+SpeedType = 2
+[Event_185]
+TimeLineIndex = 4
+StartTime = 0:09:00.0
+Path = custom/HotspotAI/HSAI V2 Oven Green Core.scex
+Length = 0:00:41.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_186]
+TimeLineIndex = 3
+StartTime = 0:09:00.0
+Path = custom/HotspotAI/HSAI V2 Walls Green Snake.scex
+Length = 0:00:41.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_187]
+TimeLineIndex = 8
+StartTime = 0:09:28.0
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_188]
+TimeLineIndex = 8
+StartTime = 0:09:28.6
+Path = OFF
+[Event_189]
+TimeLineIndex = 4
+StartTime = 0:09:41.0
+Path = custom/HotspotAI/HSAI V2 Oven Blue Ember.scex
+Length = 0:00:39.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_190]
+TimeLineIndex = 3
+StartTime = 0:09:41.0
+Path = custom/HotspotAI/HSAI V2 Walls Cold Breath.scex
+Length = 0:00:39.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_191]
+TimeLineIndex = 8
+StartTime = 0:09:43.5
+Path = custom/HotspotAI/HSAI V2 White Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_192]
+TimeLineIndex = 8
+StartTime = 0:09:44.1
+Path = OFF
+[Event_193]
+TimeLineIndex = 8
+StartTime = 0:09:55.5
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_194]
+TimeLineIndex = 9
+StartTime = 0:09:56.0
+Path = custom/HotspotAI/HSAI V2 Oven Spark.scex
+Length = 0:00:00.7
+FadeIn = 30
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_195]
+TimeLineIndex = 6
+StartTime = 0:09:56.0
+Path = custom/HotspotAI/HSAI V2 Cameo Fire Doors.scex
+Length = 0:01:32.0
+FadeIn = 120
+FadeOut = 120
+Speed = 100
+SpeedType = 2
+[Event_196]
+TimeLineIndex = 5
+StartTime = 0:09:56.0
+Path = custom/HotspotAI/HSAI V2 Overall Amber Pulse.scex
+Length = 0:01:32.0
+FadeIn = 220
+FadeOut = 220
+Speed = 100
+SpeedType = 2
+[Event_197]
+TimeLineIndex = 8
+StartTime = 0:09:56.1
+Path = OFF
+[Event_198]
+TimeLineIndex = 9
+StartTime = 0:09:56.8
+Path = OFF
+[Event_199]
+TimeLineIndex = 8
+StartTime = 0:10:09.0
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_200]
+TimeLineIndex = 8
+StartTime = 0:10:09.6
+Path = OFF
+[Event_201]
+TimeLineIndex = 8
+StartTime = 0:10:20.0
+Path = custom/HotspotAI/HSAI V2 White Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_202]
+TimeLineIndex = 4
+StartTime = 0:10:20.0
+Path = custom/HotspotAI/HSAI V2 Oven Amber Core.scex
+Length = 0:00:42.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_203]
+TimeLineIndex = 3
+StartTime = 0:10:20.0
+Path = custom/HotspotAI/HSAI V2 Walls Warm Low.scex
+Length = 0:00:42.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_204]
+TimeLineIndex = 8
+StartTime = 0:10:20.6
+Path = OFF
+[Event_205]
+TimeLineIndex = 9
+StartTime = 0:11:02.0
+Path = custom/HotspotAI/HSAI V2 Oven Spark.scex
+Length = 0:00:00.7
+FadeIn = 30
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_206]
+TimeLineIndex = 4
+StartTime = 0:11:02.0
+Path = custom/HotspotAI/HSAI V2 Oven Flame Pulse.scex
+Length = 0:01:07.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_207]
+TimeLineIndex = 3
+StartTime = 0:11:02.0
+Path = custom/HotspotAI/HSAI V2 Walls Fire Chase.scex
+Length = 0:00:26.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_208]
+TimeLineIndex = 9
+StartTime = 0:11:02.8
+Path = OFF
+[Event_209]
+TimeLineIndex = 8
+StartTime = 0:11:03.0
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_210]
+TimeLineIndex = 8
+StartTime = 0:11:03.6
+Path = OFF
+[Event_211]
+TimeLineIndex = 8
+StartTime = 0:11:26.5
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_212]
+TimeLineIndex = 8
+StartTime = 0:11:27.1
+Path = OFF
+[Event_213]
+TimeLineIndex = 9
+StartTime = 0:11:28.0
+Path = custom/HotspotAI/HSAI V2 Oven Spark.scex
+Length = 0:00:00.7
+FadeIn = 30
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_214]
+TimeLineIndex = 6
+StartTime = 0:11:28.0
+Path = custom/HotspotAI/HSAI V2 Cameo White Hit.scex
+Length = 0:00:41.0
+FadeIn = 120
+FadeOut = 120
+Speed = 100
+SpeedType = 2
+[Event_215]
+TimeLineIndex = 5
+StartTime = 0:11:28.0
+Path = custom/HotspotAI/HSAI V2 Overall Door Alternate.scex
+Length = 0:00:41.0
+FadeIn = 220
+FadeOut = 220
+Speed = 100
+SpeedType = 2
+[Event_216]
+TimeLineIndex = 3
+StartTime = 0:11:28.0
+Path = custom/HotspotAI/HSAI V2 Walls Amber Blue Split.scex
+Length = 0:00:41.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_217]
+TimeLineIndex = 9
+StartTime = 0:11:28.8
+Path = OFF
+[Event_218]
+TimeLineIndex = 8
+StartTime = 0:11:48.0
+Path = custom/HotspotAI/HSAI V2 White Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_219]
+TimeLineIndex = 8
+StartTime = 0:11:48.6
+Path = OFF
+[Event_220]
+TimeLineIndex = 10
+StartTime = 0:12:09.0
+Path = Moving Heads(MH)/(white) on stove .scex
+Length = 0:00:30.0
+FadeIn = 500
+FadeOut = 700
+Speed = 100
+SpeedType = 2
+[Event_221]
+TimeLineIndex = 9
+StartTime = 0:12:09.0
+Path = custom/HotspotAI/HSAI V2 Oven Spark.scex
+Length = 0:00:00.7
+FadeIn = 30
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_222]
+TimeLineIndex = 7
+StartTime = 0:12:09.0
+Path = custom/HotspotAI/HSAI V2 UV Soft.scex
+Length = 0:00:57.0
+FadeIn = 200
+FadeOut = 200
+Speed = 100
+SpeedType = 2
+[Event_223]
+TimeLineIndex = 6
+StartTime = 0:12:09.0
+Path = custom/HotspotAI/HSAI V2 Cameo Cool Back.scex
+Length = 0:00:57.0
+FadeIn = 120
+FadeOut = 120
+Speed = 100
+SpeedType = 2
+[Event_224]
+TimeLineIndex = 5
+StartTime = 0:12:09.0
+Path = custom/HotspotAI/HSAI V2 Overall Warm Low.scex
+Length = 0:00:57.0
+FadeIn = 220
+FadeOut = 220
+Speed = 100
+SpeedType = 2
+[Event_225]
+TimeLineIndex = 4
+StartTime = 0:12:09.0
+Path = custom/HotspotAI/HSAI V2 Oven Amber Core.scex
+Length = 0:00:22.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_226]
+TimeLineIndex = 3
+StartTime = 0:12:09.0
+Path = custom/HotspotAI/HSAI V2 Walls Warm Low.scex
+Length = 0:00:22.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_227]
+TimeLineIndex = 9
+StartTime = 0:12:09.8
+Path = OFF
+[Event_228]
+TimeLineIndex = 8
+StartTime = 0:12:11.0
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_229]
+TimeLineIndex = 8
+StartTime = 0:12:11.6
+Path = OFF
+[Event_230]
+TimeLineIndex = 8
+StartTime = 0:12:30.5
+Path = custom/HotspotAI/HSAI V2 Amber Hit.scex
+Length = 0:00:00.8
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_231]
+TimeLineIndex = 4
+StartTime = 0:12:31.0
+Path = custom/HotspotAI/HSAI V2 Oven Low Smoke.scex
+Length = 0:00:35.0
+FadeIn = 150
+FadeOut = 150
+Speed = 100
+SpeedType = 2
+[Event_232]
+TimeLineIndex = 3
+StartTime = 0:12:31.0
+Path = custom/HotspotAI/HSAI V2 Walls Dark Blue.scex
+Length = 0:00:35.0
+FadeIn = 180
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_233]
+TimeLineIndex = 8
+StartTime = 0:12:31.4
+Path = OFF
+[Event_234]
+TimeLineIndex = 10
+StartTime = 0:12:39.0
+Path = custom/HotspotAI/HSAI V2 MH Off.scex
+Length = 0:00:01.0
+FadeIn = 100
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_235]
+TimeLineIndex = 10
+StartTime = 0:12:40.1
+Path = OFF
+[Event_236]
+TimeLineIndex = 8
+StartTime = 0:12:52.0
+Path = custom/HotspotAI/HSAI V2 White Hit.scex
+Length = 0:00:00.6
+FadeIn = 40
+FadeOut = 180
+Speed = 100
+SpeedType = 2
+[Event_237]
+TimeLineIndex = 8
+StartTime = 0:12:52.6
+Path = OFF
+[Event_238]
+TimeLineIndex = 3
+StartTime = 0:13:06.0
+Path = custom/HotspotAI/HSAI V2 Blackout.scex
+Length = 0:00:01.0
+FadeIn = 50
+FadeOut = 100
+Speed = 100
+SpeedType = 2
+[Event_239]
+TimeLineIndex = 4
+StartTime = 0:13:06.0
+Path = OFF
+[Event_240]
+TimeLineIndex = 5
+StartTime = 0:13:06.0
+Path = OFF
+[Event_241]
+TimeLineIndex = 6
+StartTime = 0:13:06.0
+Path = OFF
+[Event_242]
+TimeLineIndex = 7
+StartTime = 0:13:06.0
+Path = OFF
+[Event_243]
+TimeLineIndex = 8
+StartTime = 0:13:06.0
+Path = OFF
+[Event_244]
+TimeLineIndex = 9
+StartTime = 0:13:06.0
+Path = OFF
+[Event_245]
+TimeLineIndex = 10
+StartTime = 0:13:06.0
+Path = OFF
+[Event_246]
+TimeLineIndex = 11
+StartTime = 0:13:06.0
+Path = OFF
+[Event_247]
+TimeLineIndex = 12
+StartTime = 0:13:06.0
+Path = OFF
+[Event_248]
+TimeLineIndex = 13
+StartTime = 0:13:06.0
+Path = OFF
+[Event_249]
+TimeLineIndex = 14
+StartTime = 0:13:06.0
+Path = OFF
+[Event_250]
+TimeLineIndex = 15
+StartTime = 0:13:06.0
+Path = OFF
+[Event_251]
+TimeLineIndex = 16
+StartTime = 0:13:06.0
+Path = OFF
+[Event_252]
+TimeLineIndex = 17
+StartTime = 0:13:06.0
+Path = OFF
+[Event_253]
+TimeLineIndex = 2
+StartTime = 0:13:06.3
+Path = PAUSE
