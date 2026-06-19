@@ -427,11 +427,11 @@ fade_in = yes
 flash = yes
 [page19]
 name = Bumps
-nb_buttons = 6
+nb_buttons = 22
 [page19_button1]
 line = 1
 column = 1
-name = custom/special/wave/wave(red).scex
+name = Specials/bumps/wave(red).scex
 title = wave(red)
 color = 13107200
 masterspeedfader = 0
@@ -439,46 +439,171 @@ no_loop = yes
 [page19_button2]
 line = 2
 column = 1
+name = custom/special/wave/wave(orange).scex
+title = wave(orange)
+color = 13127680
+masterspeedfader = 0
+no_loop = yes
+[page19_button3]
+line = 3
+column = 1
+name = custom/special/wave/wave(yellow).scex
+title = wave(yellow)
+color = 13158400
+masterspeedfader = 0
+no_loop = yes
+[page19_button4]
+line = 4
+column = 1
+name = custom/special/wave/wave(lime).scex
+title = wave(lime)
+color = 5294080
+masterspeedfader = 0
+no_loop = yes
+[page19_button5]
+line = 5
+column = 1
 name = custom/special/wave/wave(green).scex
 title = wave(green)
 color = 51200
 masterspeedfader = 0
 no_loop = yes
-[page19_button3]
-line = 3
+[page19_button6]
+line = 6
+column = 1
+name = custom/special/wave/wave(mint).scex
+title = wave(mint)
+color = 51280
+masterspeedfader = 0
+no_loop = yes
+[page19_button7]
+line = 7
+column = 1
+name = custom/special/wave/wave(ice).scex
+title = wave(ice)
+color = 51400
+masterspeedfader = 0
+no_loop = yes
+[page19_button8]
+line = 8
+column = 1
+name = custom/special/wave/wave(ocean).scex
+title = wave(ocean)
+color = 20680
+masterspeedfader = 0
+no_loop = yes
+[page19_button9]
+line = 9
 column = 1
 name = custom/special/wave/wave(blue).scex
 title = wave(blue)
 color = 200
 masterspeedfader = 0
 no_loop = yes
-[page19_button4]
+[page19_button10]
+line = 10
+column = 1
+name = custom/special/wave/wave(purple).scex
+title = wave(purple)
+color = 5243080
+masterspeedfader = 0
+no_loop = yes
+[page19_button11]
+line = 11
+column = 1
+name = custom/special/wave/wave(love).scex
+title = wave(love)
+color = 13107280
+masterspeedfader = 0
+no_loop = yes
+[page19_button12]
 line = 1
 column = 2
-name = Wall LED/Wall LED[all]/Walls[all](red).scex
-title = walls bump (red)
-color = 13107200
+name = Wall LED/bumps/WallLED[all](red)bump.scex
+title = WallLED[all](red)bump
+color = 16711680
 masterspeedfader = 0
-fade_out = yes
-flash = yes
-[page19_button5]
+no_loop = yes
+[page19_button13]
 line = 2
 column = 2
-name = Wall LED/Wall LED[all]/Walls[all](green).scex
-title = Walls[all](green) #1
-color = 51200
+name = Wall LED/bumps/WallLED[all](orange)bump.scex
+title = WallLED[all](orange)bump
+color = 16737792
 masterspeedfader = 0
-fade_out = yes
-flash = yes
-[page19_button6]
+no_loop = yes
+[page19_button14]
 line = 3
 column = 2
-name = Wall LED/Wall LED[all]/Walls[all](blue).scex
-title = Walls[all](blue) #1
-color = 200
+name = Wall LED/bumps/WallLED[all](yellow)bump.scex
+title = WallLED[all](yellow)bump
+color = 16776960
 masterspeedfader = 0
-fade_out = yes
-flash = yes
+no_loop = yes
+[page19_button15]
+line = 4
+column = 2
+name = Wall LED/bumps/WallLED[all](lime)bump.scex
+title = WallLED[all](lime)bump
+color = 6749952
+masterspeedfader = 0
+no_loop = yes
+[page19_button16]
+line = 5
+column = 2
+name = Wall LED/bumps/WallLED[all](green)bump.scex
+title = WallLED[all](green)bump
+color = 65280
+masterspeedfader = 0
+no_loop = yes
+[page19_button17]
+line = 6
+column = 2
+name = Wall LED/bumps/WallLED[all](mint)bump.scex
+title = WallLED[all](mint)bump
+color = 65382
+masterspeedfader = 0
+no_loop = yes
+[page19_button18]
+line = 7
+column = 2
+name = Wall LED/bumps/WallLED[all](ice)bump.scex
+title = WallLED[all](ice)bump
+color = 65535
+masterspeedfader = 0
+no_loop = yes
+[page19_button19]
+line = 8
+column = 2
+name = Wall LED/bumps/WallLED[all](ocean)bump.scex
+title = WallLED[all](ocean)bump
+color = 26367
+masterspeedfader = 0
+no_loop = yes
+[page19_button20]
+line = 9
+column = 2
+name = Wall LED/bumps/WallLED[all](blue)bump.scex
+title = WallLED[all](blue)bump
+color = 255
+masterspeedfader = 0
+no_loop = yes
+[page19_button21]
+line = 10
+column = 2
+name = Wall LED/bumps/WallLED[all](purple)bump.scex
+title = WallLED[all](purple)bump
+color = 6684927
+masterspeedfader = 0
+no_loop = yes
+[page19_button22]
+line = 11
+column = 2
+name = Wall LED/bumps/WallLED[all](love)bump.scex
+title = WallLED[all](love)bump
+color = 16711782
+masterspeedfader = 0
+no_loop = yes
 [page20]
 name = Cameo(all)
 nb_buttons = 13
