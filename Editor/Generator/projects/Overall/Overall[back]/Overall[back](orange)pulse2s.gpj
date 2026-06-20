@@ -1,0 +1,75 @@
+﻿[Params]
+PanTiltShift = 0.0
+ExplodePanTilt = 0
+GroupRGB = 0
+FanPanOffset = 0
+FanTiltOffset = 0
+[Fixture_0]
+ID = 1727734431
+Name = Overall [Back]
+DMX = 0
+Channels = dimmer,red,green,blue,white,amber,shutter
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[dimmer]
+Selected = 1
+CurveName = Default Curve
+Transition = 2
+Duration = 20
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 43465,0
+Point_2 = 65535,65535
+[red]
+Selected = 1
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,51400
+Point_1 = 65535,51400
+[green]
+Selected = 1
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,20560
+Point_1 = 65535,20560
+[blue]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+[white]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+[amber]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+[shutter]
+Selected = 1
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,1028
+Point_1 = 65535,1028

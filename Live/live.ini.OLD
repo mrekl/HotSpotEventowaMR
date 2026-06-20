@@ -427,181 +427,302 @@ fade_in = yes
 flash = yes
 [page19]
 name = Bumps
-nb_buttons = 22
+nb_buttons = 36
 [page19_button1]
 line = 1
 column = 1
-name = Specials/bumps/wave(red).scex
+name = Specials/waves/wave(red).scex
 title = wave(red)
-color = 13107200
+color = 16711680
 masterspeedfader = 0
+fade_out = yes
 no_loop = yes
 [page19_button2]
 line = 2
 column = 1
-name = custom/special/wave/wave(orange).scex
+name = Specials/waves/wave(orange).scex
 title = wave(orange)
-color = 13127680
+color = 13132800
 masterspeedfader = 0
+fade_out = yes
 no_loop = yes
 [page19_button3]
 line = 3
 column = 1
-name = custom/special/wave/wave(yellow).scex
+name = Specials/waves/wave(yellow).scex
 title = wave(yellow)
 color = 13158400
 masterspeedfader = 0
+fade_out = yes
 no_loop = yes
 [page19_button4]
 line = 4
 column = 1
-name = custom/special/wave/wave(lime).scex
-title = wave(lime)
-color = 5294080
+name = Specials/waves/wave(green).scex
+title = wave(green)
+color = 65280
 masterspeedfader = 0
+fade_out = yes
 no_loop = yes
 [page19_button5]
 line = 5
 column = 1
-name = custom/special/wave/wave(green).scex
-title = wave(green)
-color = 51200
+name = Specials/waves/wave(mint).scex
+title = wave(mint)
+color = 51280
 masterspeedfader = 0
+fade_out = yes
 no_loop = yes
 [page19_button6]
 line = 6
 column = 1
-name = custom/special/wave/wave(mint).scex
-title = wave(mint)
-color = 51280
+name = Specials/waves/wave(ice).scex
+title = wave(ice)
+color = 51400
 masterspeedfader = 0
+fade_out = yes
 no_loop = yes
 [page19_button7]
 line = 7
 column = 1
-name = custom/special/wave/wave(ice).scex
-title = wave(ice)
-color = 51400
+name = Specials/waves/wave(blue).scex
+title = wave(blue)
+color = 255
 masterspeedfader = 0
+fade_out = yes
 no_loop = yes
 [page19_button8]
 line = 8
 column = 1
-name = custom/special/wave/wave(ocean).scex
-title = wave(ocean)
-color = 20680
+name = Specials/waves/wave(purple).scex
+title = wave(purple)
+color = 5243080
 masterspeedfader = 0
+fade_out = yes
 no_loop = yes
 [page19_button9]
 line = 9
 column = 1
-name = custom/special/wave/wave(blue).scex
-title = wave(blue)
-color = 200
-masterspeedfader = 0
-no_loop = yes
-[page19_button10]
-line = 10
-column = 1
-name = custom/special/wave/wave(purple).scex
-title = wave(purple)
-color = 5243080
-masterspeedfader = 0
-no_loop = yes
-[page19_button11]
-line = 11
-column = 1
-name = custom/special/wave/wave(love).scex
+name = Specials/waves/wave(love).scex
 title = wave(love)
 color = 13107280
 masterspeedfader = 0
+fade_out = yes
 no_loop = yes
-[page19_button12]
+[page19_button10]
 line = 1
 column = 2
 name = Wall LED/bumps/WallLED[all](red)bump.scex
-title = WallLED[all](red)bump
+title = WallLED red bump
 color = 16711680
 masterspeedfader = 0
 no_loop = yes
-[page19_button13]
+[page19_button11]
 line = 2
 column = 2
 name = Wall LED/bumps/WallLED[all](orange)bump.scex
-title = WallLED[all](orange)bump
-color = 16737792
+title = WallLED orange bump
+color = 13132800
 masterspeedfader = 0
 no_loop = yes
-[page19_button14]
+[page19_button12]
 line = 3
 column = 2
 name = Wall LED/bumps/WallLED[all](yellow)bump.scex
-title = WallLED[all](yellow)bump
-color = 16776960
+title = WallLED yellow bump
+color = 13158400
 masterspeedfader = 0
 no_loop = yes
-[page19_button15]
+[page19_button13]
 line = 4
 column = 2
-name = Wall LED/bumps/WallLED[all](lime)bump.scex
-title = WallLED[all](lime)bump
-color = 6749952
-masterspeedfader = 0
-no_loop = yes
-[page19_button16]
-line = 5
-column = 2
 name = Wall LED/bumps/WallLED[all](green)bump.scex
-title = WallLED[all](green)bump
+title = WallLED green bump
 color = 65280
 masterspeedfader = 0
 no_loop = yes
-[page19_button17]
-line = 6
+[page19_button14]
+line = 5
 column = 2
 name = Wall LED/bumps/WallLED[all](mint)bump.scex
-title = WallLED[all](mint)bump
-color = 65382
+title = WallLED mint bump
+color = 51300
 masterspeedfader = 0
 no_loop = yes
-[page19_button18]
-line = 7
+[page19_button15]
+line = 6
 column = 2
 name = Wall LED/bumps/WallLED[all](ice)bump.scex
-title = WallLED[all](ice)bump
-color = 65535
+title = WallLED ice bump
+color = 51400
 masterspeedfader = 0
 no_loop = yes
-[page19_button19]
-line = 8
-column = 2
-name = Wall LED/bumps/WallLED[all](ocean)bump.scex
-title = WallLED[all](ocean)bump
-color = 26367
-masterspeedfader = 0
-no_loop = yes
-[page19_button20]
-line = 9
+[page19_button16]
+line = 7
 column = 2
 name = Wall LED/bumps/WallLED[all](blue)bump.scex
-title = WallLED[all](blue)bump
+title = WallLED blue bump
 color = 255
 masterspeedfader = 0
 no_loop = yes
-[page19_button21]
-line = 10
+[page19_button17]
+line = 8
 column = 2
 name = Wall LED/bumps/WallLED[all](purple)bump.scex
-title = WallLED[all](purple)bump
-color = 6684927
+title = WallLED purple bump
+color = 6553800
+masterspeedfader = 0
+no_loop = yes
+[page19_button18]
+line = 9
+column = 2
+name = Wall LED/bumps/WallLED[all](love)bump.scex
+title = WallLED love bump
+color = 13107300
+masterspeedfader = 0
+no_loop = yes
+[page19_button19]
+line = 1
+column = 3
+name = Overall/Overall[all]/Overall[all](red)bump.scex
+title = Overall red bump
+color = 16711680
+masterspeedfader = 0
+no_loop = yes
+[page19_button20]
+line = 2
+column = 3
+name = Overall/Overall[all]/Overall[all](orange)bump.scex
+title = Overall orange bump
+color = 13127680
+masterspeedfader = 0
+no_loop = yes
+[page19_button21]
+line = 3
+column = 3
+name = Overall/Overall[all]/Overall[all](yellow)bump.scex
+title = Overall yellow bump
+color = 13158400
 masterspeedfader = 0
 no_loop = yes
 [page19_button22]
-line = 11
-column = 2
-name = Wall LED/bumps/WallLED[all](love)bump.scex
-title = WallLED[all](love)bump
-color = 16711782
+line = 4
+column = 3
+name = Overall/Overall[all]/Overall[all](green)bump.scex
+title = Overall green bump
+color = 65280
+masterspeedfader = 0
+no_loop = yes
+[page19_button23]
+line = 5
+column = 3
+name = Overall/Overall[all]/Overall[all](mint)bump.scex
+title = Overall mint bump
+color = 51280
+masterspeedfader = 0
+no_loop = yes
+[page19_button24]
+line = 6
+column = 3
+name = Overall/Overall[all]/Overall[all](ice)bump.scex
+title = Overall ice bump
+color = 51400
+masterspeedfader = 0
+no_loop = yes
+[page19_button25]
+line = 7
+column = 3
+name = Overall/Overall[all]/Overall[all](blue)bump.scex
+title = Overall blue bump
+color = 255
+masterspeedfader = 0
+no_loop = yes
+[page19_button26]
+line = 8
+column = 3
+name = Overall/Overall[all]/Overall[all](purple)bump.scex
+title = Overall purple bump
+color = 5243080
+masterspeedfader = 0
+no_loop = yes
+[page19_button27]
+line = 9
+column = 3
+name = Overall/Overall[all]/Overall[all](love)bump.scex
+title = Overall love bump
+color = 13107280
+masterspeedfader = 0
+no_loop = yes
+[page19_button28]
+line = 1
+column = 4
+name = Mixed/AllLamps(red)bump.scex
+title = AllLamps red bump
+color = 16711680
+masterspeedfader = 0
+no_loop = yes
+[page19_button29]
+line = 2
+column = 4
+name = Mixed/AllLamps(orange)bump.scex
+title = AllLamps orange bump
+color = 13127680
+masterspeedfader = 0
+no_loop = yes
+[page19_button30]
+line = 3
+column = 4
+name = Mixed/AllLamps(yellow)bump.scex
+title = AllLamps yellow bump
+color = 13158400
+masterspeedfader = 0
+no_loop = yes
+[page19_button31]
+line = 4
+column = 4
+name = Mixed/AllLamps(green)bump.scex
+title = AllLamps green bump
+color = 65280
+masterspeedfader = 0
+no_loop = yes
+[page19_button32]
+line = 5
+column = 4
+name = Mixed/AllLamps(mint)bump.scex
+title = AllLamps mint bump
+color = 51280
+masterspeedfader = 0
+no_loop = yes
+[page19_button33]
+line = 6
+column = 4
+name = Mixed/AllLamps(ice)bump.scex
+title = AllLamps ice bump
+color = 51400
+masterspeedfader = 0
+no_loop = yes
+[page19_button34]
+line = 7
+column = 4
+name = Mixed/AllLamps(blue)bump.scex
+title = AllLamps blue bump
+color = 255
+masterspeedfader = 0
+no_loop = yes
+[page19_button35]
+line = 8
+column = 4
+name = Mixed/AllLamps(purple)bump.scex
+title = AllLamps purple bump
+color = 5243080
+masterspeedfader = 0
+no_loop = yes
+[page19_button36]
+line = 9
+column = 4
+name = Mixed/AllLamps(love)bump.scex
+title = AllLamps love bump
+color = 13107280
 masterspeedfader = 0
 no_loop = yes
 [page20]
@@ -1875,12 +1996,12 @@ fade_in = yes
 fade_out = yes
 [page33]
 name = Overall separated
-nb_buttons = 27
+nb_buttons = 45
 [page33_button1]
 line = 1
 column = 1
 name = Overall/Overall[left]/Overall[left](red).scex
-title = Overall left
+title = Left Red
 color = 16711680
 masterspeedfader = 0
 fade_in = yes
@@ -1888,237 +2009,363 @@ fade_out = yes
 [page33_button2]
 line = 1
 column = 2
-name = Overall/Overall[right]/Overall[right](red).scex
-title = Overall right
+name = Overall/Overall[front]/Overall[front](red)pulse2s.gpj
+title = Front Pulse Red
 color = 16711680
 masterspeedfader = 0
-fade_in = yes
-fade_out = yes
 [page33_button3]
 line = 1
 column = 3
-name = Overall/Overall(red).scex
-title = Overall back
+name = Overall/Overall[right]/Overall[right](red).scex
+title = Right Red
 color = 16711680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 [page33_button4]
-line = 2
-column = 1
-name = Overall/Overall[left]/Overall[left](orange).scex
-title = Overall left
-color = 13127680
+line = 1
+column = 4
+name = Overall/Overall(red).scex
+title = Back Red
+color = 16711680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 [page33_button5]
-line = 2
-column = 2
-name = Overall/Overall[right]/Overall[right](orange).scex
-title = Overall right
-color = 13127680
+line = 1
+column = 5
+name = Overall/Overall[back]/Overall[back](red)pulse2s.gpj
+title = Back Pulse Red
+color = 16711680
 masterspeedfader = 0
-fade_in = yes
-fade_out = yes
 [page33_button6]
 line = 2
-column = 3
-name = Overall/Overall(orange).scex
-title = Overall back
+column = 1
+name = Overall/Overall[left]/Overall[left](orange).scex
+title = Left Orange
 color = 13127680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 [page33_button7]
-line = 3
-column = 1
-name = Overall/Overall[left]/Overall[left](yellow).scex
-title = Overall left
-color = 13158400
-masterspeedfader = 0
-fade_in = yes
-fade_out = yes
-[page33_button8]
-line = 3
+line = 2
 column = 2
-name = Overall/Overall[right]/Overall[right](yellow).scex
-title = Overall right
-color = 13158400
+name = Overall/Overall[front]/Overall[front](orange)pulse2s.gpj
+title = Front Pulse Orange
+color = 13127680
+masterspeedfader = 0
+[page33_button8]
+line = 2
+column = 3
+name = Overall/Overall[right]/Overall[right](orange).scex
+title = Right Orange
+color = 13127680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 [page33_button9]
-line = 3
-column = 3
-name = Overall/Overall(yellow).scex
-title = Overall back
-color = 13158400
+line = 2
+column = 4
+name = Overall/Overall(orange).scex
+title = Back Orange
+color = 13127680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 [page33_button10]
-line = 4
-column = 1
-name = Overall/Overall[left]/Overall[left](green).scex
-title = Overall left
-color = 65280
+line = 2
+column = 5
+name = Overall/Overall[back]/Overall[back](orange)pulse2s.gpj
+title = Back Pulse Orange
+color = 13127680
 masterspeedfader = 0
-fade_in = yes
-fade_out = yes
 [page33_button11]
-line = 4
-column = 2
-name = Overall/Overall[right]/Overall[right](green).scex
-title = Overall right
-color = 65280
+line = 3
+column = 1
+name = Overall/Overall[left]/Overall[left](yellow).scex
+title = Left Yellow
+color = 13158400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 [page33_button12]
-line = 4
-column = 3
-name = Overall/Overall(green).scex
-title = Overall back
-color = 65280
+line = 3
+column = 2
+name = Overall/Overall[front]/Overall[front](yellow)pulse2s.gpj
+title = Front Pulse Yellow
+color = 13158400
 masterspeedfader = 0
-fade_in = yes
-fade_out = yes
 [page33_button13]
-line = 5
-column = 1
-name = Overall/Overall[left]/Overall[left](mint).scex
-title = Overall left
-color = 51280
+line = 3
+column = 3
+name = Overall/Overall[right]/Overall[right](yellow).scex
+title = Right Yellow
+color = 13158400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 [page33_button14]
-line = 5
-column = 2
-name = Overall/Overall[right]/Overall[right](mint).scex
-title = Overall right
-color = 51280
+line = 3
+column = 4
+name = Overall/Overall(yellow).scex
+title = Back Yellow
+color = 13158400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 [page33_button15]
-line = 5
-column = 3
-name = Overall/Overall(mint).scex
-title = Overall back
-color = 51280
+line = 3
+column = 5
+name = Overall/Overall[back]/Overall[back](yellow)pulse2s.gpj
+title = Back Pulse Yellow
+color = 13158400
 masterspeedfader = 0
-fade_in = yes
-fade_out = yes
 [page33_button16]
-line = 6
+line = 4
 column = 1
-name = Overall/Overall[left]/Overall[left](ice).scex
-title = Overall left
-color = 51400
+name = Overall/Overall[left]/Overall[left](green).scex
+title = Left Green
+color = 65280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 [page33_button17]
-line = 6
+line = 4
 column = 2
-name = Overall/Overall[right]/Overall[right](ice).scex
-title = Overall right
-color = 51400
+name = Overall/Overall[front]/Overall[front](green)pulse2s.gpj
+title = Front Pulse Green
+color = 65280
 masterspeedfader = 0
-fade_in = yes
-fade_out = yes
 [page33_button18]
-line = 6
+line = 4
 column = 3
-name = Overall/Overall(ice).scex
-title = Overall back
-color = 51400
+name = Overall/Overall[right]/Overall[right](green).scex
+title = Right Green
+color = 65280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 [page33_button19]
-line = 7
-column = 1
-name = Overall/Overall[left]/Overall[left](blue).scex
-title = Overall left
-color = 255
+line = 4
+column = 4
+name = Overall/Overall(green).scex
+title = Back Green
+color = 65280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 [page33_button20]
-line = 7
-column = 2
-name = Overall/Overall[right]/Overall[right](blue).scex
-title = Overall right
-color = 255
+line = 4
+column = 5
+name = Overall/Overall[back]/Overall[back](green)pulse2s.gpj
+title = Back Pulse Green
+color = 65280
 masterspeedfader = 0
-fade_in = yes
-fade_out = yes
 [page33_button21]
-line = 7
-column = 3
-name = Overall/Overall(blue).scex
-title = Overall back
-color = 255
+line = 5
+column = 1
+name = Overall/Overall[left]/Overall[left](mint).scex
+title = Left Mint
+color = 51280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 [page33_button22]
-line = 8
-column = 1
-name = Overall/Overall[left]/Overall[left](purple).scex
-title = Overall left
-color = 5243080
-masterspeedfader = 0
-fade_in = yes
-fade_out = yes
-[page33_button23]
-line = 8
+line = 5
 column = 2
-name = Overall/Overall[right]/Overall[right](purple).scex
-title = Overall right
-color = 5243080
+name = Overall/Overall[front]/Overall[front](mint)pulse2s.gpj
+title = Front Pulse Mint
+color = 51280
+masterspeedfader = 0
+[page33_button23]
+line = 5
+column = 3
+name = Overall/Overall[right]/Overall[right](mint).scex
+title = Right Mint
+color = 51280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 [page33_button24]
-line = 8
-column = 3
-name = Overall/Overall(purple).scex
-title = Overall back
-color = 5243080
+line = 5
+column = 4
+name = Overall/Overall(mint).scex
+title = Back Mint
+color = 51280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 [page33_button25]
-line = 9
-column = 1
-name = Overall/Overall[left]/Overall[left](love).scex
-title = Overall left
-color = 13107280
+line = 5
+column = 5
+name = Overall/Overall[back]/Overall[back](mint)pulse2s.gpj
+title = Back Pulse Mint
+color = 51280
 masterspeedfader = 0
-fade_in = yes
-fade_out = yes
 [page33_button26]
-line = 9
-column = 2
-name = Overall/Overall[right]/Overall[right](love).scex
-title = Overall right
-color = 13107280
+line = 6
+column = 1
+name = Overall/Overall[left]/Overall[left](ice).scex
+title = Left Ice
+color = 51400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 [page33_button27]
-line = 9
+line = 6
+column = 2
+name = Overall/Overall[front]/Overall[front](ice)pulse2s.gpj
+title = Front Pulse Ice
+color = 51400
+masterspeedfader = 0
+[page33_button28]
+line = 6
 column = 3
-name = Overall/Overall(love).scex
-title = Overall back
+name = Overall/Overall[right]/Overall[right](ice).scex
+title = Right Ice
+color = 51400
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page33_button29]
+line = 6
+column = 4
+name = Overall/Overall(ice).scex
+title = Back Ice
+color = 51400
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page33_button30]
+line = 6
+column = 5
+name = Overall/Overall[back]/Overall[back](ice)pulse2s.gpj
+title = Back Pulse Ice
+color = 51400
+masterspeedfader = 0
+[page33_button31]
+line = 7
+column = 1
+name = Overall/Overall[left]/Overall[left](blue).scex
+title = Left Blue
+color = 255
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page33_button32]
+line = 7
+column = 2
+name = Overall/Overall[front]/Overall[front](blue)pulse2s.gpj
+title = Front Pulse Blue
+color = 255
+masterspeedfader = 0
+[page33_button33]
+line = 7
+column = 3
+name = Overall/Overall[right]/Overall[right](blue).scex
+title = Right Blue
+color = 255
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page33_button34]
+line = 7
+column = 4
+name = Overall/Overall(blue).scex
+title = Back Blue
+color = 255
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page33_button35]
+line = 7
+column = 5
+name = Overall/Overall[back]/Overall[back](blue)pulse2s.gpj
+title = Back Pulse Blue
+color = 255
+masterspeedfader = 0
+[page33_button36]
+line = 8
+column = 1
+name = Overall/Overall[left]/Overall[left](purple).scex
+title = Left Purple
+color = 5243080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page33_button37]
+line = 8
+column = 2
+name = Overall/Overall[front]/Overall[front](purple)pulse2s.gpj
+title = Front Pulse Purple
+color = 5243080
+masterspeedfader = 0
+[page33_button38]
+line = 8
+column = 3
+name = Overall/Overall[right]/Overall[right](purple).scex
+title = Right Purple
+color = 5243080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page33_button39]
+line = 8
+column = 4
+name = Overall/Overall(purple).scex
+title = Back Purple
+color = 5243080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page33_button40]
+line = 8
+column = 5
+name = Overall/Overall[back]/Overall[back](purple)pulse2s.gpj
+title = Back Pulse Purple
+color = 5243080
+masterspeedfader = 0
+[page33_button41]
+line = 9
+column = 1
+name = Overall/Overall[left]/Overall[left](love).scex
+title = Left Love
 color = 13107280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
+[page33_button42]
+line = 9
+column = 2
+name = Overall/Overall[front]/Overall[front](love)pulse2s.gpj
+title = Front Pulse Love
+color = 13107280
+masterspeedfader = 0
+[page33_button43]
+line = 9
+column = 3
+name = Overall/Overall[right]/Overall[right](love).scex
+title = Right Love
+color = 13107280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page33_button44]
+line = 9
+column = 4
+name = Overall/Overall(love).scex
+title = Back Love
+color = 13107280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page33_button45]
+line = 9
+column = 5
+name = Overall/Overall[back]/Overall[back](love)pulse2s.gpj
+title = Back Pulse Love
+color = 13107280
+masterspeedfader = 0
 [page34]
 name = Overall(front)
 nb_buttons = 14
