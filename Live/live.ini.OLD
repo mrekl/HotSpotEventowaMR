@@ -43,7 +43,7 @@ v8_master_fader7 = 1727735062,dimmer|1727734810,dimmer|1727735063,dimmer|
 live_mobile_fader7 = 1
 [Windows]
 Frm_ButtonWindow_5 = 0|38|200|200|0
-Frm_ButtonWindow_3 = 64|191|657|670|0
+Frm_ButtonWindow_3 = 64|289|657|670|0
 [display]
 [page]
 number = 48
