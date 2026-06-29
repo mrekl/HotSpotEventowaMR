@@ -5,7 +5,7 @@ master_faders = 8
 dmx_on = yes
 fade_time = 300
 [Params]
-ActiveTab = 4
+ActiveTab = 5
 ButtonsImgPath = /Users/marcin/TheLightingController/LightShows/HotSpotEventowaMR/Editor/2DView/
 MMFilesPath = /Users/marcin/TheLightingController/LightShows/HotSpotEventowaMR/Live/Music/HotspotAI/
 [master_faders]
@@ -43,10 +43,10 @@ v8_master_fader7 = 1727735062,dimmer|1727734810,dimmer|1727735063,dimmer|
 live_mobile_fader7 = 1
 [Windows]
 Frm_ButtonWindow_5 = 0|38|200|200|0
-Frm_ButtonWindow_3 = 64|289|657|670|0
+Frm_ButtonWindow_3 = 64|284|657|670|0
 [display]
 [page]
-number = 48
+number = 52
 [page1]
 name = 19:00 Paweł i Miłosz
 nb_buttons = 2
@@ -427,7 +427,7 @@ fade_in = yes
 flash = yes
 [page19]
 name = Bumps
-nb_buttons = 36
+nb_buttons = 48
 [page19_button1]
 line = 1
 column = 1
@@ -435,16 +435,14 @@ name = Specials/waves/wave(red).scex
 title = wave(red)
 color = 16711680
 masterspeedfader = 0
-fade_out = yes
 no_loop = yes
 [page19_button2]
 line = 2
 column = 1
 name = Specials/waves/wave(orange).scex
 title = wave(orange)
-color = 13132800
+color = 13127680
 masterspeedfader = 0
-fade_out = yes
 no_loop = yes
 [page19_button3]
 line = 3
@@ -453,63 +451,80 @@ name = Specials/waves/wave(yellow).scex
 title = wave(yellow)
 color = 13158400
 masterspeedfader = 0
-fade_out = yes
 no_loop = yes
 [page19_button4]
 line = 4
+column = 1
+name = Specials/waves/wave(lime).scex
+title = wave(lime)
+color = 5294080
+masterspeedfader = 0
+no_loop = yes
+[page19_button5]
+line = 5
 column = 1
 name = Specials/waves/wave(green).scex
 title = wave(green)
 color = 65280
 masterspeedfader = 0
-fade_out = yes
 no_loop = yes
-[page19_button5]
-line = 5
+[page19_button6]
+line = 6
 column = 1
 name = Specials/waves/wave(mint).scex
 title = wave(mint)
 color = 51280
 masterspeedfader = 0
-fade_out = yes
 no_loop = yes
-[page19_button6]
-line = 6
+[page19_button7]
+line = 7
 column = 1
 name = Specials/waves/wave(ice).scex
 title = wave(ice)
 color = 51400
 masterspeedfader = 0
-fade_out = yes
 no_loop = yes
-[page19_button7]
-line = 7
+[page19_button8]
+line = 8
+column = 1
+name = Specials/waves/wave(ocean).scex
+title = wave(ocean)
+color = 20680
+masterspeedfader = 0
+no_loop = yes
+[page19_button9]
+line = 9
 column = 1
 name = Specials/waves/wave(blue).scex
 title = wave(blue)
 color = 255
 masterspeedfader = 0
-fade_out = yes
 no_loop = yes
-[page19_button8]
-line = 8
+[page19_button10]
+line = 10
 column = 1
 name = Specials/waves/wave(purple).scex
 title = wave(purple)
 color = 5243080
 masterspeedfader = 0
-fade_out = yes
 no_loop = yes
-[page19_button9]
-line = 9
+[page19_button11]
+line = 11
 column = 1
 name = Specials/waves/wave(love).scex
 title = wave(love)
 color = 13107280
 masterspeedfader = 0
-fade_out = yes
 no_loop = yes
-[page19_button10]
+[page19_button12]
+line = 12
+column = 1
+name = Specials/waves/wave(white).scex
+title = wave(white)
+color = 16777215
+masterspeedfader = 0
+no_loop = yes
+[page19_button13]
 line = 1
 column = 2
 name = Wall LED/bumps/WallLED[all](red)bump.scex
@@ -517,15 +532,15 @@ title = WallLED red bump
 color = 16711680
 masterspeedfader = 0
 no_loop = yes
-[page19_button11]
+[page19_button14]
 line = 2
 column = 2
 name = Wall LED/bumps/WallLED[all](orange)bump.scex
 title = WallLED orange bump
-color = 13132800
+color = 13127680
 masterspeedfader = 0
 no_loop = yes
-[page19_button12]
+[page19_button15]
 line = 3
 column = 2
 name = Wall LED/bumps/WallLED[all](yellow)bump.scex
@@ -533,55 +548,79 @@ title = WallLED yellow bump
 color = 13158400
 masterspeedfader = 0
 no_loop = yes
-[page19_button13]
+[page19_button16]
 line = 4
+column = 2
+name = Wall LED/bumps/WallLED[all](lime)bump.scex
+title = WallLED lime bump
+color = 5294080
+masterspeedfader = 0
+no_loop = yes
+[page19_button17]
+line = 5
 column = 2
 name = Wall LED/bumps/WallLED[all](green)bump.scex
 title = WallLED green bump
 color = 65280
 masterspeedfader = 0
 no_loop = yes
-[page19_button14]
-line = 5
+[page19_button18]
+line = 6
 column = 2
 name = Wall LED/bumps/WallLED[all](mint)bump.scex
 title = WallLED mint bump
-color = 51300
+color = 51280
 masterspeedfader = 0
 no_loop = yes
-[page19_button15]
-line = 6
+[page19_button19]
+line = 7
 column = 2
 name = Wall LED/bumps/WallLED[all](ice)bump.scex
 title = WallLED ice bump
 color = 51400
 masterspeedfader = 0
 no_loop = yes
-[page19_button16]
-line = 7
+[page19_button20]
+line = 8
+column = 2
+name = Wall LED/bumps/WallLED[all](ocean)bump.scex
+title = WallLED ocean bump
+color = 20680
+masterspeedfader = 0
+no_loop = yes
+[page19_button21]
+line = 9
 column = 2
 name = Wall LED/bumps/WallLED[all](blue)bump.scex
 title = WallLED blue bump
 color = 255
 masterspeedfader = 0
 no_loop = yes
-[page19_button17]
-line = 8
+[page19_button22]
+line = 10
 column = 2
 name = Wall LED/bumps/WallLED[all](purple)bump.scex
 title = WallLED purple bump
-color = 6553800
+color = 5243080
 masterspeedfader = 0
 no_loop = yes
-[page19_button18]
-line = 9
+[page19_button23]
+line = 11
 column = 2
 name = Wall LED/bumps/WallLED[all](love)bump.scex
 title = WallLED love bump
-color = 13107300
+color = 13107280
 masterspeedfader = 0
 no_loop = yes
-[page19_button19]
+[page19_button24]
+line = 12
+column = 2
+name = Wall LED/bumps/WallLED[all](white)bump.scex
+title = WallLED white bump
+color = 16777215
+masterspeedfader = 0
+no_loop = yes
+[page19_button25]
 line = 1
 column = 3
 name = Overall/Overall[all]/Overall[all](red)bump.scex
@@ -589,7 +628,7 @@ title = Overall red bump
 color = 16711680
 masterspeedfader = 0
 no_loop = yes
-[page19_button20]
+[page19_button26]
 line = 2
 column = 3
 name = Overall/Overall[all]/Overall[all](orange)bump.scex
@@ -597,7 +636,7 @@ title = Overall orange bump
 color = 13127680
 masterspeedfader = 0
 no_loop = yes
-[page19_button21]
+[page19_button27]
 line = 3
 column = 3
 name = Overall/Overall[all]/Overall[all](yellow)bump.scex
@@ -605,55 +644,79 @@ title = Overall yellow bump
 color = 13158400
 masterspeedfader = 0
 no_loop = yes
-[page19_button22]
+[page19_button28]
 line = 4
+column = 3
+name = Overall/Overall[all]/Overall[all](lime)bump.scex
+title = Overall lime bump
+color = 5294080
+masterspeedfader = 0
+no_loop = yes
+[page19_button29]
+line = 5
 column = 3
 name = Overall/Overall[all]/Overall[all](green)bump.scex
 title = Overall green bump
 color = 65280
 masterspeedfader = 0
 no_loop = yes
-[page19_button23]
-line = 5
+[page19_button30]
+line = 6
 column = 3
 name = Overall/Overall[all]/Overall[all](mint)bump.scex
 title = Overall mint bump
 color = 51280
 masterspeedfader = 0
 no_loop = yes
-[page19_button24]
-line = 6
+[page19_button31]
+line = 7
 column = 3
 name = Overall/Overall[all]/Overall[all](ice)bump.scex
 title = Overall ice bump
 color = 51400
 masterspeedfader = 0
 no_loop = yes
-[page19_button25]
-line = 7
+[page19_button32]
+line = 8
+column = 3
+name = Overall/Overall[all]/Overall[all](ocean)bump.scex
+title = Overall ocean bump
+color = 20680
+masterspeedfader = 0
+no_loop = yes
+[page19_button33]
+line = 9
 column = 3
 name = Overall/Overall[all]/Overall[all](blue)bump.scex
 title = Overall blue bump
 color = 255
 masterspeedfader = 0
 no_loop = yes
-[page19_button26]
-line = 8
+[page19_button34]
+line = 10
 column = 3
 name = Overall/Overall[all]/Overall[all](purple)bump.scex
 title = Overall purple bump
 color = 5243080
 masterspeedfader = 0
 no_loop = yes
-[page19_button27]
-line = 9
+[page19_button35]
+line = 11
 column = 3
 name = Overall/Overall[all]/Overall[all](love)bump.scex
 title = Overall love bump
 color = 13107280
 masterspeedfader = 0
 no_loop = yes
-[page19_button28]
+[page19_button36]
+line = 12
+column = 3
+name = Overall/Overall[all]/Overall[all](white)bump.scex
+title = Overall white bump
+color = 16777215
+masterspeedfader = 0
+no_loop = yes
+[page19_button37]
 line = 1
 column = 4
 name = Mixed/AllLamps(red)bump.scex
@@ -661,7 +724,7 @@ title = AllLamps red bump
 color = 16711680
 masterspeedfader = 0
 no_loop = yes
-[page19_button29]
+[page19_button38]
 line = 2
 column = 4
 name = Mixed/AllLamps(orange)bump.scex
@@ -669,7 +732,7 @@ title = AllLamps orange bump
 color = 13127680
 masterspeedfader = 0
 no_loop = yes
-[page19_button30]
+[page19_button39]
 line = 3
 column = 4
 name = Mixed/AllLamps(yellow)bump.scex
@@ -677,58 +740,193 @@ title = AllLamps yellow bump
 color = 13158400
 masterspeedfader = 0
 no_loop = yes
-[page19_button31]
+[page19_button40]
 line = 4
+column = 4
+name = Mixed/AllLamps(lime)bump.scex
+title = AllLamps lime bump
+color = 5294080
+masterspeedfader = 0
+no_loop = yes
+[page19_button41]
+line = 5
 column = 4
 name = Mixed/AllLamps(green)bump.scex
 title = AllLamps green bump
 color = 65280
 masterspeedfader = 0
 no_loop = yes
-[page19_button32]
-line = 5
+[page19_button42]
+line = 6
 column = 4
 name = Mixed/AllLamps(mint)bump.scex
 title = AllLamps mint bump
 color = 51280
 masterspeedfader = 0
 no_loop = yes
-[page19_button33]
-line = 6
+[page19_button43]
+line = 7
 column = 4
 name = Mixed/AllLamps(ice)bump.scex
 title = AllLamps ice bump
 color = 51400
 masterspeedfader = 0
 no_loop = yes
-[page19_button34]
-line = 7
+[page19_button44]
+line = 8
+column = 4
+name = Mixed/AllLamps(ocean)bump.scex
+title = AllLamps ocean bump
+color = 20680
+masterspeedfader = 0
+no_loop = yes
+[page19_button45]
+line = 9
 column = 4
 name = Mixed/AllLamps(blue)bump.scex
 title = AllLamps blue bump
 color = 255
 masterspeedfader = 0
 no_loop = yes
-[page19_button35]
-line = 8
+[page19_button46]
+line = 10
 column = 4
 name = Mixed/AllLamps(purple)bump.scex
 title = AllLamps purple bump
 color = 5243080
 masterspeedfader = 0
 no_loop = yes
-[page19_button36]
-line = 9
+[page19_button47]
+line = 11
 column = 4
 name = Mixed/AllLamps(love)bump.scex
 title = AllLamps love bump
 color = 13107280
 masterspeedfader = 0
 no_loop = yes
+[page19_button48]
+line = 12
+column = 4
+name = Mixed/AllLamps(white)bump.scex
+title = AllLamps white bump
+color = 16777215
+masterspeedfader = 0
+no_loop = yes
 [page20]
+name = Cameo manual
+nb_buttons = 12
+[page20_button1]
+line = 1
+column = 1
+name = Cameo/Cameo[all](red).scex
+title = Cameo static red
+color = 16711680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page20_button2]
+line = 2
+column = 1
+name = Cameo/Cameo[all](orange).scex
+title = Cameo static orange
+color = 13127680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page20_button3]
+line = 3
+column = 1
+name = Cameo/Cameo[all](yellow).scex
+title = Cameo static yellow
+color = 13158400
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page20_button4]
+line = 4
+column = 1
+name = Cameo/Cameo[all](lime).scex
+title = Cameo static lime
+color = 5294080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page20_button5]
+line = 5
+column = 1
+name = Cameo/Cameo[all](green).scex
+title = Cameo static green
+color = 65280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page20_button6]
+line = 6
+column = 1
+name = Cameo/Cameo[all](mint).scex
+title = Cameo static mint
+color = 51280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page20_button7]
+line = 7
+column = 1
+name = Cameo/Cameo[all](ice).scex
+title = Cameo static ice
+color = 51400
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page20_button8]
+line = 8
+column = 1
+name = Cameo/Cameo[all](ocean).scex
+title = Cameo static ocean
+color = 20680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page20_button9]
+line = 9
+column = 1
+name = Cameo/Cameo[all](blue).scex
+title = Cameo static blue
+color = 255
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page20_button10]
+line = 10
+column = 1
+name = Cameo/Cameo[all](purple).scex
+title = Cameo static purple
+color = 5243080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page20_button11]
+line = 11
+column = 1
+name = Cameo/Cameo[all](love).scex
+title = Cameo static love
+color = 13107280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page20_button12]
+line = 12
+column = 1
+name = Cameo/Cameo[all](white).scex
+title = Cameo static white
+color = 16777215
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page21]
 name = Cameo(all)
 nb_buttons = 13
-[page20_button1]
+[page21_button1]
 line = 1
 column = 1
 name = Cameo/Cameo[all](blue).scex
@@ -737,7 +935,7 @@ color = 255
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page20_button2]
+[page21_button2]
 line = 2
 column = 1
 name = Cameo/Cameo[all](green).scex
@@ -746,7 +944,7 @@ color = 65280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page20_button3]
+[page21_button3]
 line = 3
 column = 1
 name = Cameo/Cameo[all](red).scex
@@ -755,7 +953,7 @@ color = 16711680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page20_button4]
+[page21_button4]
 line = 4
 column = 1
 name = Cameo/Cameo[all](orange).scex
@@ -764,7 +962,7 @@ color = 16750080
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page20_button5]
+[page21_button5]
 line = 1
 column = 2
 name = Cameo/Cameo[all](lime).scex
@@ -773,7 +971,7 @@ color = 5294080
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page20_button6]
+[page21_button6]
 line = 2
 column = 2
 name = Cameo/Cameo[all](mint).scex
@@ -782,7 +980,7 @@ color = 51280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page20_button7]
+[page21_button7]
 line = 3
 column = 2
 name = Cameo/Cameo[all](ice).scex
@@ -791,7 +989,7 @@ color = 51400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page20_button8]
+[page21_button8]
 line = 4
 column = 2
 name = Cameo/Cameo[all](love).scex
@@ -800,7 +998,7 @@ color = 13107280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page20_button9]
+[page21_button9]
 line = 5
 column = 2
 name = Cameo/Cameo[all](ocean).scex
@@ -809,7 +1007,7 @@ color = 20680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page20_button10]
+[page21_button10]
 line = 1
 column = 3
 name = Cameo/Cameo[all](purple).scex
@@ -818,7 +1016,7 @@ color = 5243080
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page20_button11]
+[page21_button11]
 line = 1
 column = 5
 name = Cameo/Cameo[all](yellow).scex
@@ -827,7 +1025,7 @@ color = 13158400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page20_button12]
+[page21_button12]
 line = 1
 column = 4
 name = Cameo/Cameo[all](pink).scex
@@ -836,7 +1034,7 @@ color = 13107400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page20_button13]
+[page21_button13]
 line = 5
 column = 1
 name = Cameo/Cameo[all](white).scex
@@ -844,10 +1042,10 @@ title = Cameo[all](white)
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page21]
+[page22]
 name = Complex Scenarios
 nb_buttons = 16
-[page21_button1]
+[page22_button1]
 line = 3
 column = 2
 name = Complex Scenarios/Blue Ice[Overall+Back Walls](Ice)[Side Walls + Oven](blue).scex
@@ -856,7 +1054,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page21_button2]
+[page22_button2]
 line = 1
 column = 1
 name = Complex Scenarios/BlueRed[Overall+Oven](red)[Wall LEDS](Blue).scex
@@ -865,7 +1063,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page21_button3]
+[page22_button3]
 line = 4
 column = 2
 name = Complex Scenarios/Dark Blue Ice[Overall+Back Walls](Ice)[Side Walls + Oven](blue).scex
@@ -874,7 +1072,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page21_button4]
+[page22_button4]
 line = 1
 column = 4
 name = Complex Scenarios/Focus[Overall+Cameo](Blue)[All LEDS](Orange).scex
@@ -883,7 +1081,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page21_button5]
+[page22_button5]
 line = 1
 column = 3
 name = Complex Scenarios/Forest[Overall+All LEDS](Green).scex
@@ -893,7 +1091,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page21_button6]
+[page22_button6]
 line = 2
 column = 2
 name = Complex Scenarios/Ice Mint[All LEDS](Ice)[Overall)(Mint).scex
@@ -902,7 +1100,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page21_button7]
+[page22_button7]
 line = 1
 column = 2
 name = Complex Scenarios/Ice[Overall+All LEDS](Ice).scex
@@ -912,7 +1110,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page21_button8]
+[page22_button8]
 line = 2
 column = 3
 name = Complex Scenarios/Mint[Overall+All LEDS](Mint).scex
@@ -922,7 +1120,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page21_button9]
+[page22_button9]
 line = 4
 column = 1
 name = Complex Scenarios/Nostalgic[Overall](Purple)[All LEDS](Blue).scex
@@ -932,7 +1130,7 @@ fade_in = yes
 fade_out = yes
 auto_start = yes
 release_all = yes
-[page21_button10]
+[page22_button10]
 line = 5
 column = 1
 name = Complex Scenarios/Dark Nostalgic[Overall](Purple)[All LEDS](Blue).scex
@@ -941,7 +1139,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page21_button11]
+[page22_button11]
 line = 2
 column = 1
 name = Complex Scenarios/RedBlue[Overall+Oven](Blue)[Wall LEDS](Red).scex
@@ -950,7 +1148,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page21_button12]
+[page22_button12]
 line = 5
 column = 2
 name = Complex Scenarios/Ocean[Overall+Walls+Oven](ocean blue).scex
@@ -960,7 +1158,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page21_button13]
+[page22_button13]
 line = 3
 column = 1
 name = Complex Scenarios/Purple Rain[Overall+Walls+Oven](smooth purple).scex
@@ -970,7 +1168,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page21_button14]
+[page22_button14]
 line = 4
 column = 4
 name = Complex Scenarios/Western[Overall+Oven](Orange)[Wall LEDS](Blue).scex
@@ -980,7 +1178,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page21_button15]
+[page22_button15]
 line = 3
 column = 4
 name = Complex Scenarios/Twisted Western[Overall+Wall](Orange)[Oven](Blue).scex
@@ -990,7 +1188,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page21_button16]
+[page22_button16]
 line = 2
 column = 4
 name = Complex Scenarios/Focus[Overall+Cameo](Blue)[All LEDS](Orange).scex
@@ -1000,10 +1198,10 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page22]
+[page23]
 name = Gdzie Ona Jest
 nb_buttons = 9
-[page22_button1]
+[page23_button1]
 line = 1
 column = 1
 name = GdzieOnaJest/passenger-paluch.tml
@@ -1013,7 +1211,7 @@ speed = auto_bpm
 beats = 0.000000
 masterspeedfader = 0
 release_all = yes
-[page22_button2]
+[page23_button2]
 line = 1
 column = 2
 name = GdzieOnaJest/wziuuuuu.tml
@@ -1022,7 +1220,7 @@ speed = auto_bpm
 beats = 0.000000
 masterspeedfader = 0
 release_all = yes
-[page22_button3]
+[page23_button3]
 line = 1
 column = 3
 name = GdzieOnaJest/GdzieOnaJestUSA.tml
@@ -1032,7 +1230,7 @@ speed = auto_bpm
 beats = 0.000000
 masterspeedfader = 0
 release_all = yes
-[page22_button4]
+[page23_button4]
 line = 1
 column = 4
 name = GdzieOnaJest/wziuuuuu.tml
@@ -1041,7 +1239,7 @@ speed = auto_bpm
 beats = 0.000000
 masterspeedfader = 0
 release_all = yes
-[page22_button5]
+[page23_button5]
 line = 1
 column = 5
 name = GdzieOnaJest/GdzieOnaJestFrancja.tml
@@ -1051,7 +1249,7 @@ speed = auto_bpm
 beats = 0.000000
 masterspeedfader = 0
 release_all = yes
-[page22_button6]
+[page23_button6]
 line = 1
 column = 6
 name = GdzieOnaJest/wziuuuuu.tml
@@ -1060,7 +1258,7 @@ speed = auto_bpm
 beats = 0.000000
 masterspeedfader = 0
 release_all = yes
-[page22_button7]
+[page23_button7]
 line = 1
 column = 7
 name = GdzieOnaJest/GdzieOnaJestWlochy.tml
@@ -1070,7 +1268,7 @@ speed = auto_bpm
 beats = 0.000000
 masterspeedfader = 0
 release_all = yes
-[page22_button8]
+[page23_button8]
 line = 1
 column = 8
 name = GdzieOnaJest/i-wyladowal.tml
@@ -1079,7 +1277,7 @@ speed = auto_bpm
 beats = 0.000000
 masterspeedfader = 0
 release_all = yes
-[page22_button9]
+[page23_button9]
 line = 1
 column = 9
 name = GdzieOnaJest/GdzieOnaJestPolska.tml
@@ -1089,10 +1287,10 @@ speed = auto_bpm
 beats = 0.000000
 masterspeedfader = 0
 release_all = yes
-[page23]
+[page24]
 name = Glowing Wall LED(all) medium slow(10 sec)/medium bright/
 nb_buttons = 6
-[page23_button1]
+[page24_button1]
 line = 1
 column = 1
 name = Wall LED[all]/Walls[all] (blue) Glow 10(medium range).gpj
@@ -1101,7 +1299,7 @@ color = 255
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page23_button2]
+[page24_button2]
 line = 2
 column = 1
 name = Wall LED[all]/Walls[all] (green) Glow 10(medium range).gpj
@@ -1110,7 +1308,7 @@ color = 65280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page23_button3]
+[page24_button3]
 line = 4
 column = 1
 name = Wall LED[all]/Walls[all] (ice) Glow 15(medium range).gpj
@@ -1119,7 +1317,7 @@ color = 65535
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page23_button4]
+[page24_button4]
 line = 5
 column = 1
 name = Wall LED[all]/Walls[all] (pink) Glow 15(medium range).gpj
@@ -1128,7 +1326,7 @@ color = 16711935
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page23_button5]
+[page24_button5]
 line = 3
 column = 1
 name = Wall LED[all]/Walls[all] (red) Glow 10(medium range).gpj
@@ -1137,7 +1335,7 @@ color = 16711680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page23_button6]
+[page24_button6]
 line = 6
 column = 1
 name = Wall LED[all]/Walls[all] (yellow) Glow 15(medium range).gpj
@@ -1146,10 +1344,10 @@ color = 16776960
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page24]
+[page25]
 name = Glowing Wall LED(all) medium slow(15 sec)/medium bright/
 nb_buttons = 8
-[page24_button1]
+[page25_button1]
 line = 1
 column = 1
 name = Wall LED[all]/Walls[all] (blue) Glow 15(medium range).gpj
@@ -1158,7 +1356,7 @@ color = 255
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page24_button2]
+[page25_button2]
 line = 2
 column = 1
 name = Wall LED[all]/Walls[all] (green) Glow 15(medium range).gpj
@@ -1167,7 +1365,7 @@ color = 65280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page24_button3]
+[page25_button3]
 line = 4
 column = 1
 name = Wall LED[all]/Walls[all] (ice) Glow 15(medium range).gpj
@@ -1176,7 +1374,7 @@ color = 65535
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page24_button4]
+[page25_button4]
 line = 5
 column = 1
 name = Wall LED[all]/Walls[all] (pink) Glow 15(medium range).gpj
@@ -1185,7 +1383,7 @@ color = 16711935
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page24_button5]
+[page25_button5]
 line = 3
 column = 1
 name = Wall LED[all]/Walls[all] (red) Glow 15(medium range).gpj
@@ -1194,7 +1392,7 @@ color = 16711680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page24_button6]
+[page25_button6]
 line = 6
 column = 1
 name = Wall LED[all]/Walls[all] (yellow) Glow 15(medium range).gpj
@@ -1203,7 +1401,7 @@ color = 16776960
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page24_button7]
+[page25_button7]
 line = 1
 column = 2
 name = Wall LED[all]/Walls[all] (rainbow) Glow 15(medium range).gpj
@@ -1211,7 +1409,7 @@ title = Walls[all] ~(rainbow) Glow 15~~(medium range)
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page24_button8]
+[page25_button8]
 line = 1
 column = 3
 name = Wall LED[all]/Wall[all] (flame) GlowUp 10 sec.gpj
@@ -1220,10 +1418,10 @@ color = 16672256
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page25]
+[page26]
 name = Glowing Wall LED(all) medium slow(20 sec)/medium bright/
 nb_buttons = 6
-[page25_button1]
+[page26_button1]
 line = 1
 column = 1
 name = Wall LED[all]/Walls[all] (blue) Glow 20(medium range).gpj
@@ -1232,7 +1430,7 @@ color = 255
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page25_button2]
+[page26_button2]
 line = 2
 column = 1
 name = Wall LED[all]/Walls[all] (green) Glow 20(medium range).gpj
@@ -1241,7 +1439,7 @@ color = 65280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page25_button3]
+[page26_button3]
 line = 4
 column = 1
 name = Wall LED[all]/Walls[all] (ice) Glow 20(medium range).gpj
@@ -1250,7 +1448,7 @@ color = 65535
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page25_button4]
+[page26_button4]
 line = 5
 column = 1
 name = Wall LED[all]/Walls[all] (pink) Glow 20(medium range).gpj
@@ -1259,7 +1457,7 @@ color = 16711935
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page25_button5]
+[page26_button5]
 line = 3
 column = 1
 name = Wall LED[all]/Walls[all] (red) Glow 20(medium range).gpj
@@ -1268,7 +1466,7 @@ color = 16711680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page25_button6]
+[page26_button6]
 line = 6
 column = 1
 name = Wall LED[all]/Walls[all] (yellow) Glow 20(medium range).gpj
@@ -1277,10 +1475,10 @@ color = 16776960
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page26]
+[page27]
 name = Glowing Wall LED(all) medium slow(5 sec)/medium bright/ 
 nb_buttons = 8
-[page26_button1]
+[page27_button1]
 line = 1
 column = 1
 name = Wall LED[all]/Walls[all] (blue) Glow 5(medium range).gpj
@@ -1289,7 +1487,7 @@ color = 255
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page26_button2]
+[page27_button2]
 line = 2
 column = 1
 name = Wall LED[all]/Walls[all] (green) Glow 5(medium range).gpj
@@ -1298,7 +1496,7 @@ color = 65280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page26_button3]
+[page27_button3]
 line = 4
 column = 1
 name = Wall LED[all]/Walls[all] (ice) Glow 5(medium range).gpj
@@ -1307,7 +1505,7 @@ color = 65535
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page26_button4]
+[page27_button4]
 line = 5
 column = 1
 name = Wall LED[all]/Walls[all] (pink) Glow 5(medium range).gpj
@@ -1316,7 +1514,7 @@ color = 16711935
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page26_button5]
+[page27_button5]
 line = 3
 column = 1
 name = Wall LED[all]/Walls[all] (red) Glow 5(medium range).gpj
@@ -1325,7 +1523,7 @@ color = 16711680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page26_button6]
+[page27_button6]
 line = 6
 column = 1
 name = Wall LED[all]/Walls[all] (yellow) Glow 5(medium range).gpj
@@ -1334,7 +1532,7 @@ color = 16776960
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page26_button7]
+[page27_button7]
 line = 1
 column = 2
 name = Wall LED[all]/Walls[all] (rainbow) Glow 5(medium range).gpj
@@ -1342,7 +1540,7 @@ title = Walls[all] (rainbow) Glow 5(medium range)
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page26_button8]
+[page27_button8]
 line = 1
 column = 3
 name = Wall LED[all]/Wall[all] (flame) GlowUp 5 sec.gpj
@@ -1351,10 +1549,10 @@ color = 16737280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page27]
+[page28]
 name = LEDS(all)
 nb_buttons = 5
-[page27_button1]
+[page28_button1]
 line = 1
 column = 1
 name = All LEDS(Oven+Walls)/All LEDS[Oven+Walls](blue).scex
@@ -1363,7 +1561,7 @@ color = 255
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page27_button2]
+[page28_button2]
 line = 2
 column = 1
 name = All LEDS(Oven+Walls)/All LEDS[Oven+Walls](green).scex
@@ -1372,7 +1570,7 @@ color = 65280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page27_button3]
+[page28_button3]
 line = 3
 column = 1
 name = All LEDS(Oven+Walls)/All LEDS[Oven+Walls](red).scex
@@ -1381,7 +1579,7 @@ color = 16711680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page27_button4]
+[page28_button4]
 line = 4
 column = 1
 name = All LEDS(Oven+Walls)/All LEDS[Oven+Walls](white).scex
@@ -1389,7 +1587,7 @@ title = All LEDS[Oven+Walls](white)
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page27_button5]
+[page28_button5]
 line = 1
 column = 2
 name = All LEDS(Oven+Walls)/All LEDS[Oven+Walls](lamp).scex
@@ -1398,10 +1596,10 @@ imgpath = Editor/2DView/bedside-table-lamp.jpg
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page28]
+[page29]
 name = Moving Head [Manual]
 nb_buttons = 38
-[page28_button1]
+[page29_button1]
 line = 3
 column = 4
 name = Manuals [MH]/Focus/[MH] Focus .scex
@@ -1410,62 +1608,62 @@ masterspeedfader = 0
 fader = yes
 preset_step = 175
 vertical_slider = yes
-[page28_button2]
+[page29_button2]
 line = 1
 column = 3
 name = Manuals [MH]/Colors/[MH] (blue) colour .scex
 title = [MH] (blue) colour 
 color = 255
 masterspeedfader = 0
-[page28_button3]
+[page29_button3]
 line = 3
 column = 3
 name = Manuals [MH]/Colors/[MH] (dark green) colour .scex
 title = [MH] (dark green) colour 
 color = 32512
 masterspeedfader = 0
-[page28_button4]
+[page29_button4]
 line = 2
 column = 3
 name = Manuals [MH]/Colors/[MH] (green) colour .scex
 title = [MH] (green) colour 
 color = 65280
 masterspeedfader = 0
-[page28_button5]
+[page29_button5]
 line = 5
 column = 3
 name = Manuals [MH]/Colors/[MH] (ice) colour .scex
 title = [MH] (ice) colour 
 color = 65535
 masterspeedfader = 0
-[page28_button6]
+[page29_button6]
 line = 7
 column = 3
 name = Manuals [MH]/Colors/[MH] (pink) colour .scex
 title = [MH] (pink) colour 
 color = 16711935
 masterspeedfader = 0
-[page28_button7]
+[page29_button7]
 line = 4
 column = 3
 name = Manuals [MH]/Colors/[MH] (red) colour .scex
 title = [MH] (red) colour 
 color = 16711680
 masterspeedfader = 0
-[page28_button8]
+[page29_button8]
 line = 8
 column = 3
 name = Manuals [MH]/Colors/[MH] (white) colour .scex
 title = [MH] (white) colour 
 masterspeedfader = 0
-[page28_button9]
+[page29_button9]
 line = 6
 column = 3
 name = Manuals [MH]/Colors/[MH] (yellow) colour .scex
 title = [MH] (yellow) colour 
 color = 16776960
 masterspeedfader = 0
-[page28_button10]
+[page29_button10]
 line = 1
 column = 2
 name = Manuals [MH]/Dimmer/[MH] Dimmer .scex
@@ -1474,49 +1672,49 @@ masterspeedfader = 0
 fader = yes
 preset_step = 255
 vertical_slider = yes
-[page28_button11]
+[page29_button11]
 line = 6
 column = 7
 name = Manuals [MH]/Gobo2/[MH] (dimension) Gobo2 .scex
 title = Dimension Gobo2
 masterspeedfader = 0
-[page28_button12]
+[page29_button12]
 line = 5
 column = 7
 name = Manuals [MH]/Gobo2/[MH] (Hypnotize) Gobo2 .scex
 title = Hypnotize Gobo2
 masterspeedfader = 0
-[page28_button13]
+[page29_button13]
 line = 4
 column = 7
 name = Manuals [MH]/Gobo2/[MH] (lens) Gobo2 .scex
 title = Lens Gobo2
 masterspeedfader = 0
-[page28_button14]
+[page29_button14]
 line = 1
 column = 7
 name = Manuals [MH]/Gobo2/[MH] (lightning) Gobo2 .scex
 title = Lightning Gobo2
 masterspeedfader = 0
-[page28_button15]
+[page29_button15]
 line = 2
 column = 7
 name = Manuals [MH]/Gobo2/[MH] (plasma) Gobo2 .scex
 title = Plasma Gobo2
 masterspeedfader = 0
-[page28_button16]
+[page29_button16]
 line = 7
 column = 7
 name = Manuals [MH]/Gobo2/[MH] (open) Gobo2 .scex
 title = Open Gobo2
 masterspeedfader = 0
-[page28_button17]
+[page29_button17]
 line = 3
 column = 7
 name = Manuals [MH]/Gobo2/[MH] (vortex) Gobo2 .scex
 title = Vortex Gobo2
 masterspeedfader = 0
-[page28_button18]
+[page29_button18]
 line = 2
 column = 8
 name = Manuals [MH]/Gobo2/[MH] (Left change) Gobo2 .scex
@@ -1525,7 +1723,7 @@ masterspeedfader = 0
 fader = yes
 preset_step = 31
 vertical_slider = yes
-[page28_button19]
+[page29_button19]
 line = 1
 column = 8
 name = Manuals [MH]/Gobo2/[MH] (Right change) Gobo2 .scex
@@ -1534,79 +1732,79 @@ masterspeedfader = 0
 fader = yes
 preset_step = 106
 vertical_slider = yes
-[page28_button20]
+[page29_button20]
 line = 1
 column = 1
 name = Manuals [MH]/Pan Tilt/[MH] Wall Stove .scex
 title = Wall Stove
 masterspeedfader = 0
-[page28_button21]
+[page29_button21]
 line = 2
 column = 1
 name = Manuals [MH]/Pan Tilt/[MH] Stove .scex
 title = Stove
 masterspeedfader = 0
-[page28_button22]
+[page29_button22]
 line = 3
 column = 1
 name = Manuals [MH]/Pan Tilt/[MH] Left Door .scex
 title = Left Door
 masterspeedfader = 0
-[page28_button23]
+[page29_button23]
 line = 4
 column = 1
 name = Manuals [MH]/Pan Tilt/[MH] Right Door .scex
 title = Right Door
 masterspeedfader = 0
-[page28_button24]
+[page29_button24]
 line = 1
 column = 5
 name = Manuals [MH]/Gobo/[MH]  Dots .scex
 title = [MH]  Dots 
 masterspeedfader = 0
-[page28_button25]
+[page29_button25]
 line = 2
 column = 5
 name = Manuals [MH]/Gobo/[MH] Flower .scex
 title = [MH] Flower 
 masterspeedfader = 0
-[page28_button26]
+[page29_button26]
 line = 8
 column = 5
 name = Manuals [MH]/Gobo/[MH] Open.scex
 title = [MH] Open
 masterspeedfader = 0
-[page28_button27]
+[page29_button27]
 line = 3
 column = 5
 name = Manuals [MH]/Gobo/[MH] Star .scex
 title = [MH] Star 
 masterspeedfader = 0
-[page28_button28]
+[page29_button28]
 line = 4
 column = 5
 name = Manuals [MH]/Gobo/[MH] Stripes .scex
 title = [MH] Stripes 
 masterspeedfader = 0
-[page28_button29]
+[page29_button29]
 line = 5
 column = 5
 name = Manuals [MH]/Gobo/[MH] Sun .scex
 title = [MH] Sun 
 masterspeedfader = 0
-[page28_button30]
+[page29_button30]
 line = 6
 column = 5
 name = Manuals [MH]/Gobo/[MH] Triangle .scex
 title = [MH] Triangle 
 masterspeedfader = 0
-[page28_button31]
+[page29_button31]
 line = 7
 column = 5
 name = Manuals [MH]/Gobo/[MH] Whirlpool .scex
 title = [MH] Whirlpool 
 masterspeedfader = 0
-[page28_button32]
+[page29_button32]
 line = 2
 column = 6
 name = Manuals [MH]/Gobo/[MH] Left to right change .scex
@@ -1615,7 +1813,7 @@ masterspeedfader = 0
 fader = yes
 preset_step = 52
 vertical_slider = yes
-[page28_button33]
+[page29_button33]
 line = 1
 column = 6
 name = Manuals [MH]/Gobo/[MH] Right to left change .scex
@@ -1624,19 +1822,19 @@ masterspeedfader = 0
 fader = yes
 preset_step = 90
 vertical_slider = yes
-[page28_button34]
+[page29_button34]
 line = 1
 column = 4
 name = Manuals [MH]/Focus/[MH] Focus Gobo.scex
 title = Focus ~Gobo
 masterspeedfader = 0
-[page28_button35]
+[page29_button35]
 line = 2
 column = 4
 name = Manuals [MH]/Focus/[MH] Focus Gobo 2.scex
 title = Focus ~Gobo 2
 masterspeedfader = 0
-[page28_button36]
+[page29_button36]
 line = 1
 column = 9
 name = Manuals [MH]/Gobo2 Rotate/[MH] Left rotation Gobo2 .scex
@@ -1645,7 +1843,7 @@ masterspeedfader = 0
 fader = yes
 preset_step = 73
 vertical_slider = yes
-[page28_button37]
+[page29_button37]
 line = 2
 column = 9
 name = Manuals [MH]/Gobo2 Rotate/[MH] Right rotation Gobo2 .scex
@@ -1654,7 +1852,7 @@ masterspeedfader = 0
 fader = yes
 preset_step = 39
 vertical_slider = yes
-[page28_button38]
+[page29_button38]
 line = 1
 column = 10
 name = Manuals [MH]/Prism/[MH] Prism rotation .scex
@@ -1663,10 +1861,10 @@ masterspeedfader = 0
 fader = yes
 preset_step = 16
 vertical_slider = yes
-[page29]
+[page30]
 name = Moving Heads
 nb_buttons = 5
-[page29_button1]
+[page30_button1]
 line = 1
 column = 1
 name = Moving Head[MH]/[MH] (wall above stove)/gobo/(white)gobo.gpj
@@ -1674,7 +1872,7 @@ title = (white)gobo
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page29_button2]
+[page30_button2]
 line = 1
 column = 2
 name = Moving Head[MH]/[MH] (wall above stove)/Mixed gobos/(green) square hipnotize slow rotation.gpj
@@ -1682,7 +1880,7 @@ title = (green) square hipnotize slow rotation
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page29_button3]
+[page30_button3]
 line = 2
 column = 1
 name = Moving Head[MH]/[MH] (wall above stove)/white gobo(blank).gpj
@@ -1690,7 +1888,7 @@ title = white gobo(blank)
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page29_button4]
+[page30_button4]
 line = 1
 column = 3
 name = Moving Head[MH]/[MH] (wall above stove)/Mixed gobos/(ice) tornado slow rotation.gpj
@@ -1698,7 +1896,7 @@ title = (ice) tornado slow rotation
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page29_button5]
+[page30_button5]
 line = 1
 column = 4
 name = Moving Head[MH]/[MH] (wall above stove)/Mixed gobos/(green) vortex windmill slow rotation.gpj
@@ -1706,10 +1904,10 @@ title = (green) vortex windmill slow rotation
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page30]
+[page31]
 name = Nasze seanse show
 nb_buttons = 2
-[page30_button1]
+[page31_button1]
 line = 1
 column = 1
 name = Szkarłatny Łubin, nieuchwytny złodziej.tml
@@ -1718,7 +1916,7 @@ speed = auto_bpm
 beats = 0.000000
 masterspeedfader = 0
 release_all = yes
-[page30_button2]
+[page31_button2]
 line = 1
 column = 2
 name = Dwumecz.tml
@@ -1729,10 +1927,10 @@ beats = 0.000000
 masterspeedfader = 0
 no_loop = yes
 release_all = yes
-[page31]
+[page32]
 name = Oven
 nb_buttons = 14
-[page31_button1]
+[page32_button1]
 line = 1
 column = 1
 name = Oven/Oven(blue).scex
@@ -1741,7 +1939,7 @@ color = 255
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page31_button2]
+[page32_button2]
 line = 2
 column = 1
 name = Oven/Oven(green).scex
@@ -1750,7 +1948,7 @@ color = 65280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page31_button3]
+[page32_button3]
 line = 3
 column = 1
 name = Oven/Oven(red).scex
@@ -1759,7 +1957,7 @@ color = 16711680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page31_button4]
+[page32_button4]
 line = 5
 column = 1
 name = Oven/Oven(white).scex
@@ -1767,7 +1965,7 @@ title = Oven(white)
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page31_button5]
+[page32_button5]
 line = 1
 column = 3
 name = Oven/Oven(lamp).scex
@@ -1776,7 +1974,7 @@ imgpath = Editor/2DView/bedside-table-lamp.jpg
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page31_button6]
+[page32_button6]
 line = 1
 column = 2
 name = Oven/Oven(lime).scex
@@ -1785,7 +1983,7 @@ color = 5294080
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page31_button7]
+[page32_button7]
 line = 2
 column = 2
 name = Oven/Oven(mint).scex
@@ -1794,7 +1992,7 @@ color = 51280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page31_button8]
+[page32_button8]
 line = 3
 column = 2
 name = Oven/Oven(ice).scex
@@ -1803,7 +2001,7 @@ color = 51400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page31_button9]
+[page32_button9]
 line = 4
 column = 2
 name = Oven/Oven(love).scex
@@ -1812,7 +2010,7 @@ color = 13107280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page31_button10]
+[page32_button10]
 line = 5
 column = 2
 name = Oven/Oven(ocean).scex
@@ -1821,7 +2019,7 @@ color = 20680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page31_button11]
+[page32_button11]
 line = 4
 column = 1
 name = Oven/Oven(orange).scex
@@ -1830,7 +2028,7 @@ color = 13127680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page31_button12]
+[page32_button12]
 line = 1
 column = 4
 name = Oven/Oven(purple).scex
@@ -1839,7 +2037,7 @@ color = 5243080
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page31_button13]
+[page32_button13]
 line = 1
 column = 6
 name = Oven/Oven(yellow).scex
@@ -1848,7 +2046,7 @@ color = 13158400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page31_button14]
+[page32_button14]
 line = 1
 column = 5
 name = Oven/Oven(pink).scex
@@ -1857,10 +2055,10 @@ color = 13107400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page32]
+[page33]
 name = Overall
 nb_buttons = 15
-[page32_button1]
+[page33_button1]
 line = 1
 column = 1
 name = Overall/Overall(blue).scex
@@ -1869,7 +2067,7 @@ color = 255
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page32_button2]
+[page33_button2]
 line = 2
 column = 1
 name = Overall/Overall(green).scex
@@ -1878,7 +2076,7 @@ color = 65280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page32_button3]
+[page33_button3]
 line = 3
 column = 1
 name = Overall/Overall(red).scex
@@ -1887,7 +2085,7 @@ color = 16711680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page32_button4]
+[page33_button4]
 line = 5
 column = 1
 name = Overall/Overall(white).scex
@@ -1895,7 +2093,7 @@ title = Overall(white)
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page32_button5]
+[page33_button5]
 line = 4
 column = 1
 name = Overall/Overall(orange).scex
@@ -1904,7 +2102,7 @@ color = 13127680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page32_button6]
+[page33_button6]
 line = 1
 column = 2
 name = Overall/Overall(lime).scex
@@ -1913,7 +2111,7 @@ color = 5294080
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page32_button7]
+[page33_button7]
 line = 2
 column = 2
 name = Overall/Overall(mint).scex
@@ -1922,7 +2120,7 @@ color = 51280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page32_button8]
+[page33_button8]
 line = 3
 column = 2
 name = Overall/Overall(ice).scex
@@ -1931,7 +2129,7 @@ color = 51400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page32_button9]
+[page33_button9]
 line = 4
 column = 2
 name = Overall/Overall(love).scex
@@ -1940,7 +2138,7 @@ color = 13107280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page32_button10]
+[page33_button10]
 line = 5
 column = 2
 name = Overall/Overall(ocean).scex
@@ -1949,7 +2147,7 @@ color = 20680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page32_button11]
+[page33_button11]
 line = 1
 column = 4
 name = Overall/Overall(purple).scex
@@ -1958,7 +2156,7 @@ color = 5243080
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page32_button12]
+[page33_button12]
 line = 1
 column = 5
 name = Overall/Overall(pink).scex
@@ -1967,7 +2165,7 @@ color = 13107400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page32_button13]
+[page33_button13]
 line = 1
 column = 3
 name = Overall/Overall(lamp).scex
@@ -1976,7 +2174,7 @@ imgpath = Editor/2DView/bedside-table-lamp.jpg
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page32_button14]
+[page33_button14]
 line = 1
 column = 7
 name = Overall/Overall(amber).scex
@@ -1985,7 +2183,7 @@ color = 16737280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page32_button15]
+[page33_button15]
 line = 1
 column = 6
 name = Overall/Overall(yellow).scex
@@ -1994,10 +2192,445 @@ color = 13158400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33]
+[page34]
+name = Overall manual
+nb_buttons = 48
+[page34_button1]
+line = 1
+column = 1
+name = Overall/Overall(red).scex
+title = Back static red
+color = 16711680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button2]
+line = 1
+column = 2
+name = Overall/Overall[back]/Overall[back](red)glowToHalf10s.gpj
+title = Back glow red
+color = 16711680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button3]
+line = 1
+column = 3
+name = Overall/Overall[front]/Overall[front](red).scex
+title = Front static red
+color = 16711680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button4]
+line = 1
+column = 4
+name = Overall/Overall[front]/Overall[front](red)glowToHalf10s.gpj
+title = Front glow red
+color = 16711680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button5]
+line = 2
+column = 1
+name = Overall/Overall(orange).scex
+title = Back static orange
+color = 13127680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button6]
+line = 2
+column = 2
+name = Overall/Overall[back]/Overall[back](orange)glowToHalf10s.gpj
+title = Back glow orange
+color = 13127680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button7]
+line = 2
+column = 3
+name = Overall/Overall[front]/Overall[front](orange).scex
+title = Front static orange
+color = 13127680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button8]
+line = 2
+column = 4
+name = Overall/Overall[front]/Overall[front](orange)glowToHalf10s.gpj
+title = Front glow orange
+color = 13127680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button9]
+line = 3
+column = 1
+name = Overall/Overall(yellow).scex
+title = Back static yellow
+color = 13158400
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button10]
+line = 3
+column = 2
+name = Overall/Overall[back]/Overall[back](yellow)glowToHalf10s.gpj
+title = Back glow yellow
+color = 13158400
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button11]
+line = 3
+column = 3
+name = Overall/Overall[front]/Overall[front](yellow).scex
+title = Front static yellow
+color = 13158400
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button12]
+line = 3
+column = 4
+name = Overall/Overall[front]/Overall[front](yellow)glowToHalf10s.gpj
+title = Front glow yellow
+color = 13158400
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button13]
+line = 4
+column = 1
+name = Overall/Overall(lime).scex
+title = Back static lime
+color = 5294080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button14]
+line = 4
+column = 2
+name = Overall/Overall[back]/Overall[back](lime)glowToHalf10s.gpj
+title = Back glow lime
+color = 5294080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button15]
+line = 4
+column = 3
+name = Overall/Overall[front]/Overall[front](lime).scex
+title = Front static lime
+color = 5294080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button16]
+line = 4
+column = 4
+name = Overall/Overall[front]/Overall[front](lime)glowToHalf10s.gpj
+title = Front glow lime
+color = 5294080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button17]
+line = 5
+column = 1
+name = Overall/Overall(green).scex
+title = Back static green
+color = 65280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button18]
+line = 5
+column = 2
+name = Overall/Overall[back]/Overall[back](green)glowToHalf10s.gpj
+title = Back glow green
+color = 65280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button19]
+line = 5
+column = 3
+name = Overall/Overall[front]/Overall[front](green).scex
+title = Front static green
+color = 65280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button20]
+line = 5
+column = 4
+name = Overall/Overall[front]/Overall[front](green)glowToHalf10s.gpj
+title = Front glow green
+color = 65280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button21]
+line = 6
+column = 1
+name = Overall/Overall(mint).scex
+title = Back static mint
+color = 51280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button22]
+line = 6
+column = 2
+name = Overall/Overall[back]/Overall[back](mint)glowToHalf10s.gpj
+title = Back glow mint
+color = 51280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button23]
+line = 6
+column = 3
+name = Overall/Overall[front]/Overall[front](mint).scex
+title = Front static mint
+color = 51280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button24]
+line = 6
+column = 4
+name = Overall/Overall[front]/Overall[front](mint)glowToHalf10s.gpj
+title = Front glow mint
+color = 51280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button25]
+line = 7
+column = 1
+name = Overall/Overall(ice).scex
+title = Back static ice
+color = 51400
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button26]
+line = 7
+column = 2
+name = Overall/Overall[back]/Overall[back](ice)glowToHalf10s.gpj
+title = Back glow ice
+color = 51400
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button27]
+line = 7
+column = 3
+name = Overall/Overall[front]/Overall[front](ice).scex
+title = Front static ice
+color = 51400
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button28]
+line = 7
+column = 4
+name = Overall/Overall[front]/Overall[front](ice)glowToHalf10s.gpj
+title = Front glow ice
+color = 51400
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button29]
+line = 8
+column = 1
+name = Overall/Overall(ocean).scex
+title = Back static ocean
+color = 20680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button30]
+line = 8
+column = 2
+name = Overall/Overall[back]/Overall[back](ocean)glowToHalf10s.gpj
+title = Back glow ocean
+color = 20680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button31]
+line = 8
+column = 3
+name = Overall/Overall[front]/Overall[front](ocean).scex
+title = Front static ocean
+color = 20680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button32]
+line = 8
+column = 4
+name = Overall/Overall[front]/Overall[front](ocean)glowToHalf10s.gpj
+title = Front glow ocean
+color = 20680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button33]
+line = 9
+column = 1
+name = Overall/Overall(blue).scex
+title = Back static blue
+color = 255
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button34]
+line = 9
+column = 2
+name = Overall/Overall[back]/Overall[back](blue)glowToHalf10s.gpj
+title = Back glow blue
+color = 255
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button35]
+line = 9
+column = 3
+name = Overall/Overall[front]/Overall[front](blue).scex
+title = Front static blue
+color = 255
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button36]
+line = 9
+column = 4
+name = Overall/Overall[front]/Overall[front](blue)glowToHalf10s.gpj
+title = Front glow blue
+color = 255
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button37]
+line = 10
+column = 1
+name = Overall/Overall(purple).scex
+title = Back static purple
+color = 5243080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button38]
+line = 10
+column = 2
+name = Overall/Overall[back]/Overall[back](purple)glowToHalf10s.gpj
+title = Back glow purple
+color = 5243080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button39]
+line = 10
+column = 3
+name = Overall/Overall[front]/Overall[front](purple).scex
+title = Front static purple
+color = 5243080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button40]
+line = 10
+column = 4
+name = Overall/Overall[front]/Overall[front](purple)glowToHalf10s.gpj
+title = Front glow purple
+color = 5243080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button41]
+line = 11
+column = 1
+name = Overall/Overall(love).scex
+title = Back static love
+color = 13107280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button42]
+line = 11
+column = 2
+name = Overall/Overall[back]/Overall[back](love)glowToHalf10s.gpj
+title = Back glow love
+color = 13107280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button43]
+line = 11
+column = 3
+name = Overall/Overall[front]/Overall[front](love).scex
+title = Front static love
+color = 13107280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button44]
+line = 11
+column = 4
+name = Overall/Overall[front]/Overall[front](love)glowToHalf10s.gpj
+title = Front glow love
+color = 13107280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button45]
+line = 12
+column = 1
+name = Overall/Overall(white).scex
+title = Back static white
+color = 16777215
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button46]
+line = 12
+column = 2
+name = Overall/Overall[back]/Overall[back](white)glowToHalf10s.gpj
+title = Back glow white
+color = 16777215
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button47]
+line = 12
+column = 3
+name = Overall/Overall[front]/Overall[front](white).scex
+title = Front static white
+color = 16777215
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page34_button48]
+line = 12
+column = 4
+name = Overall/Overall[front]/Overall[front](white)glowToHalf10s.gpj
+title = Front glow white
+color = 16777215
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page35]
 name = Overall separated
-nb_buttons = 45
-[page33_button1]
+nb_buttons = 60
+[page35_button1]
 line = 1
 column = 1
 name = Overall/Overall[left]/Overall[left](red).scex
@@ -2006,14 +2639,14 @@ color = 16711680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button2]
+[page35_button2]
 line = 1
 column = 2
 name = Overall/Overall[front]/Overall[front](red)pulse2s.gpj
 title = Front Pulse Red
 color = 16711680
 masterspeedfader = 0
-[page33_button3]
+[page35_button3]
 line = 1
 column = 3
 name = Overall/Overall[right]/Overall[right](red).scex
@@ -2022,7 +2655,7 @@ color = 16711680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button4]
+[page35_button4]
 line = 1
 column = 4
 name = Overall/Overall(red).scex
@@ -2031,14 +2664,14 @@ color = 16711680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button5]
+[page35_button5]
 line = 1
 column = 5
 name = Overall/Overall[back]/Overall[back](red)pulse2s.gpj
 title = Back Pulse Red
 color = 16711680
 masterspeedfader = 0
-[page33_button6]
+[page35_button6]
 line = 2
 column = 1
 name = Overall/Overall[left]/Overall[left](orange).scex
@@ -2047,14 +2680,14 @@ color = 13127680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button7]
+[page35_button7]
 line = 2
 column = 2
 name = Overall/Overall[front]/Overall[front](orange)pulse2s.gpj
 title = Front Pulse Orange
 color = 13127680
 masterspeedfader = 0
-[page33_button8]
+[page35_button8]
 line = 2
 column = 3
 name = Overall/Overall[right]/Overall[right](orange).scex
@@ -2063,7 +2696,7 @@ color = 13127680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button9]
+[page35_button9]
 line = 2
 column = 4
 name = Overall/Overall(orange).scex
@@ -2072,14 +2705,14 @@ color = 13127680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button10]
+[page35_button10]
 line = 2
 column = 5
 name = Overall/Overall[back]/Overall[back](orange)pulse2s.gpj
 title = Back Pulse Orange
 color = 13127680
 masterspeedfader = 0
-[page33_button11]
+[page35_button11]
 line = 3
 column = 1
 name = Overall/Overall[left]/Overall[left](yellow).scex
@@ -2088,14 +2721,14 @@ color = 13158400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button12]
+[page35_button12]
 line = 3
 column = 2
 name = Overall/Overall[front]/Overall[front](yellow)pulse2s.gpj
 title = Front Pulse Yellow
 color = 13158400
 masterspeedfader = 0
-[page33_button13]
+[page35_button13]
 line = 3
 column = 3
 name = Overall/Overall[right]/Overall[right](yellow).scex
@@ -2104,7 +2737,7 @@ color = 13158400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button14]
+[page35_button14]
 line = 3
 column = 4
 name = Overall/Overall(yellow).scex
@@ -2113,15 +2746,56 @@ color = 13158400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button15]
+[page35_button15]
 line = 3
 column = 5
 name = Overall/Overall[back]/Overall[back](yellow)pulse2s.gpj
 title = Back Pulse Yellow
 color = 13158400
 masterspeedfader = 0
-[page33_button16]
+[page35_button16]
 line = 4
+column = 1
+name = Overall/Overall[left]/Overall[left](lime).scex
+title = Left Lime
+color = 5294080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page35_button17]
+line = 4
+column = 2
+name = Overall/Overall[front]/Overall[front](lime)pulse2s.gpj
+title = Front Pulse Lime
+color = 5294080
+masterspeedfader = 0
+[page35_button18]
+line = 4
+column = 3
+name = Overall/Overall[right]/Overall[right](lime).scex
+title = Right Lime
+color = 5294080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page35_button19]
+line = 4
+column = 4
+name = Overall/Overall(lime).scex
+title = Back Lime
+color = 5294080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page35_button20]
+line = 4
+column = 5
+name = Overall/Overall[back]/Overall[back](lime)pulse2s.gpj
+title = Back Pulse Lime
+color = 5294080
+masterspeedfader = 0
+[page35_button21]
+line = 5
 column = 1
 name = Overall/Overall[left]/Overall[left](green).scex
 title = Left Green
@@ -2129,15 +2803,15 @@ color = 65280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button17]
-line = 4
+[page35_button22]
+line = 5
 column = 2
 name = Overall/Overall[front]/Overall[front](green)pulse2s.gpj
 title = Front Pulse Green
 color = 65280
 masterspeedfader = 0
-[page33_button18]
-line = 4
+[page35_button23]
+line = 5
 column = 3
 name = Overall/Overall[right]/Overall[right](green).scex
 title = Right Green
@@ -2145,8 +2819,8 @@ color = 65280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button19]
-line = 4
+[page35_button24]
+line = 5
 column = 4
 name = Overall/Overall(green).scex
 title = Back Green
@@ -2154,15 +2828,15 @@ color = 65280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button20]
-line = 4
+[page35_button25]
+line = 5
 column = 5
 name = Overall/Overall[back]/Overall[back](green)pulse2s.gpj
 title = Back Pulse Green
 color = 65280
 masterspeedfader = 0
-[page33_button21]
-line = 5
+[page35_button26]
+line = 6
 column = 1
 name = Overall/Overall[left]/Overall[left](mint).scex
 title = Left Mint
@@ -2170,15 +2844,15 @@ color = 51280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button22]
-line = 5
+[page35_button27]
+line = 6
 column = 2
 name = Overall/Overall[front]/Overall[front](mint)pulse2s.gpj
 title = Front Pulse Mint
 color = 51280
 masterspeedfader = 0
-[page33_button23]
-line = 5
+[page35_button28]
+line = 6
 column = 3
 name = Overall/Overall[right]/Overall[right](mint).scex
 title = Right Mint
@@ -2186,8 +2860,8 @@ color = 51280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button24]
-line = 5
+[page35_button29]
+line = 6
 column = 4
 name = Overall/Overall(mint).scex
 title = Back Mint
@@ -2195,15 +2869,15 @@ color = 51280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button25]
-line = 5
+[page35_button30]
+line = 6
 column = 5
 name = Overall/Overall[back]/Overall[back](mint)pulse2s.gpj
 title = Back Pulse Mint
 color = 51280
 masterspeedfader = 0
-[page33_button26]
-line = 6
+[page35_button31]
+line = 7
 column = 1
 name = Overall/Overall[left]/Overall[left](ice).scex
 title = Left Ice
@@ -2211,15 +2885,15 @@ color = 51400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button27]
-line = 6
+[page35_button32]
+line = 7
 column = 2
 name = Overall/Overall[front]/Overall[front](ice)pulse2s.gpj
 title = Front Pulse Ice
 color = 51400
 masterspeedfader = 0
-[page33_button28]
-line = 6
+[page35_button33]
+line = 7
 column = 3
 name = Overall/Overall[right]/Overall[right](ice).scex
 title = Right Ice
@@ -2227,8 +2901,8 @@ color = 51400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button29]
-line = 6
+[page35_button34]
+line = 7
 column = 4
 name = Overall/Overall(ice).scex
 title = Back Ice
@@ -2236,15 +2910,56 @@ color = 51400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button30]
-line = 6
+[page35_button35]
+line = 7
 column = 5
 name = Overall/Overall[back]/Overall[back](ice)pulse2s.gpj
 title = Back Pulse Ice
 color = 51400
 masterspeedfader = 0
-[page33_button31]
-line = 7
+[page35_button36]
+line = 8
+column = 1
+name = Overall/Overall[left]/Overall[left](ocean).scex
+title = Left Ocean
+color = 20680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page35_button37]
+line = 8
+column = 2
+name = Overall/Overall[front]/Overall[front](ocean)pulse2s.gpj
+title = Front Pulse Ocean
+color = 20680
+masterspeedfader = 0
+[page35_button38]
+line = 8
+column = 3
+name = Overall/Overall[right]/Overall[right](ocean).scex
+title = Right Ocean
+color = 20680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page35_button39]
+line = 8
+column = 4
+name = Overall/Overall(ocean).scex
+title = Back Ocean
+color = 20680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page35_button40]
+line = 8
+column = 5
+name = Overall/Overall[back]/Overall[back](ocean)pulse2s.gpj
+title = Back Pulse Ocean
+color = 20680
+masterspeedfader = 0
+[page35_button41]
+line = 9
 column = 1
 name = Overall/Overall[left]/Overall[left](blue).scex
 title = Left Blue
@@ -2252,15 +2967,15 @@ color = 255
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button32]
-line = 7
+[page35_button42]
+line = 9
 column = 2
 name = Overall/Overall[front]/Overall[front](blue)pulse2s.gpj
 title = Front Pulse Blue
 color = 255
 masterspeedfader = 0
-[page33_button33]
-line = 7
+[page35_button43]
+line = 9
 column = 3
 name = Overall/Overall[right]/Overall[right](blue).scex
 title = Right Blue
@@ -2268,8 +2983,8 @@ color = 255
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button34]
-line = 7
+[page35_button44]
+line = 9
 column = 4
 name = Overall/Overall(blue).scex
 title = Back Blue
@@ -2277,15 +2992,15 @@ color = 255
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button35]
-line = 7
+[page35_button45]
+line = 9
 column = 5
 name = Overall/Overall[back]/Overall[back](blue)pulse2s.gpj
 title = Back Pulse Blue
 color = 255
 masterspeedfader = 0
-[page33_button36]
-line = 8
+[page35_button46]
+line = 10
 column = 1
 name = Overall/Overall[left]/Overall[left](purple).scex
 title = Left Purple
@@ -2293,15 +3008,15 @@ color = 5243080
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button37]
-line = 8
+[page35_button47]
+line = 10
 column = 2
 name = Overall/Overall[front]/Overall[front](purple)pulse2s.gpj
 title = Front Pulse Purple
 color = 5243080
 masterspeedfader = 0
-[page33_button38]
-line = 8
+[page35_button48]
+line = 10
 column = 3
 name = Overall/Overall[right]/Overall[right](purple).scex
 title = Right Purple
@@ -2309,8 +3024,8 @@ color = 5243080
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button39]
-line = 8
+[page35_button49]
+line = 10
 column = 4
 name = Overall/Overall(purple).scex
 title = Back Purple
@@ -2318,15 +3033,15 @@ color = 5243080
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button40]
-line = 8
+[page35_button50]
+line = 10
 column = 5
 name = Overall/Overall[back]/Overall[back](purple)pulse2s.gpj
 title = Back Pulse Purple
 color = 5243080
 masterspeedfader = 0
-[page33_button41]
-line = 9
+[page35_button51]
+line = 11
 column = 1
 name = Overall/Overall[left]/Overall[left](love).scex
 title = Left Love
@@ -2334,15 +3049,15 @@ color = 13107280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button42]
-line = 9
+[page35_button52]
+line = 11
 column = 2
 name = Overall/Overall[front]/Overall[front](love)pulse2s.gpj
 title = Front Pulse Love
 color = 13107280
 masterspeedfader = 0
-[page33_button43]
-line = 9
+[page35_button53]
+line = 11
 column = 3
 name = Overall/Overall[right]/Overall[right](love).scex
 title = Right Love
@@ -2350,8 +3065,8 @@ color = 13107280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button44]
-line = 9
+[page35_button54]
+line = 11
 column = 4
 name = Overall/Overall(love).scex
 title = Back Love
@@ -2359,17 +3074,58 @@ color = 13107280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page33_button45]
-line = 9
+[page35_button55]
+line = 11
 column = 5
 name = Overall/Overall[back]/Overall[back](love)pulse2s.gpj
 title = Back Pulse Love
 color = 13107280
 masterspeedfader = 0
-[page34]
+[page35_button56]
+line = 12
+column = 1
+name = Overall/Overall[left]/Overall[left](white).scex
+title = Left White
+color = 16777215
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page35_button57]
+line = 12
+column = 2
+name = Overall/Overall[front]/Overall[front](white)pulse2s.gpj
+title = Front Pulse White
+color = 16777215
+masterspeedfader = 0
+[page35_button58]
+line = 12
+column = 3
+name = Overall/Overall[right]/Overall[right](white).scex
+title = Right White
+color = 16777215
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page35_button59]
+line = 12
+column = 4
+name = Overall/Overall(white).scex
+title = Back White
+color = 16777215
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page35_button60]
+line = 12
+column = 5
+name = Overall/Overall[back]/Overall[back](white)pulse2s.gpj
+title = Back Pulse White
+color = 16777215
+masterspeedfader = 0
+[page36]
 name = Overall(front)
 nb_buttons = 14
-[page34_button1]
+[page36_button1]
 line = 1
 column = 1
 name = Overall/Overall[front]/Overall[front](blue).scex
@@ -2378,7 +3134,7 @@ color = 200
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page34_button2]
+[page36_button2]
 line = 2
 column = 1
 name = Overall/Overall[front]/Overall[front](green).scex
@@ -2387,7 +3143,7 @@ color = 65280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page34_button3]
+[page36_button3]
 line = 3
 column = 1
 name = Overall/Overall[front]/Overall[front](red).scex
@@ -2396,7 +3152,7 @@ color = 16711680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page34_button4]
+[page36_button4]
 line = 4
 column = 1
 name = Overall/Overall[front]/Overall[front](orange).scex
@@ -2405,7 +3161,7 @@ color = 13127680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page34_button5]
+[page36_button5]
 line = 5
 column = 1
 name = Overall/Overall[front]/Overall[front](white).scex
@@ -2413,7 +3169,7 @@ title = Overall[front](white)
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page34_button6]
+[page36_button6]
 line = 1
 column = 2
 name = Overall/Overall[front]/Overall[front](lime).scex
@@ -2422,7 +3178,7 @@ color = 5294080
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page34_button7]
+[page36_button7]
 line = 2
 column = 2
 name = Overall/Overall[front]/Overall[front](mint).scex
@@ -2431,7 +3187,7 @@ color = 51280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page34_button8]
+[page36_button8]
 line = 3
 column = 2
 name = Overall/Overall[front]/Overall[front](ice).scex
@@ -2440,7 +3196,7 @@ color = 51400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page34_button9]
+[page36_button9]
 line = 4
 column = 2
 name = Overall/Overall[front]/Overall[front](love).scex
@@ -2449,7 +3205,7 @@ color = 13107280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page34_button10]
+[page36_button10]
 line = 5
 column = 2
 name = Overall/Overall[front]/Overall[front](ocean).scex
@@ -2458,7 +3214,7 @@ color = 20680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page34_button11]
+[page36_button11]
 line = 1
 column = 3
 name = Overall/Overall[front]/Overall[front](purple).scex
@@ -2467,7 +3223,7 @@ color = 5243080
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page34_button12]
+[page36_button12]
 line = 1
 column = 4
 name = Overall/Overall[front]/Overall[front](pink).scex
@@ -2476,7 +3232,7 @@ color = 13107400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page34_button13]
+[page36_button13]
 line = 1
 column = 5
 name = Overall/Overall[front]/Overall[front](yellow).scex
@@ -2485,17 +3241,17 @@ color = 13158400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page34_button14]
+[page36_button14]
 line = 2
 column = 5
 name = Overall/Overall[front]/Overall[front](police).gpj
 title = *ijo ijo*
 imgpath = Editor/2DView/policjant.jpg
 masterspeedfader = 0
-[page35]
+[page37]
 name = Paweł (Andrzejki)
 nb_buttons = 3
-[page35_button1]
+[page37_button1]
 line = 1
 column = 1
 name = Specials/Blackout.scex
@@ -2503,7 +3259,7 @@ title = Blackout
 masterspeedfader = 0
 flash = yes
 release_all = yes
-[page35_button2]
+[page37_button2]
 line = 1
 column = 2
 name = Paweł/M.J. Król Popu.tml
@@ -2514,7 +3270,7 @@ beats = 0.000000
 masterspeedfader = 0
 no_loop = yes
 release_all = yes
-[page35_button3]
+[page37_button3]
 line = 1
 column = 3
 name = Paweł/Metro.tml
@@ -2524,10 +3280,10 @@ beats = 0.000000
 masterspeedfader = 0
 no_loop = yes
 release_all = yes
-[page36]
+[page38]
 name = PTS Classic 1
 nb_buttons = 7
-[page36_button1]
+[page38_button1]
 line = 3
 column = 1
 name = Complex Scenarios/Ice[Overall+All LEDS](Ice).scex
@@ -2537,7 +3293,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page36_button2]
+[page38_button2]
 line = 5
 column = 1
 name = Complex Scenarios/Forest[Overall+All LEDS](Green).scex
@@ -2547,7 +3303,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page36_button3]
+[page38_button3]
 line = 2
 column = 1
 name = Complex Scenarios/Ocean[Overall+Walls+Oven](ocean blue).scex
@@ -2557,7 +3313,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page36_button4]
+[page38_button4]
 line = 4
 column = 1
 name = Complex Scenarios/Mint[Overall+All LEDS](Mint).scex
@@ -2567,7 +3323,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page36_button5]
+[page38_button5]
 line = 1
 column = 1
 name = Complex Scenarios/Purple Rain[Overall+Walls+Oven](smooth purple).scex
@@ -2577,7 +3333,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page36_button6]
+[page38_button6]
 line = 6
 column = 1
 name = Complex Scenarios/Love[Cameo+Overall+All LEDS](Love).scex
@@ -2587,7 +3343,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page36_button7]
+[page38_button7]
 line = 7
 column = 1
 name = All LEDS(Oven+Walls)/All LEDS[Oven+Walls](lamp).scex
@@ -2596,10 +3352,10 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page37]
+[page39]
 name = PTS Classic 2
 nb_buttons = 3
-[page37_button1]
+[page39_button1]
 line = 1
 column = 1
 name = Complex Scenarios/Blue[Cameo+Overall+All LEDS](Blue).scex
@@ -2609,7 +3365,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page37_button2]
+[page39_button2]
 line = 2
 column = 1
 name = Complex Scenarios/Green[Cameo+Overall+All LEDS](Green).scex
@@ -2619,7 +3375,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page37_button3]
+[page39_button3]
 line = 3
 column = 1
 name = Complex Scenarios/Red[Cameo+Overall+All LEDS](Red).scex
@@ -2629,10 +3385,10 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page38]
+[page40]
 name = PTS Classic 3
 nb_buttons = 10
-[page38_button1]
+[page40_button1]
 line = 1
 column = 1
 name = Complex Scenarios/Blue Ice[Overall+Back Walls](Ice)[Side Walls + Oven](blue).scex
@@ -2642,7 +3398,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page38_button2]
+[page40_button2]
 line = 2
 column = 1
 name = Complex Scenarios/BlueRed[Overall+Oven](red)[Wall LEDS](Blue).scex
@@ -2652,7 +3408,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page38_button3]
+[page40_button3]
 line = 3
 column = 1
 name = Complex Scenarios/RedBlue[Overall+Oven](Blue)[Wall LEDS](Red).scex
@@ -2662,7 +3418,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page38_button4]
+[page40_button4]
 line = 4
 column = 1
 name = Complex Scenarios/Nostalgic[Overall](Purple)[All LEDS](Blue).scex
@@ -2672,7 +3428,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page38_button5]
+[page40_button5]
 line = 5
 column = 1
 name = Complex Scenarios/Western[Overall+Oven](Orange)[Wall LEDS](Blue).scex
@@ -2682,7 +3438,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page38_button6]
+[page40_button6]
 line = 6
 column = 1
 name = Complex Scenarios/Twisted Western[Overall+Wall](Orange)[Oven](Blue).scex
@@ -2692,7 +3448,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page38_button7]
+[page40_button7]
 line = 7
 column = 1
 name = Complex Scenarios/Focus[Overall+Cameo](Blue)[All LEDS](Orange).scex
@@ -2702,7 +3458,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page38_button8]
+[page40_button8]
 line = 8
 column = 1
 name = Complex Scenarios/Ice Mint[All LEDS](Ice)[Overall)(Mint).scex
@@ -2711,7 +3467,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page38_button9]
+[page40_button9]
 line = 1
 column = 3
 name = Complex Scenarios/NO OVEN Blue Ice[Overall+Back Walls](Ice)[Side Walls + Oven](blue).scex
@@ -2720,7 +3476,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page38_button10]
+[page40_button10]
 line = 1
 column = 2
 name = Complex Scenarios/Western[Overall+Oven](Orange)[Wall LEDS](Blue).scex
@@ -2729,10 +3485,10 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page39]
+[page41]
 name = Requiem I didn't write
 nb_buttons = 1
-[page39_button1]
+[page41_button1]
 line = 1
 column = 1
 name = 1 Urodziny HS/Requiem I didn't write.tml
@@ -2741,10 +3497,10 @@ speed = auto_bpm
 beats = 0.000000
 masterspeedfader = 0
 release_all = yes
-[page40]
+[page42]
 name = Seanse show Mai
 nb_buttons = 2
-[page40_button1]
+[page42_button1]
 line = 1
 column = 1
 name = Maja/The gift that sparked 2.tml
@@ -2754,7 +3510,7 @@ beats = 0.000000
 masterspeedfader = 0
 no_loop = yes
 release_all = yes
-[page40_button2]
+[page42_button2]
 line = 1
 column = 2
 name = Specials/Blackout.scex
@@ -2762,10 +3518,10 @@ title = Blackout #1
 masterspeedfader = 0
 flash = yes
 release_all = yes
-[page41]
+[page43]
 name = Specials
-nb_buttons = 6
-[page41_button1]
+nb_buttons = 5
+[page43_button1]
 line = 1
 column = 1
 name = Specials/Blackout.scex
@@ -2776,7 +3532,7 @@ fade_in = yes
 fade_out = yes
 flash = yes
 release_all = yes
-[page41_button2]
+[page43_button2]
 line = 1
 column = 2
 name = Overall+All LEDS/[Overall+All LEDS](white).scex
@@ -2785,14 +3541,14 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page41_button3]
+[page43_button3]
 line = 1
 column = 3
 name = Overall+All LEDS/[Overall+All LEDS](white).scex
 title = Flash(white)
 masterspeedfader = 0
 flash = yes
-[page41_button4]
+[page43_button4]
 line = 1
 column = 4
 name = Complex Scenarios/All Photoshot[Oven+Walls](lamp)[Overall](amber).scex
@@ -2801,31 +3557,22 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page41_button5]
+[page43_button5]
 line = 1
 column = 5
-name = All LEDS(Oven+Walls)/All LEDS[Oven+Walls](lamp).scex
-title = All LEDS[Oven+Walls](lamp) #2
-masterspeedfader = 0
-fade_in = yes
-fade_out = yes
-release_all = yes
-[page41_button6]
-line = 1
-column = 6
 name = Specials/modern-photo.scex
-title = modern-photo
+title = Photo
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 release_all = yes
-[page42]
+[page44]
 name = Stove
 nb_buttons = 0
-[page43]
+[page45]
 name = Stove + Cameo
-nb_buttons = 27
-[page43_button1]
+nb_buttons = 36
+[page45_button1]
 line = 1
 column = 1
 name = Oven/Oven(red).scex
@@ -2834,7 +3581,7 @@ color = 16711680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page43_button2]
+[page45_button2]
 line = 2
 column = 1
 name = Oven/Oven(orange).scex
@@ -2843,7 +3590,7 @@ color = 13127680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page43_button3]
+[page45_button3]
 line = 3
 column = 1
 name = Oven/Oven(yellow).scex
@@ -2852,8 +3599,17 @@ color = 13158400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page43_button4]
+[page45_button4]
 line = 4
+column = 1
+name = Oven/Oven(lime).scex
+title = Stove Lime
+color = 5294080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page45_button5]
+line = 5
 column = 1
 name = Oven/Oven(green).scex
 title = Stove Green
@@ -2861,8 +3617,8 @@ color = 65280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page43_button5]
-line = 5
+[page45_button6]
+line = 6
 column = 1
 name = Oven/Oven(mint).scex
 title = Stove Mint
@@ -2870,8 +3626,8 @@ color = 51280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page43_button6]
-line = 6
+[page45_button7]
+line = 7
 column = 1
 name = Oven/Oven(ice).scex
 title = Stove Ice
@@ -2879,8 +3635,17 @@ color = 51400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page43_button7]
-line = 7
+[page45_button8]
+line = 8
+column = 1
+name = Oven/Oven(ocean).scex
+title = Stove Ocean
+color = 20680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page45_button9]
+line = 9
 column = 1
 name = Oven/Oven(blue).scex
 title = Stove Blue
@@ -2888,8 +3653,8 @@ color = 255
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page43_button8]
-line = 8
+[page45_button10]
+line = 10
 column = 1
 name = Oven/Oven(purple).scex
 title = Stove Purple
@@ -2897,8 +3662,8 @@ color = 5243080
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page43_button9]
-line = 9
+[page45_button11]
+line = 11
 column = 1
 name = Oven/Oven(love).scex
 title = Stove Love
@@ -2906,7 +3671,16 @@ color = 13107280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page43_button10]
+[page45_button12]
+line = 12
+column = 1
+name = Oven/Oven(white).scex
+title = Stove White
+color = 16777215
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page45_button13]
 line = 1
 column = 2
 name = Oven/Stove(Red) GlowDown (max to half) 5 sec.gpj
@@ -2915,7 +3689,7 @@ color = 16711680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page43_button11]
+[page45_button14]
 line = 2
 column = 2
 name = Oven/Stove(Orange) GlowDown (max to half) 5 sec.gpj
@@ -2924,7 +3698,7 @@ color = 13127680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page43_button12]
+[page45_button15]
 line = 3
 column = 2
 name = Oven/Stove(Yellow) GlowDown (max to half) 5 sec.gpj
@@ -2933,8 +3707,17 @@ color = 13158400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page43_button13]
+[page45_button16]
 line = 4
+column = 2
+name = Oven/Stove(Lime) GlowDown (max to half) 5 sec.gpj
+title = Stove Lime (glow)
+color = 5294080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page45_button17]
+line = 5
 column = 2
 name = Oven/Stove(Green) GlowDown (max to half) 5 sec.gpj
 title = Stove Green (glow)
@@ -2942,8 +3725,8 @@ color = 65280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page43_button14]
-line = 5
+[page45_button18]
+line = 6
 column = 2
 name = Oven/Stove(Mint) GlowDown (max to half) 5 sec.gpj
 title = Stove Mint (glow)
@@ -2951,8 +3734,8 @@ color = 51280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page43_button15]
-line = 6
+[page45_button19]
+line = 7
 column = 2
 name = Oven/Stove(Ice) GlowDown (max to half) 5 sec.gpj
 title = Stove Ice (glow)
@@ -2960,8 +3743,17 @@ color = 51400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page43_button16]
-line = 7
+[page45_button20]
+line = 8
+column = 2
+name = Oven/Stove(Ocean) GlowDown (max to half) 5 sec.gpj
+title = Stove Ocean (glow)
+color = 20680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page45_button21]
+line = 9
 column = 2
 name = Oven/Stove(blue) GlowDown (max to half) 5 sec.gpj
 title = Stove Blue (glow)
@@ -2969,8 +3761,8 @@ color = 255
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page43_button17]
-line = 8
+[page45_button22]
+line = 10
 column = 2
 name = Oven/Stove(Purple) GlowDown (max to half) 5 sec.gpj
 title = Stove Purple (glow)
@@ -2978,8 +3770,8 @@ color = 5243080
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page43_button18]
-line = 9
+[page45_button23]
+line = 11
 column = 2
 name = Oven/Stove(Love) GlowDown (max to half) 5 sec.gpj
 title = Stove Love (glow)
@@ -2987,7 +3779,16 @@ color = 13107280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page43_button19]
+[page45_button24]
+line = 12
+column = 2
+name = Oven/Stove(White) GlowDown (max to half) 5 sec.gpj
+title = Stove White (glow)
+color = 16777215
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page45_button25]
 line = 1
 column = 3
 name = Cameo/Cameo[all](red).scex
@@ -2996,7 +3797,7 @@ color = 16711680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page43_button20]
+[page45_button26]
 line = 2
 column = 3
 name = Cameo/Cameo[all](orange).scex
@@ -3005,7 +3806,7 @@ color = 13127680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page43_button21]
+[page45_button27]
 line = 3
 column = 3
 name = Cameo/Cameo[all](yellow).scex
@@ -3014,8 +3815,17 @@ color = 13158400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page43_button22]
+[page45_button28]
 line = 4
+column = 3
+name = Cameo/Cameo[all](lime).scex
+title = Cameo Lime
+color = 5294080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page45_button29]
+line = 5
 column = 3
 name = Cameo/Cameo[all](green).scex
 title = Cameo Green
@@ -3023,8 +3833,8 @@ color = 65280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page43_button23]
-line = 5
+[page45_button30]
+line = 6
 column = 3
 name = Cameo/Cameo[all](mint).scex
 title = Cameo Mint
@@ -3032,8 +3842,8 @@ color = 51280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page43_button24]
-line = 6
+[page45_button31]
+line = 7
 column = 3
 name = Cameo/Cameo[all](ice).scex
 title = Cameo Ice
@@ -3041,8 +3851,17 @@ color = 51400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page43_button25]
-line = 7
+[page45_button32]
+line = 8
+column = 3
+name = Cameo/Cameo[all](ocean).scex
+title = Cameo Ocean
+color = 20680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page45_button33]
+line = 9
 column = 3
 name = Cameo/Cameo[all](blue).scex
 title = Cameo Blue
@@ -3050,8 +3869,8 @@ color = 255
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page43_button26]
-line = 8
+[page45_button34]
+line = 10
 column = 3
 name = Cameo/Cameo[all](purple).scex
 title = Cameo Purple
@@ -3059,8 +3878,8 @@ color = 5243080
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page43_button27]
-line = 9
+[page45_button35]
+line = 11
 column = 3
 name = Cameo/Cameo[all](love).scex
 title = Cameo Love
@@ -3068,10 +3887,238 @@ color = 13107280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page44]
+[page45_button36]
+line = 12
+column = 3
+name = Cameo/Cameo[all](white).scex
+title = Cameo White
+color = 16777215
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page46]
+name = Stove manual
+nb_buttons = 24
+[page46_button1]
+line = 1
+column = 1
+name = Oven/Oven(red).scex
+title = Stove static red
+color = 16711680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page46_button2]
+line = 1
+column = 2
+name = Oven/Stove(Red) GlowDown (max to half) 5 sec.gpj
+title = Stove glow red
+color = 16711680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page46_button3]
+line = 2
+column = 1
+name = Oven/Oven(orange).scex
+title = Stove static orange
+color = 13127680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page46_button4]
+line = 2
+column = 2
+name = Oven/Stove(Orange) GlowDown (max to half) 5 sec.gpj
+title = Stove glow orange
+color = 13127680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page46_button5]
+line = 3
+column = 1
+name = Oven/Oven(yellow).scex
+title = Stove static yellow
+color = 13158400
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page46_button6]
+line = 3
+column = 2
+name = Oven/Stove(Yellow) GlowDown (max to half) 5 sec.gpj
+title = Stove glow yellow
+color = 13158400
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page46_button7]
+line = 4
+column = 1
+name = Oven/Oven(lime).scex
+title = Stove static lime
+color = 5294080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page46_button8]
+line = 4
+column = 2
+name = Oven/Stove(Lime) GlowDown (max to half) 5 sec.gpj
+title = Stove glow lime
+color = 5294080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page46_button9]
+line = 5
+column = 1
+name = Oven/Oven(green).scex
+title = Stove static green
+color = 65280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page46_button10]
+line = 5
+column = 2
+name = Oven/Stove(Green) GlowDown (max to half) 5 sec.gpj
+title = Stove glow green
+color = 65280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page46_button11]
+line = 6
+column = 1
+name = Oven/Oven(mint).scex
+title = Stove static mint
+color = 51280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page46_button12]
+line = 6
+column = 2
+name = Oven/Stove(Mint) GlowDown (max to half) 5 sec.gpj
+title = Stove glow mint
+color = 51280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page46_button13]
+line = 7
+column = 1
+name = Oven/Oven(ice).scex
+title = Stove static ice
+color = 51400
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page46_button14]
+line = 7
+column = 2
+name = Oven/Stove(Ice) GlowDown (max to half) 5 sec.gpj
+title = Stove glow ice
+color = 51400
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page46_button15]
+line = 8
+column = 1
+name = Oven/Oven(ocean).scex
+title = Stove static ocean
+color = 20680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page46_button16]
+line = 8
+column = 2
+name = Oven/Stove(Ocean) GlowDown (max to half) 5 sec.gpj
+title = Stove glow ocean
+color = 20680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page46_button17]
+line = 9
+column = 1
+name = Oven/Oven(blue).scex
+title = Stove static blue
+color = 255
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page46_button18]
+line = 9
+column = 2
+name = Oven/Stove(blue) GlowDown (max to half) 5 sec.gpj
+title = Stove glow blue
+color = 255
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page46_button19]
+line = 10
+column = 1
+name = Oven/Oven(purple).scex
+title = Stove static purple
+color = 5243080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page46_button20]
+line = 10
+column = 2
+name = Oven/Stove(Purple) GlowDown (max to half) 5 sec.gpj
+title = Stove glow purple
+color = 5243080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page46_button21]
+line = 11
+column = 1
+name = Oven/Oven(love).scex
+title = Stove static love
+color = 13107280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page46_button22]
+line = 11
+column = 2
+name = Oven/Stove(Love) GlowDown (max to half) 5 sec.gpj
+title = Stove glow love
+color = 13107280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page46_button23]
+line = 12
+column = 1
+name = Oven/Oven(white).scex
+title = Stove static white
+color = 16777215
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page46_button24]
+line = 12
+column = 2
+name = Oven/Stove(White) GlowDown (max to half) 5 sec.gpj
+title = Stove glow white
+color = 16777215
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page47]
 name = UV
 nb_buttons = 3
-[page44_button1]
+[page47_button1]
 line = 1
 column = 1
 name = Specials/UV[all](max power).scex
@@ -3081,7 +4128,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 resist_to_release_all = yes
-[page44_button2]
+[page47_button2]
 line = 2
 column = 1
 name = Specials/UV[all](medium power).scex
@@ -3091,7 +4138,7 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 resist_to_release_all = yes
-[page44_button3]
+[page47_button3]
 line = 3
 column = 1
 name = Specials/UV[all](minimum power).scex
@@ -3101,10 +4148,10 @@ masterspeedfader = 0
 fade_in = yes
 fade_out = yes
 resist_to_release_all = yes
-[page45]
+[page48]
 name = Wall(all)
 nb_buttons = 14
-[page45_button1]
+[page48_button1]
 line = 1
 column = 1
 name = Wall LED/Wall LED[all]/Walls[all](blue).scex
@@ -3113,7 +4160,7 @@ color = 255
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page45_button2]
+[page48_button2]
 line = 2
 column = 1
 name = Wall LED/Wall LED[all]/Walls[all](green).scex
@@ -3122,7 +4169,7 @@ color = 65280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page45_button3]
+[page48_button3]
 line = 3
 column = 1
 name = Wall LED/Wall LED[all]/Walls[all](red).scex
@@ -3131,7 +4178,7 @@ color = 16711680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page45_button4]
+[page48_button4]
 line = 5
 column = 1
 name = Wall LED/Wall LED[all]/Walls[all](white).scex
@@ -3139,7 +4186,7 @@ title = Walls[all](white)
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page45_button5]
+[page48_button5]
 line = 1
 column = 3
 name = Wall LED/Wall LED[all]/Walls[all](lamp).scex
@@ -3148,7 +4195,7 @@ imgpath = Editor/2DView/bedside-table-lamp.jpg
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page45_button6]
+[page48_button6]
 line = 1
 column = 2
 name = Wall LED/Wall LED[all]/Wall[all](lime).scex
@@ -3157,7 +4204,7 @@ color = 5294080
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page45_button7]
+[page48_button7]
 line = 4
 column = 2
 name = Wall LED/Wall LED[all]/Wall[all](love).scex
@@ -3166,7 +4213,7 @@ color = 13107280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page45_button8]
+[page48_button8]
 line = 2
 column = 2
 name = Wall LED/Wall LED[all]/Wall[all](mint).scex
@@ -3175,7 +4222,7 @@ color = 51280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page45_button9]
+[page48_button9]
 line = 3
 column = 2
 name = Wall LED/Wall LED[all]/Wall[all](ice).scex
@@ -3184,7 +4231,7 @@ color = 51400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page45_button10]
+[page48_button10]
 line = 5
 column = 2
 name = Wall LED/Wall LED[all]/Wall[all](ocean).scex
@@ -3193,7 +4240,7 @@ color = 20680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page45_button11]
+[page48_button11]
 line = 4
 column = 1
 name = Wall LED/Wall LED[all]/Wall[all](orange).scex
@@ -3202,7 +4249,7 @@ color = 13127680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page45_button12]
+[page48_button12]
 line = 1
 column = 4
 name = Wall LED/Wall LED[all]/Wall[all](purple).scex
@@ -3211,7 +4258,7 @@ color = 5243080
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page45_button13]
+[page48_button13]
 line = 1
 column = 5
 name = Wall LED/Wall LED[all]/Wall[all](pink).scex
@@ -3220,7 +4267,7 @@ color = 13107400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page45_button14]
+[page48_button14]
 line = 1
 column = 6
 name = Wall LED/Wall LED[all]/Wall[all](yellow).scex
@@ -3229,13 +4276,13 @@ color = 13158400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page46]
+[page49]
 name = Walls
 nb_buttons = 0
-[page47]
+[page50]
 name = Walls
-nb_buttons = 27
-[page47_button1]
+nb_buttons = 36
+[page50_button1]
 line = 1
 column = 1
 name = Wall LED/Wall LED[all]/Walls[all](red).scex
@@ -3244,7 +4291,7 @@ color = 16711680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page47_button2]
+[page50_button2]
 line = 1
 column = 2
 name = Wall LED[all]/Walls[all](Red) GlowDown (max to half) 5 sec.gpj
@@ -3253,7 +4300,7 @@ color = 16711680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page47_button3]
+[page50_button3]
 line = 1
 column = 3
 name = Wall LED[all]/Walls[all](Red) FlowDown (max to half) 5 sec.gpj
@@ -3262,7 +4309,7 @@ color = 16711680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page47_button4]
+[page50_button4]
 line = 2
 column = 1
 name = Wall LED/Wall LED[all]/Wall[all](orange).scex
@@ -3271,7 +4318,7 @@ color = 13127680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page47_button5]
+[page50_button5]
 line = 2
 column = 2
 name = Wall LED[all]/Walls[all](Orange) GlowDown (max to half) 5 sec.gpj
@@ -3280,7 +4327,7 @@ color = 13127680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page47_button6]
+[page50_button6]
 line = 2
 column = 3
 name = Wall LED[all]/Walls[all](Orange) FlowDown (max to half) 5 sec.gpj
@@ -3289,7 +4336,7 @@ color = 13127680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page47_button7]
+[page50_button7]
 line = 3
 column = 1
 name = Wall LED/Wall LED[all]/Walls[all](yellow).scex
@@ -3298,7 +4345,7 @@ color = 13158400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page47_button8]
+[page50_button8]
 line = 3
 column = 2
 name = Wall LED[all]/Walls[all](Yellow) GlowDown (max to half) 5 sec.gpj
@@ -3307,7 +4354,7 @@ color = 13158400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page47_button9]
+[page50_button9]
 line = 3
 column = 3
 name = Wall LED[all]/Walls[all](Yellow) FlowDown (max to half) 5 sec.gpj
@@ -3316,8 +4363,35 @@ color = 13158400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page47_button10]
+[page50_button10]
 line = 4
+column = 1
+name = Wall LED/Wall LED[all]/Wall[all](lime).scex
+title = Walls Lime
+color = 5294080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page50_button11]
+line = 4
+column = 2
+name = Wall LED[all]/Walls[all](Lime) GlowDown (max to half) 5 sec.gpj
+title = Walls Lime (glow)
+color = 5294080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page50_button12]
+line = 4
+column = 3
+name = Wall LED[all]/Walls[all](Lime) FlowDown (max to half) 5 sec.gpj
+title = Walls Lime (flow)
+color = 5294080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page50_button13]
+line = 5
 column = 1
 name = Wall LED/Wall LED[all]/Walls[all](green).scex
 title = Walls Green
@@ -3325,8 +4399,8 @@ color = 65280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page47_button11]
-line = 4
+[page50_button14]
+line = 5
 column = 2
 name = Wall LED[all]/Walls[all](Green) GlowDown (max to half) 5 sec.gpj
 title = Walls Green (glow)
@@ -3334,8 +4408,8 @@ color = 65280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page47_button12]
-line = 4
+[page50_button15]
+line = 5
 column = 3
 name = Wall LED[all]/Walls[all](Green) FlowDown (max to half) 5 sec.gpj
 title = Walls Green (flow)
@@ -3343,8 +4417,8 @@ color = 65280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page47_button13]
-line = 5
+[page50_button16]
+line = 6
 column = 1
 name = Wall LED/Wall LED[all]/Wall[all](mint).scex
 title = Walls Mint
@@ -3352,8 +4426,8 @@ color = 51280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page47_button14]
-line = 5
+[page50_button17]
+line = 6
 column = 2
 name = Wall LED[all]/Walls[all](Mint) GlowDown (max to half) 5 sec.gpj
 title = Walls Mint (glow)
@@ -3361,8 +4435,8 @@ color = 51280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page47_button15]
-line = 5
+[page50_button18]
+line = 6
 column = 3
 name = Wall LED[all]/Walls[all](Mint) FlowDown (max to half) 5 sec.gpj
 title = Walls Mint (flow)
@@ -3370,8 +4444,8 @@ color = 51280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page47_button16]
-line = 6
+[page50_button19]
+line = 7
 column = 1
 name = Wall LED/Wall LED[all]/Wall[all](ice).scex
 title = Walls Ice
@@ -3379,8 +4453,8 @@ color = 51400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page47_button17]
-line = 6
+[page50_button20]
+line = 7
 column = 2
 name = Wall LED[all]/Walls[all](Ice) GlowDown (max to half) 5 sec.gpj
 title = Walls Ice (glow)
@@ -3388,8 +4462,8 @@ color = 51400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page47_button18]
-line = 6
+[page50_button21]
+line = 7
 column = 3
 name = Wall LED[all]/Walls[all](Ice) FlowDown (max to half) 5 sec.gpj
 title = Walls Ice (flow)
@@ -3397,8 +4471,35 @@ color = 51400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page47_button19]
-line = 7
+[page50_button22]
+line = 8
+column = 1
+name = Wall LED/Wall LED[all]/Wall[all](ocean).scex
+title = Walls Ocean
+color = 20680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page50_button23]
+line = 8
+column = 2
+name = Wall LED[all]/Walls[all](Ocean) GlowDown (max to half) 5 sec.gpj
+title = Walls Ocean (glow)
+color = 20680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page50_button24]
+line = 8
+column = 3
+name = Wall LED[all]/Walls[all](Ocean) FlowDown (max to half) 5 sec.gpj
+title = Walls Ocean (flow)
+color = 20680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page50_button25]
+line = 9
 column = 1
 name = Wall LED/Wall LED[all]/Walls[all](blue).scex
 title = Walls Blue
@@ -3406,8 +4507,8 @@ color = 255
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page47_button20]
-line = 7
+[page50_button26]
+line = 9
 column = 2
 name = Wall LED[all]/Walls[all](Blue) GlowDown (max to half) 5 sec.gpj
 title = Walls Blue (glow)
@@ -3415,8 +4516,8 @@ color = 255
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page47_button21]
-line = 7
+[page50_button27]
+line = 9
 column = 3
 name = Wall LED[all]/Walls[all](Blue) FlowDown (max to half) 5 sec.gpj
 title = Walls Blue (flow)
@@ -3424,8 +4525,8 @@ color = 255
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page47_button22]
-line = 8
+[page50_button28]
+line = 10
 column = 1
 name = Wall LED/Wall LED[all]/Wall[all](purple).scex
 title = Walls Purple
@@ -3433,8 +4534,8 @@ color = 5243080
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page47_button23]
-line = 8
+[page50_button29]
+line = 10
 column = 2
 name = Wall LED[all]/Walls[all](Purple) GlowDown (max to half) 5 sec.gpj
 title = Walls Purple (glow)
@@ -3442,8 +4543,8 @@ color = 5243080
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page47_button24]
-line = 8
+[page50_button30]
+line = 10
 column = 3
 name = Wall LED[all]/Walls[all](Purple) FlowDown (max to half) 5 sec.gpj
 title = Walls Purple (flow)
@@ -3451,8 +4552,8 @@ color = 5243080
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page47_button25]
-line = 9
+[page50_button31]
+line = 11
 column = 1
 name = Wall LED/Wall LED[all]/Walls[all](love).scex
 title = Walls Love
@@ -3460,8 +4561,8 @@ color = 13107280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page47_button26]
-line = 9
+[page50_button32]
+line = 11
 column = 2
 name = Wall LED[all]/Walls[all](Love) GlowDown (max to half) 5 sec.gpj
 title = Walls Love (glow)
@@ -3469,8 +4570,8 @@ color = 13107280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page47_button27]
-line = 9
+[page50_button33]
+line = 11
 column = 3
 name = Wall LED[all]/Walls[all](Love) FlowDown (max to half) 5 sec.gpj
 title = Walls Love (flow)
@@ -3478,10 +4579,256 @@ color = 13107280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48]
+[page50_button34]
+line = 12
+column = 1
+name = Wall LED/Wall LED[all]/Walls[all](white).scex
+title = Walls White
+color = 16777215
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page50_button35]
+line = 12
+column = 2
+name = Wall LED[all]/Walls[all](White) GlowDown (max to half) 5 sec.gpj
+title = Walls White (glow)
+color = 16777215
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page50_button36]
+line = 12
+column = 3
+name = Wall LED[all]/Walls[all](White) FlowDown (max to half) 5 sec.gpj
+title = Walls White (flow)
+color = 16777215
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page51]
+name = Walls manual
+nb_buttons = 24
+[page51_button1]
+line = 1
+column = 1
+name = Wall LED/Wall LED[all]/Walls[all](red).scex
+title = Walls static red
+color = 16711680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page51_button2]
+line = 1
+column = 2
+name = Wall LED[all]/Walls[all] (red) Glow 5(medium range).gpj
+title = Walls glow red
+color = 16711680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page51_button3]
+line = 2
+column = 1
+name = Wall LED/Wall LED[all]/Wall[all](orange).scex
+title = Walls static orange
+color = 13127680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page51_button4]
+line = 2
+column = 2
+name = Wall LED[all]/Walls[all] (orange) Glow 5(medium range).gpj
+title = Walls glow orange
+color = 13127680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page51_button5]
+line = 3
+column = 1
+name = Wall LED/Wall LED[all]/Walls[all](yellow).scex
+title = Walls static yellow
+color = 13158400
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page51_button6]
+line = 3
+column = 2
+name = Wall LED[all]/Walls[all] (yellow) Glow 5(medium range).gpj
+title = Walls glow yellow
+color = 13158400
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page51_button7]
+line = 4
+column = 1
+name = Wall LED/Wall LED[all]/Wall[all](lime).scex
+title = Walls static lime
+color = 5294080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page51_button8]
+line = 4
+column = 2
+name = Wall LED[all]/Walls[all] (lime) Glow 5(medium range).gpj
+title = Walls glow lime
+color = 5294080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page51_button9]
+line = 5
+column = 1
+name = Wall LED/Wall LED[all]/Walls[all](green).scex
+title = Walls static green
+color = 65280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page51_button10]
+line = 5
+column = 2
+name = Wall LED[all]/Walls[all] (green) Glow 5(medium range).gpj
+title = Walls glow green
+color = 65280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page51_button11]
+line = 6
+column = 1
+name = Wall LED/Wall LED[all]/Wall[all](mint).scex
+title = Walls static mint
+color = 51280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page51_button12]
+line = 6
+column = 2
+name = Wall LED[all]/Walls[all] (mint) Glow 5(medium range).gpj
+title = Walls glow mint
+color = 51280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page51_button13]
+line = 7
+column = 1
+name = Wall LED/Wall LED[all]/Wall[all](ice).scex
+title = Walls static ice
+color = 51400
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page51_button14]
+line = 7
+column = 2
+name = Wall LED[all]/Walls[all] (ice) Glow 5(medium range).gpj
+title = Walls glow ice
+color = 51400
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page51_button15]
+line = 8
+column = 1
+name = Wall LED/Wall LED[all]/Wall[all](ocean).scex
+title = Walls static ocean
+color = 20680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page51_button16]
+line = 8
+column = 2
+name = Wall LED[all]/Walls[all] (ocean) Glow 5(medium range).gpj
+title = Walls glow ocean
+color = 20680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page51_button17]
+line = 9
+column = 1
+name = Wall LED/Wall LED[all]/Walls[all](blue).scex
+title = Walls static blue
+color = 255
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page51_button18]
+line = 9
+column = 2
+name = Wall LED[all]/Walls[all] (blue) Glow 5(medium range).gpj
+title = Walls glow blue
+color = 255
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page51_button19]
+line = 10
+column = 1
+name = Wall LED/Wall LED[all]/Wall[all](purple).scex
+title = Walls static purple
+color = 5243080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page51_button20]
+line = 10
+column = 2
+name = Wall LED[all]/Walls[all] (purple) Glow 5(medium range).gpj
+title = Walls glow purple
+color = 5243080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page51_button21]
+line = 11
+column = 1
+name = Wall LED/Wall LED[all]/Walls[all](love).scex
+title = Walls static love
+color = 13107280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page51_button22]
+line = 11
+column = 2
+name = Wall LED[all]/Walls[all] (love) Glow 5(medium range).gpj
+title = Walls glow love
+color = 13107280
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page51_button23]
+line = 12
+column = 1
+name = Wall LED/Wall LED[all]/Walls[all](white).scex
+title = Walls static white
+color = 16777215
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page51_button24]
+line = 12
+column = 2
+name = Wall LED[all]/Walls[all](White) GlowDown (max to half) 5 sec.gpj
+title = Walls[all](White) GlowDown (max to half) 5 sec
+color = 16777215
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page52]
 name = Walls separated
-nb_buttons = 36
-[page48_button1]
+nb_buttons = 48
+[page52_button1]
 line = 1
 column = 1
 name = Wall LED/Wall LED[Left]/Wall LED[Left](red).scex
@@ -3490,7 +4837,7 @@ color = 16711680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button2]
+[page52_button2]
 line = 1
 column = 2
 name = Wall LED/Wall LED[Back Left]/Wall LED[Back Left](red).scex
@@ -3499,7 +4846,7 @@ color = 16711680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button3]
+[page52_button3]
 line = 1
 column = 3
 name = Wall LED/Wall LED[Back Right]/Wall LED[Back Right](red).scex
@@ -3508,7 +4855,7 @@ color = 16711680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button4]
+[page52_button4]
 line = 1
 column = 4
 name = Wall LED/Wall LED[Right]/Wall LED[Right](red).scex
@@ -3517,7 +4864,7 @@ color = 16711680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button5]
+[page52_button5]
 line = 2
 column = 1
 name = Wall LED/Wall LED[Left]/Wall LED[Left](orange).scex
@@ -3526,7 +4873,7 @@ color = 13127680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button6]
+[page52_button6]
 line = 2
 column = 2
 name = Wall LED/Wall LED[Back Left]/Wall LED[Back Left](orange).scex
@@ -3535,7 +4882,7 @@ color = 13127680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button7]
+[page52_button7]
 line = 2
 column = 3
 name = Wall LED/Wall LED[Back Right]/Wall LED[Back Right](orange).scex
@@ -3544,7 +4891,7 @@ color = 13127680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button8]
+[page52_button8]
 line = 2
 column = 4
 name = Wall LED/Wall LED[Right]/Wall LED[Right](orange).scex
@@ -3553,7 +4900,7 @@ color = 13127680
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button9]
+[page52_button9]
 line = 3
 column = 1
 name = Wall LED/Wall LED[Left]/Wall LED[Left](yellow).scex
@@ -3562,7 +4909,7 @@ color = 13158400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button10]
+[page52_button10]
 line = 3
 column = 2
 name = Wall LED/Wall LED[Back Left]/Wall LED[Back Left](yellow).scex
@@ -3571,7 +4918,7 @@ color = 13158400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button11]
+[page52_button11]
 line = 3
 column = 3
 name = Wall LED/Wall LED[Back Right]/Wall LED[Back Right](yellow).scex
@@ -3580,7 +4927,7 @@ color = 13158400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button12]
+[page52_button12]
 line = 3
 column = 4
 name = Wall LED/Wall LED[Right]/Wall LED[Right](yellow).scex
@@ -3589,8 +4936,44 @@ color = 13158400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button13]
+[page52_button13]
 line = 4
+column = 1
+name = Wall LED/Wall LED[Left]/Wall LED[Left](lime).scex
+title = Left
+color = 5294080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page52_button14]
+line = 4
+column = 2
+name = Wall LED/Wall LED[Back Left]/Wall LED[Back Left](lime).scex
+title = Back Left
+color = 5294080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page52_button15]
+line = 4
+column = 3
+name = Wall LED/Wall LED[Back Right]/Wall LED[Back Right](lime).scex
+title = Back Right
+color = 5294080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page52_button16]
+line = 4
+column = 4
+name = Wall LED/Wall LED[Right]/Wall LED[Right](lime).scex
+title = Right
+color = 5294080
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page52_button17]
+line = 5
 column = 1
 name = Wall LED/Wall LED[Left]/Wall LED[Left](green).scex
 title = Left
@@ -3598,8 +4981,8 @@ color = 65280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button14]
-line = 4
+[page52_button18]
+line = 5
 column = 2
 name = Wall LED/Wall LED[Back Left]/Wall LED[Back Left](green).scex
 title = Back Left
@@ -3607,8 +4990,8 @@ color = 65280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button15]
-line = 4
+[page52_button19]
+line = 5
 column = 3
 name = Wall LED/Wall LED[Back Right]/Wall LED[Back Right](green).scex
 title = Back Right
@@ -3616,8 +4999,8 @@ color = 65280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button16]
-line = 4
+[page52_button20]
+line = 5
 column = 4
 name = Wall LED/Wall LED[Right]/Wall LED[Right](green).scex
 title = Right
@@ -3625,8 +5008,8 @@ color = 65280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button17]
-line = 5
+[page52_button21]
+line = 6
 column = 1
 name = Wall LED/Wall LED[Left]/Wall LED[Left](mint).scex
 title = Left
@@ -3634,8 +5017,8 @@ color = 51280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button18]
-line = 5
+[page52_button22]
+line = 6
 column = 2
 name = Wall LED/Wall LED[Back Left]/Wall LED[Back Left](mint).scex
 title = Back Left
@@ -3643,8 +5026,8 @@ color = 51280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button19]
-line = 5
+[page52_button23]
+line = 6
 column = 3
 name = Wall LED/Wall LED[Back Right]/Wall LED[Back Right](mint).scex
 title = Back Right
@@ -3652,8 +5035,8 @@ color = 51280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button20]
-line = 5
+[page52_button24]
+line = 6
 column = 4
 name = Wall LED/Wall LED[Right]/Wall LED[Right](mint).scex
 title = Right
@@ -3661,8 +5044,8 @@ color = 51280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button21]
-line = 6
+[page52_button25]
+line = 7
 column = 1
 name = Wall LED/Wall LED[Left]/Wall LED[Left](ice).scex
 title = Left
@@ -3670,8 +5053,8 @@ color = 51400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button22]
-line = 6
+[page52_button26]
+line = 7
 column = 2
 name = Wall LED/Wall LED[Back Left]/Wall LED[Back Left](ice).scex
 title = Back Left
@@ -3679,8 +5062,8 @@ color = 51400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button23]
-line = 6
+[page52_button27]
+line = 7
 column = 3
 name = Wall LED/Wall LED[Back Right]/Wall LED[Back Right](ice).scex
 title = Back Right
@@ -3688,8 +5071,8 @@ color = 51400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button24]
-line = 6
+[page52_button28]
+line = 7
 column = 4
 name = Wall LED/Wall LED[Right]/Wall LED[Right](ice).scex
 title = Right
@@ -3697,8 +5080,44 @@ color = 51400
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button25]
-line = 7
+[page52_button29]
+line = 8
+column = 1
+name = Wall LED/Wall LED[Left]/Wall LED[Left](ocean).scex
+title = Left
+color = 20680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page52_button30]
+line = 8
+column = 2
+name = Wall LED/Wall LED[Back Left]/Wall LED[Back Left](ocean).scex
+title = Back Left
+color = 20680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page52_button31]
+line = 8
+column = 3
+name = Wall LED/Wall LED[Back Right]/Wall LED[Back Right](ocean).scex
+title = Back Right
+color = 20680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page52_button32]
+line = 8
+column = 4
+name = Wall LED/Wall LED[Right]/Wall LED[Right](ocean).scex
+title = Right
+color = 20680
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page52_button33]
+line = 9
 column = 1
 name = Wall LED/Wall LED[Left]/Wall LED[Left](blue).scex
 title = Left
@@ -3706,8 +5125,8 @@ color = 255
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button26]
-line = 7
+[page52_button34]
+line = 9
 column = 2
 name = Wall LED/Wall LED[Back Left]/Wall LED[Back Left](blue).scex
 title = Back Left
@@ -3715,8 +5134,8 @@ color = 255
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button27]
-line = 7
+[page52_button35]
+line = 9
 column = 3
 name = Wall LED/Wall LED[Back Right]/Wall LED[Back Right](blue).scex
 title = Back Right
@@ -3724,8 +5143,8 @@ color = 255
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button28]
-line = 7
+[page52_button36]
+line = 9
 column = 4
 name = Wall LED/Wall LED[Right]/Wall LED[Right](blue).scex
 title = Right
@@ -3733,8 +5152,8 @@ color = 255
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button29]
-line = 8
+[page52_button37]
+line = 10
 column = 1
 name = Wall LED/Wall LED[Left]/Wall LED[Left](purple).scex
 title = Left
@@ -3742,8 +5161,8 @@ color = 5243080
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button30]
-line = 8
+[page52_button38]
+line = 10
 column = 2
 name = Wall LED/Wall LED[Back Left]/Wall LED[Back Left](purple).scex
 title = Back Left
@@ -3751,8 +5170,8 @@ color = 5243080
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button31]
-line = 8
+[page52_button39]
+line = 10
 column = 3
 name = Wall LED/Wall LED[Back Right]/Wall LED[Back Right](purple).scex
 title = Back Right
@@ -3760,8 +5179,8 @@ color = 5243080
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button32]
-line = 8
+[page52_button40]
+line = 10
 column = 4
 name = Wall LED/Wall LED[Right]/Wall LED[Right](purple).scex
 title = Right
@@ -3769,8 +5188,8 @@ color = 5243080
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button33]
-line = 9
+[page52_button41]
+line = 11
 column = 1
 name = Wall LED/Wall LED[Left]/Wall LED[Left](love).scex
 title = Left
@@ -3778,8 +5197,8 @@ color = 13107280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button34]
-line = 9
+[page52_button42]
+line = 11
 column = 2
 name = Wall LED/Wall LED[Back Left]/Wall LED[Back Left](love).scex
 title = Back Left
@@ -3787,8 +5206,8 @@ color = 13107280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button35]
-line = 9
+[page52_button43]
+line = 11
 column = 3
 name = Wall LED/Wall LED[Back Right]/Wall LED[Back Right](love).scex
 title = Back Right
@@ -3796,8 +5215,8 @@ color = 13107280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
-[page48_button36]
-line = 9
+[page52_button44]
+line = 11
 column = 4
 name = Wall LED/Wall LED[Right]/Wall LED[Right](love).scex
 title = Right
@@ -3805,92 +5224,152 @@ color = 13107280
 masterspeedfader = 0
 fade_in = yes
 fade_out = yes
+[page52_button45]
+line = 12
+column = 1
+name = Wall LED/Wall LED[Left]/Wall LED[Left](white).scex
+title = Left
+color = 16777215
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page52_button46]
+line = 12
+column = 2
+name = Wall LED/Wall LED[Back Left]/Wall LED[Back Left](white).scex
+title = Back Left
+color = 16777215
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page52_button47]
+line = 12
+column = 3
+name = Wall LED/Wall LED[Back Right]/Wall LED[Back Right](white).scex
+title = Back Right
+color = 16777215
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
+[page52_button48]
+line = 12
+column = 4
+name = Wall LED/Wall LED[Right]/Wall LED[Right](white).scex
+title = Right
+color = 16777215
+masterspeedfader = 0
+fade_in = yes
+fade_out = yes
 [board]
-number = 28
+number = 36
 [board1]
 screen = 0
-page = 21
+page = 22
 [board2]
 screen = 0
-page = 41
+page = 43
 [board3]
 screen = 1
-page = 45
+page = 48
 [board4]
 screen = 1
-page = 31
+page = 32
 [board5]
 screen = 1
-page = 32
+page = 33
 [board6]
 screen = 1
-page = 20
+page = 21
 [board7]
 screen = 1
-page = 44
+page = 47
 [board8]
 screen = 1
-page = 21
+page = 22
 [board9]
 screen = 1
-page = 34
+page = 36
 [board10]
 screen = 1
-page = 41
+page = 43
 [board11]
 screen = 2
-page = 26
+page = 27
 [board12]
 screen = 2
 page = 18
 [board13]
 screen = 2
-page = 24
+page = 25
 [board14]
 screen = 2
-page = 32
+page = 33
 [board15]
 screen = 2
-page = 44
+page = 47
 [board16]
 screen = 2
-page = 31
+page = 32
 [board17]
 screen = 2
-page = 34
+page = 36
 [board18]
 screen = 2
-page = 41
+page = 43
 [board19]
 screen = 3
-page = 28
+page = 29
 [board20]
 screen = 4
-page = 22
+page = 23
 [board21]
 screen = 5
-page = 43
+page = 45
 [board22]
 screen = 5
-page = 47
+page = 50
 [board23]
 screen = 5
-page = 32
+page = 34
 [board24]
 screen = 5
-page = 20
+page = 21
 [board25]
 screen = 5
 page = 19
 [board26]
 screen = 5
-page = 48
+page = 52
 [board27]
 screen = 5
-page = 33
+page = 35
 [board28]
 screen = 5
-page = 41
+page = 43
+[board29]
+screen = 6
+page = 46
+[board30]
+screen = 6
+page = 51
+[board31]
+screen = 6
+page = 34
+[board32]
+screen = 6
+page = 20
+[board33]
+screen = 6
+page = 47
+[board34]
+screen = 6
+page = 22
+[board35]
+screen = 6
+page = 1
+[board36]
+screen = 6
+page = 43
 [screen0]
 title = Main
 window = no
@@ -3907,5 +5386,8 @@ window = yes
 title = Show
 window = no
 [screen5]
-title = MR
+title = Adventure
+window = no
+[screen6]
+title = Manual
 window = no

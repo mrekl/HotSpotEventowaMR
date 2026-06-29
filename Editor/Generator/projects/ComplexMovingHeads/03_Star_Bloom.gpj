@@ -1,0 +1,141 @@
+[Params]
+PanTiltShift = 0.0
+ExplodePanTilt = 0
+GroupRGB = 0
+FanPanOffset = 0
+FanTiltOffset = 0
+[Fixture_0]
+ID = 1757727854
+Name = MH [Back Box]
+DMX = 0
+Channels = dimmer,strobe,pan,tilt,pan_tilt_speed,prism_rotate,gobo,gobo1,gobo1_rt,prism,focus,pan_fine,tilt_fine,reset
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[dimmer]
+Selected = 1
+CurveName = Star Bloom
+Transition = 0
+Duration = 150
+Shift = 0.0
+Point_0 = 0,28270
+Point_1 = 65535,28270
+[strobe]
+Selected = 1
+CurveName = Star Bloom
+Transition = 0
+Duration = 150
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+[pan]
+Selected = 1
+CurveName = Star Bloom
+Transition = 0
+Duration = 150
+Shift = 0.0
+Point_0 = 0,21845
+Point_1 = 65535,21845
+[tilt]
+Selected = 1
+CurveName = Star Bloom
+Transition = 0
+Duration = 150
+Shift = 0.0
+Point_0 = 0,5911
+Point_1 = 65535,5911
+[pan_tilt_speed]
+Selected = 1
+CurveName = Star Bloom
+Transition = 0
+Duration = 150
+Shift = 0.0
+Point_0 = 0,48830
+Point_1 = 65535,48830
+[prism_rotate]
+Selected = 1
+CurveName = Star Bloom
+Transition = 2
+Duration = 150
+Shift = 0.0
+Point_0 = 0,4369
+Point_1 = 16384,7196
+Point_2 = 32768,10280
+Point_3 = 49151,7196
+Point_4 = 65535,4369
+[gobo]
+Selected = 1
+CurveName = Star Bloom
+Transition = 0
+Duration = 150
+Shift = 0.0
+Point_0 = 0,8738
+Point_1 = 65535,8738
+[gobo1]
+Selected = 1
+CurveName = Star Bloom
+Transition = 0
+Duration = 150
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+[gobo1_rt]
+Selected = 1
+CurveName = Star Bloom
+Transition = 0
+Duration = 150
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+[prism]
+Selected = 1
+CurveName = Star Bloom
+Transition = 2
+Duration = 150
+Shift = 0.0
+Point_0 = 0,5140
+Point_1 = 16384,9766
+Point_2 = 32768,14135
+Point_3 = 49151,9766
+Point_4 = 65535,5140
+[focus]
+Selected = 1
+CurveName = Star Bloom
+Transition = 2
+Duration = 150
+Shift = 0.0
+Point_0 = 0,42405
+Point_1 = 10922,45232
+Point_2 = 21845,48059
+Point_3 = 32768,50886
+Point_4 = 43690,48059
+Point_5 = 54612,45232
+Point_6 = 65535,42405
+[pan_fine]
+Selected = 1
+CurveName = Star Bloom
+Transition = 0
+Duration = 150
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+[tilt_fine]
+Selected = 1
+CurveName = Star Bloom
+Transition = 0
+Duration = 150
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+[reset]
+Selected = 1
+CurveName = Star Bloom
+Transition = 0
+Duration = 150
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0

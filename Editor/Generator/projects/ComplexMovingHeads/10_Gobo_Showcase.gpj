@@ -1,0 +1,158 @@
+[Params]
+PanTiltShift = 0.0
+ExplodePanTilt = 0
+GroupRGB = 0
+FanPanOffset = 0
+FanTiltOffset = 0
+[Fixture_0]
+ID = 1757727854
+Name = MH [Back Box]
+DMX = 0
+Channels = dimmer,strobe,pan,tilt,pan_tilt_speed,prism_rotate,gobo,gobo1,gobo1_rt,prism,focus,pan_fine,tilt_fine,reset
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[dimmer]
+Selected = 1
+CurveName = Gobo Showcase
+Transition = 2
+Duration = 240
+Shift = 0.0
+Point_0 = 0,26985
+Point_1 = 13107,32125
+Point_2 = 26214,29555
+Point_3 = 39321,33410
+Point_4 = 52428,28270
+Point_5 = 65535,26985
+[strobe]
+Selected = 1
+CurveName = Gobo Showcase
+Transition = 0
+Duration = 240
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+[pan]
+Selected = 1
+CurveName = Gobo Showcase
+Transition = 0
+Duration = 240
+Shift = 0.0
+Point_0 = 0,21845
+Point_1 = 65535,21845
+[tilt]
+Selected = 1
+CurveName = Gobo Showcase
+Transition = 0
+Duration = 240
+Shift = 0.0
+Point_0 = 0,5911
+Point_1 = 65535,5911
+[pan_tilt_speed]
+Selected = 1
+CurveName = Gobo Showcase
+Transition = 0
+Duration = 240
+Shift = 0.0
+Point_0 = 0,48830
+Point_1 = 65535,48830
+[prism_rotate]
+Selected = 1
+CurveName = Gobo Showcase
+Transition = 2
+Duration = 240
+Shift = 0.0
+Point_0 = 0,4369
+Point_1 = 13107,10280
+Point_2 = 26214,18504
+Point_3 = 39321,10280
+Point_4 = 52428,0
+Point_5 = 65535,4369
+[gobo]
+Selected = 1
+CurveName = Gobo Showcase
+Transition = 2
+Duration = 240
+Shift = 0.0
+Point_0 = 0,3598
+Point_1 = 13107,8738
+Point_2 = 26214,11308
+Point_3 = 39321,13878
+Point_4 = 52428,0
+Point_5 = 65535,3598
+[gobo1]
+Selected = 1
+CurveName = Gobo Showcase
+Transition = 2
+Duration = 240
+Shift = 0.0
+Point_0 = 0,3598
+Point_1 = 13107,8738
+Point_2 = 26214,11308
+Point_3 = 39321,13878
+Point_4 = 52428,0
+Point_5 = 65535,3598
+[gobo1_rt]
+Selected = 1
+CurveName = Gobo Showcase
+Transition = 2
+Duration = 240
+Shift = 0.0
+Point_0 = 0,21074
+Point_1 = 13107,30840
+Point_2 = 26214,52685
+Point_3 = 39321,21074
+Point_4 = 52428,0
+Point_5 = 65535,21074
+[prism]
+Selected = 1
+CurveName = Gobo Showcase
+Transition = 2
+Duration = 240
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 13107,5140
+Point_2 = 26214,14135
+Point_3 = 39321,24415
+Point_4 = 52428,0
+Point_5 = 65535,0
+[focus]
+Selected = 1
+CurveName = Gobo Showcase
+Transition = 2
+Duration = 240
+Shift = 0.0
+Point_0 = 0,41120
+Point_1 = 13107,46260
+Point_2 = 26214,50886
+Point_3 = 39321,44718
+Point_4 = 52428,39064
+Point_5 = 65535,41120
+[pan_fine]
+Selected = 1
+CurveName = Gobo Showcase
+Transition = 0
+Duration = 240
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+[tilt_fine]
+Selected = 1
+CurveName = Gobo Showcase
+Transition = 0
+Duration = 240
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+[reset]
+Selected = 1
+CurveName = Gobo Showcase
+Transition = 0
+Duration = 240
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0

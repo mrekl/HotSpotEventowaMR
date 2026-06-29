@@ -1,0 +1,93 @@
+﻿
+[Params]
+PanTiltShift = 0.0
+ExplodePanTilt = 0
+GroupRGB = 0
+FanPanOffset = 0
+FanTiltOffset = 0
+[Fixture_0]
+ID = 1727734431
+Name = Overall [Back]
+DMX = 46
+Channels = dimmer,red,green,blue,white,amber,shutter,color,effect_macro
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[dimmer]
+Selected = 1
+CurveName = Default Curve
+Transition = 2
+Duration = 100
+Shift = 0.0
+Point_0 = 0,46260
+Point_1 = 32767,23130
+Point_2 = 65535,46260
+[red]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+
+[green]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+
+[blue]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+
+[white]
+Selected = 1
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535
+
+[amber]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+
+[shutter]
+Selected = 1
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,1028
+Point_1 = 65535,1028
+[color]
+Selected = 0
+CurveName = 
+Transition = 0
+Duration = 50
+Shift = 0.0
+[effect_macro]
+Selected = 0
+CurveName = 
+Transition = 0
+Duration = 50
+Shift = 0.0

@@ -1,0 +1,136 @@
+[Params]
+PanTiltShift = 0.0
+ExplodePanTilt = 0
+GroupRGB = 0
+FanPanOffset = 0
+FanTiltOffset = 0
+[Fixture_0]
+ID = 1757727854
+Name = MH [Back Box]
+DMX = 0
+Channels = dimmer,strobe,pan,tilt,pan_tilt_speed,prism_rotate,gobo,gobo1,gobo1_rt,prism,focus,pan_fine,tilt_fine,reset
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[dimmer]
+Selected = 1
+CurveName = Dot Spin
+Transition = 0
+Duration = 140
+Shift = 0.0
+Point_0 = 0,28270
+Point_1 = 65535,28270
+[strobe]
+Selected = 1
+CurveName = Dot Spin
+Transition = 0
+Duration = 140
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+[pan]
+Selected = 1
+CurveName = Dot Spin
+Transition = 0
+Duration = 140
+Shift = 0.0
+Point_0 = 0,21845
+Point_1 = 65535,21845
+[tilt]
+Selected = 1
+CurveName = Dot Spin
+Transition = 0
+Duration = 140
+Shift = 0.0
+Point_0 = 0,5911
+Point_1 = 65535,5911
+[pan_tilt_speed]
+Selected = 1
+CurveName = Dot Spin
+Transition = 0
+Duration = 140
+Shift = 0.0
+Point_0 = 0,48830
+Point_1 = 65535,48830
+[prism_rotate]
+Selected = 1
+CurveName = Dot Spin
+Transition = 0
+Duration = 140
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+[gobo]
+Selected = 1
+CurveName = Dot Spin
+Transition = 0
+Duration = 140
+Shift = 0.0
+Point_0 = 0,3598
+Point_1 = 65535,3598
+[gobo1]
+Selected = 1
+CurveName = Dot Spin
+Transition = 0
+Duration = 140
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+[gobo1_rt]
+Selected = 1
+CurveName = Dot Spin
+Transition = 2
+Duration = 140
+Shift = 0.0
+Point_0 = 0,17990
+Point_1 = 16384,21074
+Point_2 = 32768,24415
+Point_3 = 49151,21074
+Point_4 = 65535,17990
+[prism]
+Selected = 1
+CurveName = Dot Spin
+Transition = 0
+Duration = 140
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+[focus]
+Selected = 1
+CurveName = Dot Spin
+Transition = 2
+Duration = 140
+Shift = 0.0
+Point_0 = 0,41120
+Point_1 = 16384,42662
+Point_2 = 32768,44204
+Point_3 = 49151,42662
+Point_4 = 65535,41120
+[pan_fine]
+Selected = 1
+CurveName = Dot Spin
+Transition = 0
+Duration = 140
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+[tilt_fine]
+Selected = 1
+CurveName = Dot Spin
+Transition = 0
+Duration = 140
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+[reset]
+Selected = 1
+CurveName = Dot Spin
+Transition = 0
+Duration = 140
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0

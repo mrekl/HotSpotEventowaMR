@@ -1,0 +1,135 @@
+[Params]
+PanTiltShift = 0.0
+ExplodePanTilt = 0
+GroupRGB = 0
+FanPanOffset = 0
+FanTiltOffset = 0
+[Fixture_0]
+ID = 1757727854
+Name = MH [Back Box]
+DMX = 0
+Channels = dimmer,strobe,pan,tilt,pan_tilt_speed,prism_rotate,gobo,gobo1,gobo1_rt,prism,focus,pan_fine,tilt_fine,reset
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[dimmer]
+Selected = 1
+CurveName = Lens Morph
+Transition = 0
+Duration = 160
+Shift = 0.0
+Point_0 = 0,28270
+Point_1 = 65535,28270
+[strobe]
+Selected = 1
+CurveName = Lens Morph
+Transition = 0
+Duration = 160
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+[pan]
+Selected = 1
+CurveName = Lens Morph
+Transition = 0
+Duration = 160
+Shift = 0.0
+Point_0 = 0,21845
+Point_1 = 65535,21845
+[tilt]
+Selected = 1
+CurveName = Lens Morph
+Transition = 0
+Duration = 160
+Shift = 0.0
+Point_0 = 0,5911
+Point_1 = 65535,5911
+[pan_tilt_speed]
+Selected = 1
+CurveName = Lens Morph
+Transition = 0
+Duration = 160
+Shift = 0.0
+Point_0 = 0,48830
+Point_1 = 65535,48830
+[prism_rotate]
+Selected = 1
+CurveName = Lens Morph
+Transition = 0
+Duration = 160
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+[gobo]
+Selected = 1
+CurveName = Lens Morph
+Transition = 0
+Duration = 160
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+[gobo1]
+Selected = 1
+CurveName = Lens Morph
+Transition = 0
+Duration = 160
+Shift = 0.0
+Point_0 = 0,3598
+Point_1 = 65535,3598
+[gobo1_rt]
+Selected = 1
+CurveName = Lens Morph
+Transition = 0
+Duration = 160
+Shift = 0.0
+Point_0 = 0,11565
+Point_1 = 65535,11565
+[prism]
+Selected = 1
+CurveName = Lens Morph
+Transition = 0
+Duration = 160
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+[focus]
+Selected = 1
+CurveName = Lens Morph
+Transition = 2
+Duration = 160
+Shift = 0.0
+Point_0 = 0,43690
+Point_1 = 10922,46774
+Point_2 = 21845,49601
+Point_3 = 32768,52685
+Point_4 = 43690,49601
+Point_5 = 54612,46774
+Point_6 = 65535,43690
+[pan_fine]
+Selected = 1
+CurveName = Lens Morph
+Transition = 0
+Duration = 160
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+[tilt_fine]
+Selected = 1
+CurveName = Lens Morph
+Transition = 0
+Duration = 160
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
+[reset]
+Selected = 1
+CurveName = Lens Morph
+Transition = 0
+Duration = 160
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65535,0
